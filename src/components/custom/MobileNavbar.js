@@ -23,7 +23,7 @@ import Link from "next/link";
 import { useState } from "react";
 import LanguageChanger from "./LanguageChanger";
 
-function MobileNavbar() {
+function MobileNavbar({ dictionary }) {
   const [expanded, setExpanded] = useState(null);
 
   const toggleMenu = (title) => {
@@ -41,7 +41,7 @@ function MobileNavbar() {
         </SheetHeader>
         <div className=" h-[100%] border-t border-gray-200">
           <nav className="flex flex-col gap-4 p-6 h-[80%]">
-            {navItems.map((item) => (
+            {dictionary.navItems.map((item) => (
               <div key={item.name} className="w-full">
                 {item.hasDropdown ? (
                   <div>
@@ -92,7 +92,7 @@ function MobileNavbar() {
 
           <div className="flex items-center justify-center">
             <Button className="rounded-md bg-primary text-white  ">
-              Contact Now
+              {dictionary.contactButonText}sss
             </Button>
           </div>
         </div>

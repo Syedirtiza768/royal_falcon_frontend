@@ -50,45 +50,6 @@ export function Navbar({ dictionary }) {
         </div>
 
         {/* Desktop Navigation */}
-        {/* <nav className="hidden space-x-8 lg:flex">
-          <NavigationMenu>
-            <NavigationMenuList>
-              {navLinks.map((link) => (
-                <NavigationMenuItem key={link.title}>
-                  {link.submenu ? (
-                    <>
-                      <NavigationMenuTrigger>
-                        {link.title}
-                      </NavigationMenuTrigger>
-                      <NavigationMenuContent>
-                        <ul className="flex flex-col space-y-2 p-2 w-[300px]">
-                          {link.submenu.map((subItem) => (
-                            <li key={subItem.href}>
-                              <NavigationMenuLink asChild>
-                                <Link href={subItem.href} className="block p-2">
-                                  {subItem.title}
-                                </Link>
-                              </NavigationMenuLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </NavigationMenuContent>
-                    </>
-                  ) : (
-                    <NavigationMenuLink asChild>
-                      <Link
-                        href={link.href}
-                        className="text-base font-medium text-gray-800 hover:text-primary"
-                      >
-                        {link.title}
-                      </Link>
-                    </NavigationMenuLink>
-                  )}
-                </NavigationMenuItem>
-              ))}
-            </NavigationMenuList>
-          </NavigationMenu>
-        </nav> */}
         <DesktopNavBarItems dictionary={dictionary} />
 
         {/* Right side buttons */}
@@ -101,7 +62,7 @@ export function Navbar({ dictionary }) {
           </div>
           {/* Mobile menu button */}
           <div className="lg:hidden">
-            <MobileNavbar />
+            <MobileNavbar dictionary={dictionary} />
           </div>
         </div>
       </div>
