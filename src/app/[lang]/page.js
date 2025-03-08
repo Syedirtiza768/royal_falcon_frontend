@@ -1,8 +1,12 @@
 import { Navbar } from "@/components/custom/Navbar";
 import { Button } from "@/components/ui/button";
 import React from "react";
+import { getDictionary } from "./dictionaries";
 
-function HomePage() {
+async function HomePage({ params }) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  console.log(lang);
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -13,6 +17,7 @@ function HomePage() {
           functionality.
         </p>
       </div>
+      <button>{dict.test}</button>
     </main>
   );
 }

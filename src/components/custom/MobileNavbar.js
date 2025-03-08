@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "../ui/button";
-import { navLinks } from "@/lib/Data";
+import { navItems, navLinks } from "@/lib/Data";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -40,32 +40,25 @@ function MobileNavbar() {
           <SheetDescription></SheetDescription>
         </SheetHeader>
         <div className=" h-[100%] border-t border-gray-200">
-          <nav className="flex flex-col gap-4 p-6   h-[80%]  ">
-            {navLinks.map((link) => (
-              <div key={link.title} className="w-full">
-                {link.href ? (
-                  <Link
-                    href={link.href}
-                    className="block text-base font-medium text-gray-800 hover:text-[#c19367] transition-all duration-300"
-                  >
-                    {link.title}
-                  </Link>
-                ) : (
+          <nav className="flex flex-col gap-4 p-6 h-[80%]">
+            {navItems.map((item) => (
+              <div key={item.name} className="w-full">
+                {item.hasDropdown ? (
                   <div>
                     <button
-                      onClick={() => toggleMenu(link.title)}
+                      onClick={() => toggleMenu(item.name)}
                       className="flex items-center justify-between w-full text-left text-base font-medium text-gray-800 hover:text-[#c19367] transition-all duration-300"
                     >
-                      {link.title}
-                      {expanded === link.title ? (
+                      {item.name}
+                      {expanded === item.name ? (
                         <ChevronUp className="w-5 h-5" />
                       ) : (
                         <ChevronDown className="w-5 h-5" />
                       )}
                     </button>
 
-                    {/* Animated Submenu */}
-                    {expanded === link.title && (
+                    {/* Dropdown Animation */}
+                    {expanded === item.name && (
                       <motion.div
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: "auto" }}
@@ -73,24 +66,31 @@ function MobileNavbar() {
                         transition={{ duration: 0.3 }}
                         className="pl-4 mt-2 flex flex-col gap-2 overflow-hidden"
                       >
-                        {link.submenu?.map((subItem) => (
+                        {item.dropdownItems.map((subItem) => (
                           <Link
-                            key={subItem.href}
+                            key={subItem.name}
                             href={subItem.href}
                             className="block text-sm font-medium text-gray-700 hover:text-[#c19367] transition-all duration-300"
                           >
-                            {subItem.title}
+                            {subItem.name}
                           </Link>
                         ))}
                       </motion.div>
                     )}
                   </div>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="block text-base font-medium text-gray-800 hover:text-[#c19367] transition-all duration-300"
+                  >
+                    {item.name}
+                  </Link>
                 )}
               </div>
             ))}
           </nav>
+
           <div className="flex items-center justify-center">
-            <LanguageChanger />
             <Button className="rounded-md bg-primary text-white  ">
               Contact Now
             </Button>
