@@ -8,7 +8,7 @@ import { navItems } from "@/lib/Data";
 
 // Define the navigation items with dropdown support
 
-export default function DesktopNavBarItems() {
+export default function DesktopNavBarItems({ dictionary }) {
   const [activeItem, setActiveItem] = useState("MEDIA");
   const [openDropdowns, setOpenDropdowns] = useState([]);
 
@@ -44,7 +44,7 @@ export default function DesktopNavBarItems() {
   return (
     <nav className="relative w-full hidden lg:flex items-center justify-center  ">
       <div className="flex space-x-16">
-        {navItems.map((item) => (
+        {dictionary.navItems.map((item) => (
           <div
             key={item.name}
             className="relative"

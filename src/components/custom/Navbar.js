@@ -28,7 +28,8 @@ import LanguageChanger from "./LanguageChanger";
 import { useLocaleStore } from "@/stores/useLocaleStore";
 import DesktopNavBarItems from "./DesktopNavbarItems";
 
-export function Navbar() {
+export function Navbar({ dictionary }) {
+  console.log(dictionary);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { locale } = useLocaleStore();
 
@@ -88,14 +89,14 @@ export function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
         </nav> */}
-        <DesktopNavBarItems />
+        <DesktopNavBarItems dictionary={dictionary} />
 
         {/* Right side buttons */}
         <div className=" flex items-center justify-center md:flex">
           <div className="flex items-center justify-center">
             <LanguageChanger />
             <Button className="rounded-md bg-primary text-white hidden lg:block ">
-              Contact Now
+              {dictionary.contactButonText}
             </Button>
           </div>
           {/* Mobile menu button */}

@@ -1,3 +1,31 @@
 {
-  "test": "test in arabic"
+  "test": "test in arabic",
+  "navItems": [
+    {
+      "name": "الرئيسية",
+      "href": "#home",
+      "hasDropdown": false
+    },
+    {
+      "name": "الحلول",
+      "href": "#solutions",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "الحل 1", "href": "#" },
+        { "name": "الحل 2", "href": "#" },
+        { "name": "الحل 3", "href": "#" }
+      ]
+    },
+    {
+      "name": "معلومات عنا",
+      "href": "#about",
+      "hasDropdown": false
+    },
+    {
+      "name": "اتصل بنا",
+      "href": "#contact",
+      "hasDropdown": false
+    }
+  ],
+  "contactButonText": "اتصل الآن"
 }

@@ -5,11 +5,11 @@ import { getDictionary } from "./dictionaries";
 
 async function HomePage({ params }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
-  console.log(lang);
+  const dictionary = await getDictionary(lang);
+
   return (
     <main className="min-h-screen">
-      <Navbar />
+      <Navbar dictionary={dictionary} />
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 bg-primary">
         <h1 className="text-3xl font-bold">Welcome to UPWARDS</h1>
         <p className="mt-4 text-lg text-gray-600">
@@ -17,7 +17,7 @@ async function HomePage({ params }) {
           functionality.
         </p>
       </div>
-      <button>{dict.test}</button>
+      <button>{dictionary.test}</button>
     </main>
   );
 }
