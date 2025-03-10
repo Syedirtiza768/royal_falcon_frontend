@@ -27,6 +27,7 @@ import MobileNavbar from "./MobileNavbar";
 import LanguageChanger from "./LanguageChanger";
 import { useLocaleStore } from "@/stores/useLocaleStore";
 import DesktopNavBarItems from "./DesktopNavbarItems";
+import Image from "next/image";
 
 export function Navbar({ dictionary }) {
   console.log(dictionary);
@@ -42,10 +43,12 @@ export function Navbar({ dictionary }) {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold">
-              <span className="text-primary ">UP</span>
-              <span className="text-navy-800">WARDS</span>
-            </div>
+            <Image
+              src={"/images/logo.png"}
+              height={200}
+              width={200}
+              alt="Logo"
+            />
           </Link>
         </div>
 

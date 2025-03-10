@@ -22,6 +22,7 @@ import { ChevronDown, ChevronUp, Plus } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import LanguageChanger from "./LanguageChanger";
+import Image from "next/image";
 
 function MobileNavbar({ dictionary }) {
   const [expanded, setExpanded] = useState(null);
@@ -36,10 +37,17 @@ function MobileNavbar({ dictionary }) {
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
-          <SheetTitle>Logo</SheetTitle>
+          <SheetTitle>
+            <Image
+              src={"/images/logo.png"}
+              height={150}
+              width={150}
+              alt="Logo"
+            />
+          </SheetTitle>
           <SheetDescription></SheetDescription>
         </SheetHeader>
-        <div className=" h-[100%] border-t border-gray-200">
+        <div className=" h-[100%] ">
           <nav className="flex flex-col gap-4 p-6 h-[80%]">
             {dictionary.navItems.map((item) => (
               <div key={item.name} className="w-full">
@@ -92,7 +100,7 @@ function MobileNavbar({ dictionary }) {
 
           <div className="flex items-center justify-center">
             <Button className="rounded-md bg-primary text-white  ">
-              {dictionary.contactButonText}sss
+              {dictionary.contactButonText}
             </Button>
           </div>
         </div>
