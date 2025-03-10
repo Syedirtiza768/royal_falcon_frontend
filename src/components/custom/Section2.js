@@ -2,6 +2,7 @@
 import { useLocaleStore } from "@/stores/useLocaleStore";
 import Image from "next/image";
 import Link from "next/link";
+import AnimatedHeading from "./AnimatedHeading";
 
 export default function Section2({ dictionary }) {
   const { locale } = useLocaleStore();
@@ -22,11 +23,15 @@ export default function Section2({ dictionary }) {
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-6 md:px-16 py-16 md:py-24 flex flex-col justify-center h-full">
         <div className="" dir={locale === "ar" ? "rtl" : "ltr"}>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#1a2e3a] mb-4">
-            {dictionary.section2Heading1}
-            <br />
-            {dictionary.section2Heading2}
-          </h1>
+          <div className="w-[50%]">
+            <AnimatedHeading>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#1a2e3a] mb-4">
+                {dictionary.section2Heading1}
+                <br />
+                {dictionary.section2Heading2}
+              </h1>
+            </AnimatedHeading>
+          </div>
 
           <p className="text-[#1a2e3a] text-base md:text-lg mb-8 max-w-xl leading-relaxed">
             {dictionary.section2Content}

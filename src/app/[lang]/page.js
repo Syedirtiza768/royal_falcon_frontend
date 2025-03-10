@@ -7,6 +7,7 @@ import Section3Slider from "@/components/custom/Section3Slider";
 import Footer from "@/components/custom/Footer";
 import ChairmanMessage from "@/components/custom/ChairManMessage";
 import CeoMessage from "@/components/custom/CeoMessage";
+import AnimatedHeading from "@/components/custom/AnimatedHeading";
 
 async function HomePage({ params }) {
   const { lang } = await params;
@@ -19,6 +20,10 @@ async function HomePage({ params }) {
       <Section3Slider />
       <ChairmanMessage />
       <CeoMessage />
+
+      <div className="w-[300px]">
+        <AnimatedHeading>From the Chairman</AnimatedHeading>
+      </div>
       <Footer />
       {/* <button>{dictionary.test}</button> */}
     </main>
