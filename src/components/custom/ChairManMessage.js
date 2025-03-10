@@ -62,7 +62,13 @@ export default function ChairmanMessage() {
         </div>
 
         <div className="relative h-[500px] w-full overflow-hidden rounded-xl">
-          <Image src="" alt="Chairman" fill className="object-cover" priority />
+          <Image
+            src="/images/ceo.jpg"
+            alt="Chairman"
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         </div>
       </div>

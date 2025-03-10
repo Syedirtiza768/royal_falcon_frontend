@@ -7,7 +7,13 @@ export default function CeoMessage() {
     <div className="container mx-auto py-12 px-4 md:px-6 lg:px-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="relative h-[500px] w-full overflow-hidden rounded-xl">
-          <Image src="" alt="Chairman" fill className="object-cover" priority />
+          <Image
+            src="/images/ceo2.jpg"
+            alt="Chairman"
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         </div>
 

@@ -11,21 +11,25 @@ export default function Section2({ dictionary }) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         {/* <img src="/images/img1.png" alt=""  /> */}
-        <Image
-          src="/images/img1.png"
-          alt="Abu Dhabi Skyline"
-          fill
-          priority
-          className="object-cover"
-        />
+        <video
+          src="/images/video1.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        ></video>
       </div>
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-6 md:px-16 py-16 md:py-24 flex flex-col justify-center h-full">
-        <div className="" dir={locale === "ar" ? "rtl" : "ltr"}>
+        <div
+          className="bg-black/60 p-5 rounded-md bg "
+          dir={locale === "ar" ? "rtl" : "ltr"}
+        >
           <div className="w-[50%]">
             <AnimatedHeading>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1a2e3a] mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 {dictionary.section2Heading1}
                 <br />
                 {dictionary.section2Heading2}
@@ -33,7 +37,7 @@ export default function Section2({ dictionary }) {
             </AnimatedHeading>
           </div>
 
-          <p className="text-[#1a2e3a] text-base md:text-lg mb-8 max-w-xl leading-relaxed">
+          <p className="text-white text-base md:text-lg mb-8 max-w-xl leading-relaxed">
             {dictionary.section2Content}
           </p>
 
