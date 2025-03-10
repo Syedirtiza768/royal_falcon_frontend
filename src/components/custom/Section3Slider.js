@@ -41,7 +41,7 @@ export default function ProductSlider() {
 
   return (
     <section className="py-8 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
-      <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#d2a97b] mb-6">
+      <h2 className="text-center text-3xl md:text-4xl font-semibold text-primary mb-6">
         Products
       </h2>
 
