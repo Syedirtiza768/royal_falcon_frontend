@@ -27,5 +27,10 @@
       "hasDropdown": false
     }
   ],
-  "contactButonText": "Contact Now"
+  "contactButonText": "Contact Now",
+  "section2Heading1": "AI",
+  "section2Heading2": "CENTRIC SYSTEMS",
+  "section2Content": "Upwards was established as a UAE national initiative, supported by local entities and agencies. As an innovative company based in Abu Dhabi, we specialize in industry digitalization and advanced AI agent technology. Our mission is to empower local government entities and enterprises with solutions that provide unparalleled user experiences and exceptional security.",
+  "section2Button1Text": "Learn More",
+  "section2Button2Text": "Request a demo"
 }
