@@ -37,7 +37,7 @@ export function Navbar({ dictionary }) {
   return (
     <header className=" bg-transparent absolute top-0 left-0 z-50 w-full text-white">
       <div
-        className="mx-auto flex max-w-7xl items-center justify-between py-4 sm:px-[20px] lg:px-[50px]"
+        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         dir={locale === "ar" ? "rtl" : "ltr"}
       >
         {/* Logo */}
