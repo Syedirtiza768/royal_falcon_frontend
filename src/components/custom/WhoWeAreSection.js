@@ -6,32 +6,26 @@ import { b_t_animation } from "@/lib/Data";
 import SectionHeading from "./SectionHeading";
 function WhoWeAreSection({ dictionary }) {
   return (
-    <div className="lg:px-[80px] mt-[50px]">
+    <div className="px-[20px]  lg:px-[90px] mt-[50px]">
       <SectionHeading title={"Who We Are"} description={""} border={"150px"} />
-      <div className="mt-[40px] flex flex-col items-center justify-center">
-        <motion.p
-          initial="hide"
-          whileInView="show"
-          variants={b_t_animation}
-          viewport={{ once: true }}
-          className="text-[14px] text-center lg:w-[80%]"
-        >
+      <motion.div
+        initial="hide"
+        whileInView="show"
+        variants={b_t_animation}
+        viewport={{ once: true }}
+        className="mt-[40px] flex flex-col items-center justify-center"
+      >
+        <p className="text-[14px] whitespace-pre-line text-center lg:w-[80%] ">
           {dictionary.section2Content}
-        </motion.p>
+        </p>
 
-        <motion.div
-          initial="hide"
-          whileInView="show"
-          variants={b_t_animation}
-          viewport={{ once: true }}
-          className=" mx-auto  mt-[40px] transition-all duration-500"
-        >
+        <div className=" mx-auto  mt-[40px] transition-all duration-500">
           <button className=" flex items-center justify-center gap-3 cursor-pointer hover:gap-6 text-black hover:text-primary transition-all duration-500">
             <span className="tracking-widest ">VIEW MORE</span>
             <MdArrowRightAlt className="text-primary text-[30px] transition-all duration-500" />
           </button>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </div>
   );
 }

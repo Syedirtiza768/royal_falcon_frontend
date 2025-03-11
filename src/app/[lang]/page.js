@@ -15,6 +15,8 @@ import ContactSection from "@/components/custom/ContactSection";
 import { MdArrowRightAlt } from "react-icons/md";
 import WhoWeAreSection from "@/components/custom/WhoWeAreSection";
 import SectionHeading from "@/components/custom/SectionHeading";
+import ServicesSection2 from "@/components/custom/ServicesSection2";
+import WorldMapSection from "@/components/custom/WorldMapSection";
 
 async function HomePage({ params }) {
   const { lang } = await params;
@@ -42,12 +44,17 @@ async function HomePage({ params }) {
       <WhoWeAreSection dictionary={dictionary} />
 
       {/* Services Section */}
-      <div className="lg:px-[80px] mt-[40px]">
-        <ServicesSection />
+      <ServicesSection />
+
+      {/* World Map Section */}
+      <div className="mt-[50px]">
+        <WorldMapSection />
       </div>
 
       {/* Solutions */}
-      <div className="lg:px-[100px] mt-10">
+      <ServicesSection2 />
+
+      {/* <div className="lg:px-[100px] mt-10">
         <SectionHeading
           title={"Solutions"}
           description={
@@ -56,7 +63,7 @@ async function HomePage({ params }) {
           border={"170px"}
         />
         <SolutionsSectionContent />
-      </div>
+      </div> */}
 
       {/* News */}
       <div className="lg:px-[100px]">
@@ -68,8 +75,8 @@ async function HomePage({ params }) {
         <NewsSectionContent />
       </div>
 
-      <ChairmanMessage />
-      <CeoMessage />
+      {/* <ChairmanMessage /> */}
+      {/* <CeoMessage /> */}
 
       {/* Contact */}
       <div className="lg:px-[100px]">

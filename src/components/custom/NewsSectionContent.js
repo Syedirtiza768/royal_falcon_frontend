@@ -1,5 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { b_t_animation } from "@/lib/Data";
 
 const blogs = [
   {
@@ -58,7 +61,11 @@ export default function NewsSectionContent() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogs.map((blog, index) => (
-            <div
+            <motion.div
+              initial="hide"
+              whileInView="show"
+              variants={b_t_animation}
+              viewport={{ once: true }}
               key={index}
               className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
             >
@@ -99,7 +106,7 @@ export default function NewsSectionContent() {
                   Read more
                 </Link>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,6 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
+import { b_t_animation } from "@/lib/Data";
+import AnimatedHeading2 from "./AnimatedHeading2";
 
 function SolutionsSectionContentItem({
   title,
@@ -10,15 +14,18 @@ function SolutionsSectionContentItem({
   direction,
 }) {
   return (
-    <div className="max-w-7xl mx-auto">
+    <motion.div
+      initial="hide"
+      whileInView="show"
+      variants={b_t_animation}
+      viewport={{ once: true }}
+      className="max-w-7xl mx-auto"
+    >
       {direction === "simple" ? (
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left Content */}
           <div className="w-full md:w-1/2 flex flex-col justify-center">
-            <div className="flex items-center mb-6">
-              <div className="w-1.5 h-10 bg-primary mr-3"></div>
-              <h2 className="text-3xl font-bold text-gray-900">{title}</h2>
-            </div>
+            <AnimatedHeading2 title={title} />
 
             <div className="space-y-4 mb-8">
               <p className="text-gray-700">{description}</p>
@@ -48,7 +55,7 @@ function SolutionsSectionContentItem({
           </div>
         </div>
       ) : (
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col-reverse md:flex-row gap-8">
           {/* Left Content */}
           <div className="w-full md:w-1/2">
             <div className="relative h-[200px] md:h-[300px] w-full overflow-hidden rounded-md">
@@ -64,10 +71,7 @@ function SolutionsSectionContentItem({
 
           {/* Right Image */}
           <div className="w-full md:w-1/2 flex flex-col justify-center">
-            <div className="flex items-center mb-6">
-              <div className="w-1.5 h-10 bg-primary mr-3"></div>
-              <h2 className="text-3xl font-bold text-gray-900">{title}</h2>
-            </div>
+            <AnimatedHeading2 title={title} />
 
             <div className="space-y-4 mb-8">
               <p className="text-gray-700">{description}</p>
@@ -84,7 +88,7 @@ function SolutionsSectionContentItem({
           </div>
         </div>
       )}
-    </div>
+    </motion.div>
   );
 }
 

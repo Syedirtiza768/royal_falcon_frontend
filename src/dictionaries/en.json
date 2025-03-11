@@ -2,36 +2,47 @@
   "test": "test in english",
   "navItems": [
     {
-      "name": "Home",
-      "href": "#home",
-      "hasDropdown": false
-    },
-    {
-      "name": "Solutions",
+      "name": "About Us",
       "href": "#solutions",
       "hasDropdown": true,
       "dropdownItems": [
-        { "name": "Solution1", "href": "#" },
-        { "name": "Solution2", "href": "#" },
-        { "name": "Solution3", "href": "#" }
+        { "name": "Vision & Mission", "href": "#" },
+        { "name": "Chairman Message", "href": "#" },
+        { "name": "CEO Message", "href": "#" },
+        { "name": "Who We Are", "href": "#" }
       ]
     },
     {
-      "name": "About Us",
-      "href": "#about",
+      "name": "Solutions",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
+      "name": "Products",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
+      "name": "News",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
+      "name": "Partners",
+      "href": "#",
       "hasDropdown": false
     },
     {
       "name": "Contact Us",
-      "href": "#contact",
+      "href": "#",
       "hasDropdown": false
     }
   ],
   "contactButonText": "Contact Now",
-  "section2Heading1": "AI",
-  "section2Heading2": "CENTRIC SYSTEMS",
-  "section2Content": "Upwards was established as a UAE national initiative, supported by local entities and agencies. As an innovative company based in Abu Dhabi, we specialize in industry digitalization and advanced AI agent technology. Our mission is to empower local government entities and enterprises with solutions that provide unparalleled user experiences and exceptional security.",
-  "section2Content2": "Upwards: Pioneering AI-driven digital transformation with secure, seamless experiences for enterprises and government entities.",
+  "section2Heading1": "Reshaping the Future",
+  "section2Heading2": " with AI and Innovation",
+  "section2Content": "Upwards was established as a UAE national initiative, supported by local entities and agencies, with a vision to drive technological excellence and innovation. Based in Abu Dhabi, we are at the forefront of industry digitalization, harnessing the power of advanced AI agent technology to transform businesses and government operations. Our expertise spans across intelligent automation, data-driven decision-making, and secure digital ecosystems, enabling seamless integration of AI solutions into various industries. With a strong commitment to innovation, security, and user-centric experiences, our mission is to empower local government entities and enterprises with cutting-edge solutions that enhance efficiency, productivity, and overall operational excellence. We work closely with organizations to develop AI-driven strategies that optimize processes, reduce operational costs, and deliver highly personalized user experiences. \n\nOur AI solutions leverage the latest advancements in machine learning, natural language processing, and predictive analytics to create intelligent systems that adapt, learn, and evolve. From smart government services to enterprise automation, we help businesses unlock new opportunities and stay ahead in an increasingly digital world. As a trusted partner in AI-driven digital transformation, Upwards is dedicated to shaping the future of technology in the UAE and beyond. We continuously innovate to ensure our solutions meet the highest standards of security, compliance, and performance, providing organizations with the tools they need to thrive in the modern era.",
+  "section2Content2": "Upwards is a pioneering AI and digital transformation company based in Abu Dhabi, dedicated to revolutionizing industries with cutting-edge technology. Backed by UAE national initiatives, we empower government and enterprises with secure, intelligent solutions for seamless user experiences.",
   "section2Button1Text": "Learn More",
   "section2Button2Text": "Request a demo"
 }

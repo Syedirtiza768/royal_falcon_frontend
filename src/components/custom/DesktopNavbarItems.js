@@ -43,7 +43,7 @@ export default function DesktopNavBarItems({ dictionary }) {
 
   return (
     <nav className="relative w-full hidden lg:flex items-center justify-center  ">
-      <div className="flex space-x-16">
+      <div className="flex gap-8">
         {dictionary.navItems.map((item) => (
           <div
             key={item.name}
@@ -55,7 +55,7 @@ export default function DesktopNavBarItems({ dictionary }) {
               {item.hasDropdown ? (
                 <button
                   className={cn(
-                    "group relative flex items-center py-2 font-medium tracking-wide transition-colors",
+                    "group relative flex items-center py-2  tracking-wide transition-colors",
                     activeItem === item.name
                       ? "text-primary"
                       : "text-white hover:text-primary"
@@ -84,7 +84,7 @@ export default function DesktopNavBarItems({ dictionary }) {
                 <Link
                   href={item.href}
                   className={cn(
-                    "group relative inline-block py-2 font-medium tracking-wide transition-colors",
+                    "group relative inline-block py-2  tracking-wide transition-colors",
                     activeItem === item.name
                       ? "text-primary"
                       : "text-white hover:text-primary"

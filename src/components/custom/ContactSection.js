@@ -85,22 +85,6 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-gray-700">
-                  Solutions <span className="text-red-500">*</span>
-                </label>
-                <Select>
-                  <SelectTrigger>
-                    <SelectValue placeholder="Please Select" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="solution1">Solution 1</SelectItem>
-                    <SelectItem value="solution2">Solution 2</SelectItem>
-                    <SelectItem value="solution3">Solution 3</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
               {/* <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-700">
                   Upload File

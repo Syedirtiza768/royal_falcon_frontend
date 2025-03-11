@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CeoMessage() {
   return (
-    <div className="container mx-auto py-12 px-4 md:px-6 lg:px-8">
+    <div className="container mx-auto py-12 px-[20px] md:px-6 lg:px-[100px]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="relative h-[500px] w-full overflow-hidden rounded-xl">
           <Image

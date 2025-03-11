@@ -31,7 +31,7 @@ const cards = [
 export default function ServicesSectionItem() {
   return (
     <section className="w-full  ">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-2  gap-6">
           {cards.map((card, index) => (
             <ServicesSectionItemCard key={index} {...card} />

@@ -10,12 +10,12 @@ export default function Section2({ dictionary }) {
   const { locale } = useLocaleStore();
 
   return (
-    <section className="relative w-full h-[400px] md:h-[600px] overflow-hidden">
+    <section className="relative w-full h-[400px] md:h-screen overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         {/* <img src="/images/img1.png" alt=""  /> */}
         <video
-          src="/images/video1.mp4"
+          src="/images/video.mp4"
           autoPlay
           loop
           muted
@@ -25,11 +25,11 @@ export default function Section2({ dictionary }) {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-6 md:px-16 py-16 md:py-24 flex flex-col justify-center h-full">
+      <div className="relative z-10 container mx-auto px-[20px] md:px-[50px] py-16 md:py-24 flex flex-col justify-center h-full">
         <div className="" dir={locale === "ar" ? "rtl" : "ltr"}>
           <div className="md:w-[50%]">
             <AnimatedHeading>
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">
                 {dictionary.section2Heading1}
                 <br />
                 {dictionary.section2Heading2}
