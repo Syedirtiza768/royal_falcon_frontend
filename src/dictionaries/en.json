@@ -2,14 +2,18 @@
   "test": "test in english",
   "navItems": [
     {
+      "name": "Home",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
       "name": "About Us",
       "href": "#solutions",
       "hasDropdown": true,
       "dropdownItems": [
         { "name": "Vision & Mission", "href": "#" },
         { "name": "Chairman Message", "href": "#" },
-        { "name": "CEO Message", "href": "#" },
-        { "name": "Who We Are", "href": "#" }
+        { "name": "CEO Message", "href": "#" }
       ]
     },
     {
