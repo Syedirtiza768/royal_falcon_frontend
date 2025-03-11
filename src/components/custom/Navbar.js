@@ -35,7 +35,7 @@ export function Navbar({ dictionary }) {
   const { locale } = useLocaleStore();
 
   return (
-    <header className="border-b border-gray-200 bg-white">
+    <header className=" bg-transparent absolute top-0 left-0 z-50 w-full text-white">
       <div
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         dir={locale === "ar" ? "rtl" : "ltr"}
@@ -44,10 +44,11 @@ export function Navbar({ dictionary }) {
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <Image
-              src={"/images/logo.png"}
+              src={"/images/logo2.png"}
               height={200}
               width={200}
               alt="Logo"
+              className="hidden lg:block"
             />
           </Link>
         </div>

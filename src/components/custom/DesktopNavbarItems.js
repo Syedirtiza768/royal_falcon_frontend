@@ -58,7 +58,7 @@ export default function DesktopNavBarItems({ dictionary }) {
                     "group relative flex items-center py-2 font-medium tracking-wide transition-colors",
                     activeItem === item.name
                       ? "text-primary"
-                      : "text-gray-800 hover:text-primary"
+                      : "text-white hover:text-primary"
                   )}
                   onClick={() => {
                     setActiveItem(item.name);
@@ -87,7 +87,7 @@ export default function DesktopNavBarItems({ dictionary }) {
                     "group relative inline-block py-2 font-medium tracking-wide transition-colors",
                     activeItem === item.name
                       ? "text-primary"
-                      : "text-gray-800 hover:text-primary"
+                      : "text-white hover:text-primary"
                   )}
                   onClick={() => setActiveItem(item.name)}
                 >

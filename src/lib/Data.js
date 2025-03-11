@@ -26,3 +26,17 @@ export const navItems = [
     hasDropdown: false,
   },
 ];
+
+export const b_t_animation = {
+  hide: {
+    opacity: 0,
+    y: 300,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+    },
+  },
+};
