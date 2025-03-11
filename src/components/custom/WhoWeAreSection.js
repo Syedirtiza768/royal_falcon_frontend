@@ -15,9 +15,17 @@ function WhoWeAreSection({ dictionary }) {
         viewport={{ once: true }}
         className="mt-[40px] flex flex-col items-center justify-center"
       >
-        <p className="text-[14px] whitespace-pre-line text-center lg:w-[80%] ">
-          {dictionary.section2Content}
-        </p>
+        <div className="lg:w-[60%] mx-auto">
+          <p className="text-[16px] whitespace-pre-line text-center  ">
+            <span className="font-bold">{dictionary.vision}</span>
+            {dictionary.visionContent}
+          </p>
+          <br />
+          <p className="text-[16px] whitespace-pre-line text-center  ">
+            <span className="font-bold">{dictionary.mission}</span>
+            {dictionary.missionContent}
+          </p>
+        </div>
 
         <div className=" mx-auto  mt-[40px] transition-all duration-500">
           <button className=" flex items-center justify-center gap-3 cursor-pointer hover:gap-6 text-black hover:text-primary transition-all duration-500">

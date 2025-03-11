@@ -54,17 +54,6 @@ async function HomePage({ params }) {
       {/* Solutions */}
       <ServicesSection2 />
 
-      {/* <div className="lg:px-[100px] mt-10">
-        <SectionHeading
-          title={"Solutions"}
-          description={
-            "These are some of our main solutions that we have developed for our customers. Get in touch with us and we will share our experience and designed a suitable solution for your needs."
-          }
-          border={"170px"}
-        />
-        <SolutionsSectionContent />
-      </div> */}
-
       {/* News */}
       <div className="lg:px-[100px]">
         <SectionHeading

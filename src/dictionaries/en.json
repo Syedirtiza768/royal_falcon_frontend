@@ -45,8 +45,11 @@
   "contactButonText": "Contact Now",
   "section2Heading1": "Reshaping the Future",
   "section2Heading2": " with AI and Innovation",
-  "section2Content": "Upwards was established as a UAE national initiative, supported by local entities and agencies, with a vision to drive technological excellence and innovation. Based in Abu Dhabi, we are at the forefront of industry digitalization, harnessing the power of advanced AI agent technology to transform businesses and government operations. Our expertise spans across intelligent automation, data-driven decision-making, and secure digital ecosystems, enabling seamless integration of AI solutions into various industries. With a strong commitment to innovation, security, and user-centric experiences, our mission is to empower local government entities and enterprises with cutting-edge solutions that enhance efficiency, productivity, and overall operational excellence. We work closely with organizations to develop AI-driven strategies that optimize processes, reduce operational costs, and deliver highly personalized user experiences. \n\nOur AI solutions leverage the latest advancements in machine learning, natural language processing, and predictive analytics to create intelligent systems that adapt, learn, and evolve. From smart government services to enterprise automation, we help businesses unlock new opportunities and stay ahead in an increasingly digital world. As a trusted partner in AI-driven digital transformation, Upwards is dedicated to shaping the future of technology in the UAE and beyond. We continuously innovate to ensure our solutions meet the highest standards of security, compliance, and performance, providing organizations with the tools they need to thrive in the modern era.",
-  "section2Content2": "Upwards is a pioneering AI and digital transformation company based in Abu Dhabi, dedicated to revolutionizing industries with cutting-edge technology. Backed by UAE national initiatives, we empower government and enterprises with secure, intelligent solutions for seamless user experiences.",
+  "section2Content2": "",
+  "vision": "Our Vision",
+  "visionContent": " is to be the leading force in innovative technology solutions, renowned for our integrity, excellence, and transformative impact on businesses locally and globally.",
+  "mission": "Our Mission",
+  "missionContent": " At Upwards, we are a catalyst for progress in the UAE and beyond, collaborating with nations, enterprises, and innovators to drive humanity forward. From AI-powered digital transformation to groundbreaking advancements across industries, we are on a mission to shape a smarter, more connected future.",
   "section2Button1Text": "Learn More",
   "section2Button2Text": "Request a demo"
 }

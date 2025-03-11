@@ -4,42 +4,40 @@ export default function WorldMapSection() {
   return (
     <div className="bg-gradient-to-r from-amber-700 to-amber-500 min-h-screen flex flex-col items-center justify-center px-4 py-16 text-white">
       <div className="container max-w-5xl mx-auto text-center">
-        <h2 className="text-lg mb-2">Open Data Portal</h2>
+        {/* <h2 className="text-lg mb-2">World Map</h2> */}
 
-        <h1 className="text-4xl md:text-5xl font-light mb-10">
-          Data for the public
-        </h1>
+        {/* <h1 className="text-4xl md:text-5xl font-light mb-10">World Map</h1> */}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mb-10">
           <div className="flex flex-col">
-            <div className="text-5xl md:text-6xl font-light">2991</div>
-            <div className="text-sm mt-1">Data Set</div>
+            <div className="text-5xl md:text-4xl font-light">20+ years</div>
+            <div className="text-sm mt-1">Experience</div>
           </div>
 
-          <div className="order-first md:order-none mb-8 md:mb-0 h-[250px] w-[500px] ">
+          <div className="order-first md:order-none mb-8 md:mb-0 lg:h-[150px] lg:w-[300px] ">
             <img
               src="/images/world-map.png"
               alt="World Map"
-              className="mx-auto  opacity-80 h-full w-full ml-[-50px] "
+              className="mx-auto  opacity-80 h-full w-full  "
             />
           </div>
 
           <div className="flex flex-col">
-            <div className="text-5xl md:text-6xl font-light">5796</div>
-            <div className="text-sm mt-1">Data Resource</div>
+            <div className="text-5xl md:text-4xl font-light">35+</div>
+            <div className="text-sm mt-1">Partnerships</div>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="flex flex-col">
-            <div className="text-5xl md:text-6xl font-light">50</div>
-            <div className="text-sm mt-1">Organization</div>
+            <div className="text-5xl md:text-4xl font-light">10+</div>
+            <div className="text-sm mt-1">AI Scientists</div>
           </div>
 
-          <div className="flex flex-col">
-            <div className="text-5xl md:text-6xl font-light">23</div>
-            <div className="text-sm mt-1">Application</div>
-          </div>
+          {/* <div className="flex flex-col">
+            <div className="text-5xl md:text-4xl font-light">23+</div>
+            <div className="text-sm mt-1">Applications</div>
+          </div> */}
         </div>
 
         <p className="text-sm md:text-base max-w-2xl mx-auto mb-8 leading-relaxed">

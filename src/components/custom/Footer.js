@@ -40,7 +40,7 @@ export default function Footer() {
                   <br />
                   Rumaila St | Sky
                   <br />
-                  Tower North
+                  Tower Reem
                   <br />
                   Island Abu Dhabi
                   <br />

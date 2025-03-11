@@ -10,39 +10,32 @@ import SectionHeading from "./SectionHeading";
 export default function ServicesSection2() {
   const techItems = [
     {
-      title: "Medical Robotics",
+      title: "Immersive Cooling Data Center",
       description:
-        "Advanced robotic systems enhancing surgical precision and patient care through automated procedures and AI-assisted diagnostics.",
+        "Revolutionizing efficiency with cutting-edge immersive cooling technology for next-gen data centers.",
       //   Icon: AiFillRobot,
       img: "/images/solution1.png",
     },
     {
-      title: "Future Mobility",
+      title: "Humanoid Robot",
       description:
-        "Next-generation transportation solutions combining autonomous vehicles and sustainable energy for efficient, eco-friendly movement.",
+        "Bridging the gap between humans and technology with intelligent humanoid robotics.",
       //   Icon: FaCarSide,
       img: "/images/solution2.png",
     },
     {
-      title: "Robo Dog",
+      title: "Immigration & Law Enforcement",
       description:
-        "Versatile quadruped robots designed for diverse applications from industrial inspection to security and companionship.",
+        "Ensuring justice and security with expert immigration and law enforcement solutions.",
       //   Icon: GiRobotLeg,
       img: "/images/solution3.png",
     },
     {
-      title: "Traffic Management Systems",
+      title: "IOT",
       description:
-        "Smart infrastructure utilizing real-time data analytics to optimize traffic flow, reduce congestion and enhance urban mobility.",
+        "Connecting the world seamlessly with smart and innovative IoT solutions.",
       //   Icon: FaTrafficLight,
       img: "/images/solution4.png",
-    },
-    {
-      title: "AI Agents",
-      description:
-        "Intelligent software entities that perform complex tasks, make decisions, and adapt to changing environments with minimal human intervention.",
-      //   Icon: MdOutlineSmartToy,
-      img: "/images/solution5.png",
     },
   ];
 
@@ -55,7 +48,7 @@ export default function ServicesSection2() {
         }
         border={"170px"}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {techItems.map((item, index) => (
           <ServicesSection2Item
             key={index}
