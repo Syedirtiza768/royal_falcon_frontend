@@ -91,7 +91,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
                     "group relative inline-block py-2  tracking-wide transition-colors",
                     !transparent
                       ? activeItem === item.name
-                        ? "text-white"
+                        ? "text-primary"
                         : "text-primary "
                       : activeItem === item.name
                       ? "text-primary"
