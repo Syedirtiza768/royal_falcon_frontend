@@ -42,42 +42,42 @@ export default function ServicesSection2() {
       description:
         "Revolutionizing healthcare with precision-driven medical robotics.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution1.png",
+      img: "/images/solution5.png",
     },
     {
       title: "Future Mobility",
       description:
         "Redefining the journey ahead with smart and sustainable future mobility solutions.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution2.png",
+      img: "/images/solution6.png",
     },
     {
       title: "AI Agents Platform",
       description:
         "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution3.png",
+      img: "/images/solution7.png",
     },
     {
       title: "Robo Dog",
       description:
         "Experience the future of companionship with our intelligent and agile Robo Dog.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution4.png",
+      img: "/images/solution8.png",
     },
     {
       title: "Traffic Management system",
       description:
         "Optimizing mobility with smart and efficient traffic management solutions.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution1.png",
+      img: "/images/solution9.png",
     },
     {
       title: "Services",
       description:
         "Delivering innovative, reliable, and tailored services to meet your every need.",
       //   Icon: FaTrafficLight,
-      img: "/images/solution1.png",
+      img: "/images/solution10.png",
     },
   ];
 
