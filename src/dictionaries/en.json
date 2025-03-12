@@ -3,7 +3,7 @@
   "navItems": [
     {
       "name": "Home",
-      "href": "#",
+      "href": "/",
       "hasDropdown": false
     },
     {
