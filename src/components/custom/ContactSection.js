@@ -23,10 +23,8 @@ export default function ContactSection() {
               <span className="text-[#C08B67]">technology</span>
             </h2>
             <p className="text-gray-600 max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex e.
+              we welcome you to share innovative ideas and persistent challenges
+              with us
             </p>
           </div>
 

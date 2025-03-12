@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Linkedin, Youtube, Instagram, Twitter } from "lucide-react";
+import { solutions } from "@/lib/Data";
+import { IoIosArrowUp } from "react-icons/io";
 
 export default function Footer() {
   return (
@@ -10,10 +12,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* REACH US */}
           <div>
-            <h3 className="flex flex-col gap-3 text-lg font-semibold mb-6 items-start justify-start">
+            <h3 className="flex flex-col  text-lg font-semibold mb-6 items-start justify-start">
               <span>REACH US</span>
 
-              <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span>
+              {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
+              <IoIosArrowUp className="text-primary text-[50px] ml-[10px]" />
             </h3>
             <div className="flex gap-3 mb-4">
               <div className="mt-1">
@@ -36,17 +39,13 @@ export default function Footer() {
               <div>
                 <p className="font-semibold">Head Office</p>
                 <p className="text-sm text-gray-300">
-                  Zad Bin Rashid Al
+                  Abu Dhabi |
                   <br />
-                  Rumaila St | Sky
+                  United Arab Emirates |
                   <br />
-                  Tower Reem
+                  Zaal Bin Rashid Al Rumaithi St |
                   <br />
-                  Island Abu Dhabi
-                  <br />
-                  United Arab
-                  <br />
-                  Emirates
+                  Sky Tower Reem Island |
                 </p>
               </div>
             </div>
@@ -71,16 +70,16 @@ export default function Footer() {
               >
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              <span className="text-sm">0123456789</span>
+              <span className="text-sm">+971 56 788 8852</span>
             </div>
           </div>
 
           {/* SITEMAP */}
           <div>
-            <h3 className="flex flex-col gap-3 text-lg font-semibold mb-6 items-start justify-start">
+            <h3 className="flex flex-col  text-lg font-semibold mb-6 items-start justify-start">
               <span>SITEMAP</span>
-
-              <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span>
+              <IoIosArrowUp className="text-primary text-[50px] ml-[10px]" />
+              {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
             </h3>
             <ul className="space-y-3">
               <li>
@@ -120,52 +119,22 @@ export default function Footer() {
 
           {/* SOLUTIONS */}
           <div>
-            <h3 className="flex flex-col gap-3 text-lg font-semibold mb-6 items-start justify-start">
+            <h3 className="flex flex-col text-lg font-semibold mb-6 items-start justify-start">
               <span>SOLUTIONS</span>
-
-              <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span>
+              <IoIosArrowUp className="text-primary text-[50px] ml-[10px]" />
+              {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
             </h3>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm hover:text-[#d2a97b] transition-colors"
-                >
-                  Medical Robotics
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm hover:text-[#d2a97b] transition-colors"
-                >
-                  Future Mobility
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm hover:text-[#d2a97b] transition-colors"
-                >
-                  Robo Dog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm hover:text-[#d2a97b] transition-colors"
-                >
-                  Traffic Management Systems
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm hover:text-[#d2a97b] transition-colors"
-                >
-                  AI Agents
-                </Link>
-              </li>
+            <ul className="space-y-1">
+              {solutions.map((i) => (
+                <li key={i.title}>
+                  <span
+                    href="#"
+                    className="text-sm hover:text-[#d2a97b] transition-colors "
+                  >
+                    {i.title}
+                  </span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
