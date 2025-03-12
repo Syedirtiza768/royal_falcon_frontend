@@ -11,7 +11,8 @@ const blogs = [
       { label: "E-book", color: "bg-orange-50 text-orange-700" },
       { label: "Business Growthes", color: "bg-orange-50 text-orange-700" },
     ],
-    title: "10 Essential Strategies for Business Growth",
+    title:
+      "Falcon Aviation Participating at the launch of the Contractor Safety Partnership (CSP) by ADNOC Group.",
   },
   {
     image: "/images/news2.webp",
@@ -19,7 +20,8 @@ const blogs = [
       { label: "Case Study", color: "bg-orange-50 text-orange-700" },
       { label: "Success Story", color: "bg-orange-50 text-orange-700" },
     ],
-    title: "Success Story: How Company XYZ Increased Sales by 50%",
+    title:
+      "Falcon Aviation Delegation, Led by His Highness Sheikh Khalifa Bin Sultan Bin Khalifa Al Nahyan, Visits Kuwait Oil Company",
   },
   {
     image: "/images/news3.webp",
@@ -27,7 +29,8 @@ const blogs = [
       { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
       { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },
     ],
-    title: "Unlocking Data Analytics: Practical Tips and Techniques",
+    title:
+      "Inside Falcon Aviation: CEO Ramandeep Oberoi on Innovation & Sustainability",
   },
 ];
 
@@ -58,7 +61,7 @@ export default function NewsSectionContent() {
               {/* Content Container */}
               <div className="p-6">
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-3">
+                {/* <div className="flex flex-wrap gap-2 mb-3">
                   {blog.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
@@ -67,20 +70,20 @@ export default function NewsSectionContent() {
                       {tag.label}
                     </span>
                   ))}
-                </div>
+                </div> */}
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-gray-900 mb-4 line-clamp-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 ">
                   {blog.title}
                 </h3>
 
                 {/* Read More Link */}
-                <Link
+                {/* <Link
                   href="#"
                   className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center"
                 >
                   Read more
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
           ))}

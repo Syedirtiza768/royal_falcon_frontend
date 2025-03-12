@@ -82,7 +82,7 @@ export default async function CEOMessage({ params }) {
 
               <div className="pt-4">
                 <p className="text-[#c19367] font-bold">CEO</p>
-                <h4 className="text-xl font-bold text-black">
+                <h4 className="text-[15px] font-bold text-black">
                   Abdullah Lei Shen
                 </h4>
               </div>

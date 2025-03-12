@@ -77,7 +77,8 @@ export default async function ChairmanMessage({ params }) {
               </div>
 
               <div className="pt-4">
-                <h4 className="text-xl font-bold text-black">
+                <p className="text-[#c19367] font-bold">CHAIRMAN</p>
+                <h4 className="text-[15px] font-bold text-black">
                   His Highness Sheikh Mohammed bin Sultan bin Khalifa Al Nahyan
                 </h4>
               </div>
