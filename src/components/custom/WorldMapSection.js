@@ -40,11 +40,11 @@ export default function WorldMapSection() {
           </div> */}
         </div>
 
-        <p className="text-sm md:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
+        {/* <p className="text-sm md:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
           The upwards goes beyond being a data repository. It aims to make
           government data relevant and understandable to the public through the
           active use of charts and articles.
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -37,6 +37,41 @@ export default function ServicesSection2() {
       //   Icon: FaTrafficLight,
       img: "/images/solution4.png",
     },
+    {
+      title: "AI",
+      description:
+        "Empowering the future with intelligent and transformative AI solutions.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution1.png",
+    },
+    {
+      title: "Transportation",
+      description:
+        "Driving the future of mobility with smart and efficient transportation solutions.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution2.png",
+    },
+    {
+      title: "Low-Code No-Code",
+      description:
+        "Accelerate innovation with powerful Low-Code No-Code solutions—build faster, smarter, and easier!",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution3.png",
+    },
+    {
+      title: "Education",
+      description:
+        "Empowering minds through innovative and accessible education solutions.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution4.png",
+    },
+    {
+      title: "Payment Gateway",
+      description:
+        "Seamless, secure, and fast transactions with our cutting-edge payment gateway solutions.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution1.png",
+    },
   ];
 
   return (
@@ -48,7 +83,7 @@ export default function ServicesSection2() {
         }
         border={"170px"}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {techItems.map((item, index) => (
           <ServicesSection2Item
             key={index}
