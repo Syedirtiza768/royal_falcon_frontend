@@ -33,7 +33,7 @@ function MobileNavbar({ dictionary }) {
   return (
     <Sheet>
       <SheetTrigger>
-        <RxHamburgerMenu />
+        <RxHamburgerMenu className="text-primary font-bold" />
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>

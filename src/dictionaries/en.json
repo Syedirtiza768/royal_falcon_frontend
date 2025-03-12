@@ -11,7 +11,7 @@
       "href": "#solutions",
       "hasDropdown": true,
       "dropdownItems": [
-        { "name": "Vision & Mission", "href": "#" },
+        { "name": "Vision & Mission", "href": "/vision-and-mission" },
         { "name": "Chairman Message", "href": "/chairman-message" },
         { "name": "CEO Message", "href": "/ceo-message" }
       ]
@@ -45,7 +45,9 @@
   "contactButonText": "Contact Now",
   "section2Heading1": "Reshaping the Future",
   "section2Heading2": " with AI and Innovation",
-  "section2Content2": "",
+  "section2Content2": "Our technology solutions encompass a wide range of cutting-edge AI applications, from AI robotics to bespoke agentic software platforms. We harness the power of AI to develop smart, efficient systems that redefine technological possibilities and empower businesses to thrive in this Agentic Evolution.",
+  "whoWeAre1": "Our technology solutions span a diverse range of advanced AI applications, including AI robotics and tailored agentic software platforms. By leveraging the latest advancements in artificial intelligence, we create intelligent and efficient systems designed to push the boundaries of innovation.",
+  "whoWeAre2": "With a focus on redefining technological possibilities, our solutions empower businesses to adapt and excel in this Agentic Evolution. By integrating AI-driven capabilities, we help organizations optimize operations, enhance decision-making, and unlock new growth opportunities in an increasingly automated and intelligent world.",
   "vision": "Our Vision",
   "visionContent": " is to be the leading force in innovative technology solutions, renowned for our integrity, excellence, and transformative impact on businesses locally and globally.",
   "mission": "Our Mission",

@@ -51,38 +51,37 @@ export default async function CEOMessage({ params }) {
 
               <div className="space-y-4 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  At Upwards, we are proud to contribute to the UAE’s dynamic
-                  economy and national development through our cutting-edge
-                  technology solutions. Based in Abu Dhabi, we specialize in
-                  delivering AI infrastructure, AI agents and software, IoT
-                  solutions, and system integration services. These solutions
-                  are designed to help both large corporates and SMEs thrive in
-                  an increasingly digital world.
+                  Contributing to the UAE&apos;s dynamic economy and national
+                  development, we deliver cutting-edge technology solutions that
+                  drive digital transformation. Based in Abu Dhabi, our
+                  expertise spans AI infrastructure, AI agents and software, IoT
+                  solutions, and system integration services—empowering both
+                  large corporations and SMEs to thrive in an increasingly
+                  digital world.
                   <br />
                   <br />
-                  Collaboration is central to our approach. We work closely with
-                  both public and private sector partners to support innovative
-                  projects that have a strong developmental impact on the UAE’s
-                  growth. Our focus is on providing tailored, scalable
-                  technology solutions that help businesses integrate the latest
-                  advancements in AI and IoT, driving efficiency, productivity,
-                  and future-proofing their operations.
+                  Collaboration is at the heart of our approach. By working
+                  closely with public and private sector partners, we support
+                  innovative projects that fuel the UAE&apos;s growth. Our focus
+                  is on providing tailored, scalable technology solutions that
+                  enable businesses to integrate the latest advancements in AI
+                  and IoT, enhancing efficiency, productivity, and long-term
+                  resilience.
                   <br />
                   <br />
-                  In addition, we are committed to fostering the UAE’s
-                  entrepreneurial ecosystem. Through our AI-powered solutions
-                  and system integration expertise, we empower businesses to
-                  unlock new opportunities. We also offer educational programs
-                  and mentoring services to advance technical capabilities and
-                  promote innovation across sectors. At Upwards, we are
-                  dedicated to driving the UAE’s digital transformation and
-                  supporting key government projects that shape the future of
-                  the nation.
+                  Beyond technology, we are committed to fostering the
+                  UAE&apos;s entrepreneurial ecosystem. Through AI-powered
+                  solutions and system integration expertise, we help businesses
+                  unlock new opportunities while advancing technical
+                  capabilities through educational programs and mentorship
+                  initiatives. Our dedication extends to supporting key
+                  government projects that shape the nation&apos;s future and
+                  solidify its leadership in the digital era.
                 </p>
               </div>
 
               <div className="pt-4">
-                <p className="text-[#c19367]">CEO</p>
+                <p className="text-[#c19367] font-bold">CEO</p>
                 <h4 className="text-xl font-bold text-black">
                   Abdullah Lei Shen
                 </h4>

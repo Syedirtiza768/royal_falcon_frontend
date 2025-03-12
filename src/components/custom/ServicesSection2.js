@@ -10,6 +10,14 @@ import SectionHeading from "./SectionHeading";
 export default function ServicesSection2() {
   const techItems = [
     {
+      title: "AI Agents Platform",
+      description:
+        "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution7.png",
+    },
+
+    {
       title: "Immersive Cooling Data Center",
       description:
         "Revolutionizing efficiency with cutting-edge immersive cooling technology for next-gen data centers.",
@@ -50,13 +58,6 @@ export default function ServicesSection2() {
         "Redefining the journey ahead with smart and sustainable future mobility solutions.",
       //   Icon: FaTrafficLight,
       img: "/images/solution6.png",
-    },
-    {
-      title: "AI Agents Platform",
-      description:
-        "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
-      //   Icon: FaTrafficLight,
-      img: "/images/solution7.png",
     },
     {
       title: "Robo Dog",

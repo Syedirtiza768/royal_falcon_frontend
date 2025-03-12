@@ -10,7 +10,7 @@ export default function Section2({ dictionary }) {
   const { locale } = useLocaleStore();
 
   return (
-    <section className="relative w-full h-[400px] md:h-screen overflow-hidden">
+    <section className="relative w-full h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         {/* <img src="/images/img1.png" alt=""  /> */}
@@ -37,7 +37,7 @@ export default function Section2({ dictionary }) {
             </AnimatedHeading>
           </div>
           <motion.div initial="hide" animate="show" variants={b_t_animation}>
-            <p className="text-white text-base md:text-lg mb-8 max-w-xl leading-relaxed">
+            <p className="text-white text-base md:text-lg mb-8 max-w-xl leading-relaxed hidden md:block">
               {dictionary.section2Content2}
             </p>
           </motion.div>

@@ -51,34 +51,34 @@ export default async function ChairmanMessage({ params }) {
 
               <div className="space-y-4 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  At Upwards, we are architects of the future. Our mission is
-                  clear: to empower the UAE’s global leadership in the age of
-                  intelligent technology. Inspired by our nation’s unwavering
-                  vision, we are pioneering solutions that redefine progress,
-                  security, and sustainability.
+                  We are shaping the future with a clear mission: to strengthen
+                  the UAE&apos;s global leadership in the era of intelligent
+                  technology. Guided by the nation&apos;s bold vision, we
+                  pioneer solutions that redefine progress, security, and
+                  sustainability.
                   <br />
                   <br />
-                  As a narional initiatvie, Upwards bridges visionary AI
-                  advancements with scalable, real-world applications. We
-                  collaborate with global leaders, nurture Emirati talent, and
-                  uphold ethical AI frameworks to ensure the UAE remains a
-                  lighthouse of technological excellence. Every solution we
-                  deliver strengthens our nation’s economic resilience and
-                  accelerates its journey toward a knowledge-driven economy.
+                  As a national initiative, cutting-edge AI is transformed into
+                  real-world impact, bridging visionary advancements with
+                  scalable applications. Collaboration with global innovators,
+                  the cultivation of Emirati talent, and a commitment to ethical
+                  AI principles ensure that the UAE remains a beacon of
+                  technological excellence. Every solution delivered enhances
+                  economic resilience and accelerates the transition to a
+                  knowledge-driven economy.
                   <br />
                   <br />
-                  The future belongs to those who dare to lead. At Upwards, we
-                  are committed to ensuring that the UAE not only embraces this
-                  era of transformation but shapes its trajectory. Together, we
-                  will unlock limitless possibilities—where technology elevates
-                  humanity, and progress serves generations to come.
+                  The future belongs to those who lead. This era of
+                  transformation is not just to be embraced but shaped.
+                  Together, limitless potential will be unlocked—where
+                  technology empowers humanity, and progress serves generations
+                  to come.
                 </p>
               </div>
 
               <div className="pt-4">
-                <p className="text-[#c19367]">His Highness</p>
                 <h4 className="text-xl font-bold text-black">
-                  Sheikh Mohamed Bin Sultan Bin Khalifa Al Nahyan
+                  His Highness Sheikh Mohammed bin Sultan bin Khalifa Al Nahyan
                 </h4>
               </div>
             </div>

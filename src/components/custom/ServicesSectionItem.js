@@ -3,6 +3,12 @@ import ServicesSectionItemCard from "./ServicesSectionItemCard";
 
 const cards = [
   {
+    title: "CONSULTING",
+    description:
+      "Our diverse expertise in domains such as Security, Command Center, Traffic Management, Public Transport and Comms Network will provided.",
+    imageSrc: "/images/service4.webp",
+  },
+  {
     title: "CUSTOMIZATION",
     description:
       "We are well verse in latest advance technologies to design bespoke hardware solutions and bespoke agents for our customers.",
@@ -19,12 +25,6 @@ const cards = [
     description:
       "Through our vast partner networks we have successfully delivered multiple national projects and will continue to deliver for your projects.",
     imageSrc: "/images/service3.webp",
-  },
-  {
-    title: "CONSULTING",
-    description:
-      "Our diverse expertise in domains such as Security, Command Center, Traffic Management, Public Transport and Comms Network will provided.",
-    imageSrc: "/images/service4.webp",
   },
 ];
 

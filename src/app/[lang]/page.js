@@ -48,6 +48,7 @@ async function HomePage({ params }) {
 
       {/* World Map Section */}
       <div className="mt-[50px]">
+        <SectionHeading title={"Our Scale"} description={""} border={"170px"} />
         <WorldMapSection />
       </div>
 
