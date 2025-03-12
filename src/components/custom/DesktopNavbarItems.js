@@ -8,7 +8,7 @@ import { navItems } from "@/lib/Data";
 
 // Define the navigation items with dropdown support
 
-export default function DesktopNavBarItems({ dictionary }) {
+export default function DesktopNavBarItems({ dictionary, transparent }) {
   const [activeItem, setActiveItem] = useState("MEDIA");
   const [openDropdowns, setOpenDropdowns] = useState([]);
 
@@ -56,7 +56,11 @@ export default function DesktopNavBarItems({ dictionary }) {
                 <button
                   className={cn(
                     "group relative flex items-center py-2  tracking-wide transition-colors",
-                    activeItem === item.name
+                    !transparent
+                      ? activeItem === item.name
+                        ? "text-white"
+                        : "text-primary "
+                      : activeItem === item.name
                       ? "text-primary"
                       : "text-white hover:text-primary"
                   )}
@@ -85,7 +89,11 @@ export default function DesktopNavBarItems({ dictionary }) {
                   href={item.href}
                   className={cn(
                     "group relative inline-block py-2  tracking-wide transition-colors",
-                    activeItem === item.name
+                    !transparent
+                      ? activeItem === item.name
+                        ? "text-white"
+                        : "text-primary "
+                      : activeItem === item.name
                       ? "text-primary"
                       : "text-white hover:text-primary"
                   )}

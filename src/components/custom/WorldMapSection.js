@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function WorldMapSection() {
   return (
-    <div className="bg-gradient-to-r from-amber-700 to-amber-500 min-h-screen flex flex-col items-center justify-center px-4 py-16 text-white">
+    <div className="bg-gradient-to-r from-amber-700 to-amber-500 min-h-[400px] flex flex-col items-center justify-center px-4 pt-[40px]  text-white">
       <div className="container max-w-5xl mx-auto text-center">
         {/* <h2 className="text-lg mb-2">World Map</h2> */}
 

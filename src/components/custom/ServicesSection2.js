@@ -38,37 +38,44 @@ export default function ServicesSection2() {
       img: "/images/solution4.png",
     },
     {
-      title: "AI",
+      title: "Medical Robotics",
       description:
-        "Empowering the future with intelligent and transformative AI solutions.",
+        "Revolutionizing healthcare with precision-driven medical robotics.",
       //   Icon: FaTrafficLight,
       img: "/images/solution1.png",
     },
     {
-      title: "Transportation",
+      title: "Future Mobility",
       description:
-        "Driving the future of mobility with smart and efficient transportation solutions.",
+        "Redefining the journey ahead with smart and sustainable future mobility solutions.",
       //   Icon: FaTrafficLight,
       img: "/images/solution2.png",
     },
     {
-      title: "Low-Code No-Code",
+      title: "AI Agents Platform",
       description:
-        "Accelerate innovation with powerful Low-Code No-Code solutions—build faster, smarter, and easier!",
+        "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
       //   Icon: FaTrafficLight,
       img: "/images/solution3.png",
     },
     {
-      title: "Education",
+      title: "Robo Dog",
       description:
-        "Empowering minds through innovative and accessible education solutions.",
+        "Experience the future of companionship with our intelligent and agile Robo Dog.",
       //   Icon: FaTrafficLight,
       img: "/images/solution4.png",
     },
     {
-      title: "Payment Gateway",
+      title: "Traffic Management system",
       description:
-        "Seamless, secure, and fast transactions with our cutting-edge payment gateway solutions.",
+        "Optimizing mobility with smart and efficient traffic management solutions.",
+      //   Icon: FaTrafficLight,
+      img: "/images/solution1.png",
+    },
+    {
+      title: "Services",
+      description:
+        "Delivering innovative, reliable, and tailored services to meet your every need.",
       //   Icon: FaTrafficLight,
       img: "/images/solution1.png",
     },
@@ -83,7 +90,7 @@ export default function ServicesSection2() {
         }
         border={"170px"}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {techItems.map((item, index) => (
           <ServicesSection2Item
             key={index}

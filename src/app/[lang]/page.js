@@ -36,7 +36,7 @@ async function HomePage({ params }) {
   };
   return (
     <main className="min-h-screen">
-      <Navbar dictionary={dictionary} />
+      <Navbar dictionary={dictionary} transparent={true} />
       <Section2 dictionary={dictionary} />
       {/* <Section3Slider /> */}
 

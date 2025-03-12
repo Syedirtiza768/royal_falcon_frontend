@@ -25,6 +25,11 @@ function WhoWeAreSection({ dictionary }) {
             <span className="font-bold">{dictionary.mission}</span>
             {dictionary.missionContent}
           </p>
+          <br />
+          <p className="text-[16px] whitespace-pre-line text-center  ">
+            {/* <span className="font-bold">{dictionary.story}</span> */}
+            {dictionary.storyContent}
+          </p>
         </div>
 
         <div className=" mx-auto  mt-[40px] transition-all duration-500">

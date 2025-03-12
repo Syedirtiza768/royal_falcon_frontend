@@ -6,7 +6,7 @@ import { b_t_animation } from "@/lib/Data";
 
 const blogs = [
   {
-    image: "/images/solutions1.png",
+    image: "/images/news1.webp",
     tags: [
       { label: "E-book", color: "bg-orange-50 text-orange-700" },
       { label: "Business Growthes", color: "bg-orange-50 text-orange-700" },
@@ -14,7 +14,7 @@ const blogs = [
     title: "10 Essential Strategies for Business Growth",
   },
   {
-    image: "/images/solutions1.png",
+    image: "/images/news2.webp",
     tags: [
       { label: "Case Study", color: "bg-orange-50 text-orange-700" },
       { label: "Success Story", color: "bg-orange-50 text-orange-700" },
@@ -22,31 +22,7 @@ const blogs = [
     title: "Success Story: How Company XYZ Increased Sales by 50%",
   },
   {
-    image: "/images/solutions1.png",
-    tags: [
-      { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
-      { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },
-    ],
-    title: "Unlocking Data Analytics: Practical Tips and Techniques",
-  },
-  {
-    image: "/images/solutions1.png",
-    tags: [
-      { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
-      { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },
-    ],
-    title: "Unlocking Data Analytics: Practical Tips and Techniques",
-  },
-  {
-    image: "/images/solutions1.png",
-    tags: [
-      { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
-      { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },
-    ],
-    title: "Unlocking Data Analytics: Practical Tips and Techniques",
-  },
-  {
-    image: "/images/solutions1.png",
+    image: "/images/news3.webp",
     tags: [
       { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
       { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },

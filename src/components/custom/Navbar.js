@@ -29,13 +29,16 @@ import { useLocaleStore } from "@/stores/useLocaleStore";
 import DesktopNavBarItems from "./DesktopNavbarItems";
 import Image from "next/image";
 
-export function Navbar({ dictionary }) {
-  console.log(dictionary);
+export function Navbar({ dictionary, transparent }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { locale } = useLocaleStore();
 
   return (
-    <header className=" bg-transparent absolute top-0 left-0 z-50 w-full text-white">
+    <header
+      className={` ${
+        transparent ? "bg-transparent" : "bg-white"
+      }  absolute top-0 left-0 z-50 w-full text-white`}
+    >
       <div
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         dir={locale === "ar" ? "rtl" : "ltr"}
@@ -43,24 +46,36 @@ export function Navbar({ dictionary }) {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <Image
-              src={"/images/logo2.png"}
-              height={200}
-              width={200}
-              alt="Logo"
-              className="hidden lg:block"
-            />
+            {transparent ? (
+              <Image
+                src={"/images/logo2.png"}
+                height={200}
+                width={200}
+                alt="Logo"
+                className="hidden lg:block"
+              />
+            ) : (
+              <Image
+                src={"/images/logo.png"}
+                height={200}
+                width={200}
+                alt="Logo"
+                className="hidden lg:block"
+              />
+            )}
           </Link>
         </div>
 
         {/* Desktop Navigation */}
-        <DesktopNavBarItems dictionary={dictionary} />
+        <DesktopNavBarItems dictionary={dictionary} transparent={transparent} />
 
         {/* Right side buttons */}
         <div className=" flex items-center justify-center md:flex">
           <div className="flex items-center justify-center">
             <LanguageChanger />
-            <Button className="rounded-md bg-primary text-white hidden lg:block ">
+            <Button
+              className={`  rounded-md bg-primary text-white hidden lg:block `}
+            >
               {dictionary.contactButonText}
             </Button>
           </div>

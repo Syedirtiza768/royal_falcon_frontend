@@ -12,8 +12,8 @@
       "hasDropdown": true,
       "dropdownItems": [
         { "name": "Vision & Mission", "href": "#" },
-        { "name": "Chairman Message", "href": "#" },
-        { "name": "CEO Message", "href": "#" }
+        { "name": "Chairman Message", "href": "/chairman-message" },
+        { "name": "CEO Message", "href": "/ceo-message" }
       ]
     },
     {
@@ -50,6 +50,8 @@
   "visionContent": " is to be the leading force in innovative technology solutions, renowned for our integrity, excellence, and transformative impact on businesses locally and globally.",
   "mission": "Our Mission",
   "missionContent": " At Upwards, we are a catalyst for progress in the UAE and beyond, collaborating with nations, enterprises, and innovators to drive humanity forward. From AI-powered digital transformation to groundbreaking advancements across industries, we are on a mission to shape a smarter, more connected future.",
+  "story": "Our Story",
+  "storyContent": "Founded with a passion for innovation, Upwards was born from a vision to redefine technology's role in shaping the future. From humble beginnings to becoming a trusted partner for enterprises and nations, our journey has been driven by a relentless pursuit of excellence. With a strong foundation in AI, digital transformation, and emerging technologies, we empower businesses to embrace the future with confidence. Every milestone we achieve reflects our commitment to progress, integrity, and impact—fueling a smarter, more connected world.",
   "section2Button1Text": "Learn More",
   "section2Button2Text": "Request a demo"
 }
