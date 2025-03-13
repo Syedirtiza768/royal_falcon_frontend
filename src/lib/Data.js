@@ -110,27 +110,43 @@ export const solutions = [
 
 export const partners = [
   {
-    img: "/images/partners/partner1.png",
+    img: "/images/partners/hp.png",
     link: "#",
   },
   {
-    img: "/images/partners/partner2.png",
+    img: "/images/partners/ddn.png",
     link: "#",
   },
   {
-    img: "/images/partners/partner3.png",
+    img: "/images/partners/nvidia.webp",
     link: "#",
   },
   {
-    img: "/images/partners/partner4.png",
+    img: "/images/partners/black-shark-ai.webp",
     link: "#",
   },
   {
-    img: "/images/partners/partner5.png",
+    img: "/images/partners/huewei.png",
     link: "#",
   },
   {
-    img: "/images/partners/partner6.png",
+    img: "/images/partners/presight.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/oracle.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/Honeywell.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/terminus.webp",
+    link: "#",
+  },
+  {
+    img: "/images/partners/dell.png",
     link: "#",
   },
 ];

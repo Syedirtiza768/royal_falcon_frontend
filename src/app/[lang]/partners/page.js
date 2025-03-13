@@ -56,10 +56,10 @@ export default async function PartnersPage({ params }) {
 
         {/* Showing all partners */}
         <div className="mt-[50px]">
-          <div className="relative grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 p-4 bg-gray-100 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
             {partners.map((i) => (
               <div
-                className="w-[150px] h-[150px] overflow-hidden group bg-white"
+                className="md:w-[150px] md:h-[150px] overflow-hidden group bg-gray-200 p-3 "
                 key={i.img}
               >
                 <Image

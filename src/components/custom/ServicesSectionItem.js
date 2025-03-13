@@ -6,25 +6,25 @@ const cards = [
     title: "CONSULTING",
     description:
       "Our diverse expertise in domains such as Security, Command Center, Traffic Management, Public Transport and Comms Network will provided.",
-    imageSrc: "/images/service4.webp",
+    imageSrc: "/images/services/service1.png",
   },
   {
     title: "CUSTOMIZATION",
     description:
       "We are well verse in latest advance technologies to design bespoke hardware solutions and bespoke agents for our customers.",
-    imageSrc: "/images/service1.webp",
+    imageSrc: "/images/services/service2.png",
   },
   {
     title: "PROGRAM MANAGEMENT",
     description:
       "Our expert team have delivered national and city-scale programs and are your best candidates to support your implementation.",
-    imageSrc: "/images/service2.webp",
+    imageSrc: "/images/services/service3.png",
   },
   {
     title: "IMPLEMENTATION",
     description:
       "Through our vast partner networks we have successfully delivered multiple national projects and will continue to deliver for your projects.",
-    imageSrc: "/images/service3.webp",
+    imageSrc: "/images/services/service4.png",
   },
 ];
 
