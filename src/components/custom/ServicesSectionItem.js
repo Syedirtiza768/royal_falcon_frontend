@@ -5,7 +5,7 @@ const cards = [
   {
     title: "CONSULTING",
     description:
-      "Our diverse expertise in domains such as Security, Command Center, Traffic Management, Public Transport and Comms Network will provided.",
+      "We offer comprehensive consulting services to guide your entity through an end-to-end digital transformation journey.",
     imageSrc: "/images/services/service1.jpg",
   },
   {

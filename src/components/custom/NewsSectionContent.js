@@ -2,33 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { b_t_animation } from "@/lib/Data";
-
-const blogs = [
-  {
-    image: "/images/news1.avif",
-    title: "UAE's oldest-running refiner Emirates Gold gets new owner",
-    url: "https://gulfnews.com/business/markets/uaes-oldest-running-refiner-emirates-gold-gets-new-owner-1.104683944",
-  },
-  {
-    image: "/images/news2.jpeg",
-    title: "Shaping the Future of Aviation in Abu Dhabi",
-    url: "https://www.falconaviation.ae/2025/01/09/shaping-the-future-of-aviation-in-abu-dhabi-1",
-  },
-  {
-    image: "/images/news3.jpg",
-    title:
-      "Upwards Executive Management Hosts Former Prime Minister of Armenia",
-    url: "https://upwards.ae/article/upwards-executive-management-hosts-former-prime-minister-of-armenia/",
-  },
-];
+import { b_t_animation, newsData } from "@/lib/Data";
 
 export default function NewsSectionContent() {
   return (
     <section className="w-full py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogs.map((blog, index) => (
+          {newsData.map((blog, index) => (
             <motion.div
               initial="hide"
               whileInView="show"
@@ -37,7 +18,7 @@ export default function NewsSectionContent() {
               key={index}
               className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
             >
-              <Link href={blog.url} target="_blank" id="check">
+              <Link href={"news/" + blog.id}>
                 {/* Image Container */}
                 <div className="relative h-48 w-full">
                   <Image

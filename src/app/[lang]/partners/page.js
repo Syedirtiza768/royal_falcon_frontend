@@ -14,11 +14,7 @@ export default async function PartnersPage({ params }) {
       <Navbar dictionary={dictionary} transparent={false} />
 
       <div className="container mx-auto py-12 px-[20px] md:px-6 lg:px-[100px] mt-[70px]">
-        <SectionHeading
-          title={"Technology Partners"}
-          description={""}
-          border={"170px"}
-        />
+        <SectionHeading title={"Partners"} description={""} border={"70px"} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Text Content - Below image on small screens, Left on large screens */}
           <div className="space-y-6 order-2 md:order-1">

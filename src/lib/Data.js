@@ -149,4 +149,52 @@ export const partners = [
     img: "/images/partners/dell.png",
     link: "#",
   },
+  {
+    img: "/images/partners/fog-hashing.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/aruba.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/cisco.png",
+    link: "#",
+  },
+];
+
+export const newsData = [
+  {
+    id: 1,
+    image: "/images/news1.avif",
+    title: "UAE's oldest-running refiner Emirates Gold gets new owner",
+    description: `Dubai: One of the UAEs biggest gold refiners, Emirates Gold, has been bought by Bright East Holding 1, which is an ADGM (Abu Dhabi Global Market) licensed entity that operates in the venture capital and private equity space.\n\n
+Bright East's takeover of Emirates Gold adds to its reach in the metals and commodities space. The value of the deal has not been disclosed. The DMCC-based Emirates Gold is into refining and minting of coins and bars. Its operations also cover smelting and assaying (which is to do with determining the quality of gold).\n\n
+Just as important, Emirates Gold has been reinstated in the UAEs Good Delivery List, which will be decisive in the companys future expansion plans and access to international markets as a supplier of gold. It was in mid 2023 that the refiner was omitted from the List.\n\n
+A new CEO, Abhijit Shah, has also taken over the mantle at the refiner. “With the support of Bright East Holding 1 and our restored position on the UAEs Good Delivery List, we are positioned to lead the market through innovation and excellence,” said Shah. “This transformation will allow us to set new standards and expand our offerings, delivering unparalleled value to our clients worldwide.”`,
+    url: "https://gulfnews.com/business/markets/uaes-oldest-running-refiner-emirates-gold-gets-new-owner-1.104683944",
+  },
+  {
+    id: 2,
+    image: "/images/news2.jpeg",
+    title: "Shaping the Future of Aviation in Abu Dhabi",
+    description: `Falcon Aviation is partnering with UAE, Abu Dhabi entities and Archer, under the Smart and Autonomous Systems Council (SASC), to advance electric air taxi operations. Witnessed by His Highness Sheikh Hamdan bin Mohamed bin Zayed Al Nahyan, this agreement sets the stage for the first commercial eVTOL flights in Abu Dhabi.\n\n
+For nearly two decades, Falcon Aviation has led in aviation excellence. This partnership reinforces our commitment to innovation and sustainability, supporting Abu Dhabis vision as a global hub for smart mobility.`,
+    url: "https://www.falconaviation.ae/2025/01/09/shaping-the-future-of-aviation-in-abu-dhabi-1",
+  },
+  {
+    id: 3,
+    image: "/images/news3.jpg",
+    title:
+      "Upwards Executive Management Hosts Former Prime Minister of Armenia",
+    description: `Upwards Executive Management Hosts Former Prime Minister of Armenia, H.E. Tigran Avinyan, to Discuss Smart City Development and IoT Initiatives
+Abu Dhabi, 21st April- Upwards received H.E. Tigran Avinyan, the Deputy Mayor of Yerevan City and former Prime Minister of Armenia, to their office in Abu Dhabi. The visit, along with his delegation, was aimed at fostering collaboration and exploring opportunities for technological advancements in smart city initiatives.
+\n
+During the productive meeting, the Upwards executive management team and H.E. Tigran Avinyan discussed a wide range of topics centered around smart city development and the Internet of Things (IoT). The discussions focused on leveraging technology to enhance the quality of life for residents, promote sustainable growth, and streamline urban infrastructure management.
+Upwards, recognized for its expertise and innovation in IoT solutions, presented their extensive knowledge and demonstrated their proficiency in harnessing technology to drive IoT and smart city innovation. The esteemed guests were impressed with the companys successful track record and valuable insights, which have resulted in transformative solutions for numerous cities worldwide.
+\n
+Both parties expressed their enthusiasm for potential future collaborations, which aim to capitalize on Upwards expertise and experience to further develop smart city projects in Yerevan and other regions of Armenia. The meeting laid the foundation for a strong partnership that will drive innovation and improve the lives of citizens through technology-driven solutions.
+Upwards remains committed to leveraging its advanced technological capabilities to create sustainable, connected, and resilient cities. With a keen focus on delivering practical and impactful solutions, the company continues to push boundaries, collaborating with governments, municipalities, and industry leaders to shape the cities of tomorrow.`,
+    url: "https://upwards.ae/article/upwards-executive-management-hosts-former-prime-minister-of-armenia/",
+  },
 ];
