@@ -17,19 +17,18 @@ function WhoWeAreSection({ dictionary }) {
         className="mt-[40px] flex flex-col items-center justify-center"
       >
         <div className="lg:w-[60%] mx-auto text-center">
-          <h2 className="font-bold">Vision</h2>
+          <h2 className="font-bold text-primary">Vision</h2>
           <p className="text-[16px] whitespace-pre-line text-center  ">
             Drive the agentic revolution.
           </p>
           <br />
-          <h2 className="font-bold">Mission</h2>
+          <h2 className="font-bold text-primary">Mission</h2>
           <p className="text-[16px] whitespace-pre-line text-center  ">
             Adapt Adopt and Adept.
           </p>
 
           <br />
-          <br />
-          <h2 className="font-bold">Strategy</h2>
+          <h2 className="font-bold text-primary">Strategy</h2>
           <p className="text-[16px] whitespace-pre-line text-center  ">
             Integration of AI-driven capabilities, optimize business operations
             and empower new decision-making abilities
