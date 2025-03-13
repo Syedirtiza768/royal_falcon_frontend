@@ -10,7 +10,10 @@ import { solutions } from "@/lib/Data";
 
 export default function ServicesSection2() {
   return (
-    <div className="container mx-auto px-[20px]  lg:px-[50px] py-12">
+    <div
+      className="container mx-auto px-[20px]  lg:px-[50px] py-12"
+      id="solution-section"
+    >
       <SectionHeading
         title={"Solutions"}
         description={

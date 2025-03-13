@@ -84,15 +84,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#"
+                  href="/vision-and-mission"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
-                  About
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#solution-section"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
                   Solutions
@@ -100,7 +100,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#contactSection"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
                   Contact
@@ -108,7 +108,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/#newsSection"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
                   News
@@ -127,11 +127,8 @@ export default function Footer() {
             <ul className="space-y-1">
               {solutions.map((i) => (
                 <li key={i.title}>
-                  <span
-                    href="#"
-                    className="text-sm hover:text-[#d2a97b] transition-colors "
-                  >
-                    {i.title}
+                  <span className="text-sm cursor-pointer hover:text-[#d2a97b] transition-colors ">
+                    <Link href="/#solution-section">{i.title}</Link>
                   </span>
                 </li>
               ))}

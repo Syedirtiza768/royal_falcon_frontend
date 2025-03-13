@@ -18,7 +18,7 @@
     },
     {
       "name": "Solutions",
-      "href": "#",
+      "href": "/#solution-section",
       "hasDropdown": false
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "News",
-      "href": "#",
+      "href": "/#newsSection",
       "hasDropdown": false
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Contact Us",
-      "href": "#",
+      "href": "/#contactSection",
       "hasDropdown": false
     }
   ],

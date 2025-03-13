@@ -56,7 +56,7 @@ async function HomePage({ params }) {
       <ServicesSection2 />
 
       {/* News */}
-      <div className="lg:px-[100px]">
+      <div className="lg:px-[100px]" id="newsSection">
         <SectionHeading
           title={"News"}
           description={"Check the valuable insights"}
@@ -69,7 +69,7 @@ async function HomePage({ params }) {
       {/* <CeoMessage /> */}
 
       {/* Contact */}
-      <div className="lg:px-[100px]">
+      <div className="lg:px-[100px]" id="contactSection">
         <SectionHeading
           title={"Contact Us"}
           description={"Lets Connect"}
