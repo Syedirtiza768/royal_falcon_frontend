@@ -72,7 +72,7 @@ export const solutions = [
     img: "/images/solution3.png",
   },
   {
-    title: "IOT",
+    title: "Advance IOT",
     description:
       "Connecting the world seamlessly with smart and innovative IoT solutions.",
     //   Icon: FaTrafficLight,
@@ -84,6 +84,13 @@ export const solutions = [
       "Revolutionizing healthcare with precision-driven medical robotics.",
     //   Icon: FaTrafficLight,
     img: "/images/solution5.png",
+  },
+  {
+    title: "Traffic Management system",
+    description:
+      "Optimizing mobility with smart and efficient traffic management solutions.",
+    //   Icon: FaTrafficLight,
+    img: "/images/solution9.png",
   },
   {
     title: "Future Mobility",
@@ -98,13 +105,6 @@ export const solutions = [
       "Experience the future of companionship with our intelligent and agile Robo Dog.",
     //   Icon: FaTrafficLight,
     img: "/images/solution8.png",
-  },
-  {
-    title: "Traffic Management system",
-    description:
-      "Optimizing mobility with smart and efficient traffic management solutions.",
-    //   Icon: FaTrafficLight,
-    img: "/images/solution9.png",
   },
 ];
 
