@@ -37,7 +37,7 @@ export default function NewsSectionContent() {
               key={index}
               className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
             >
-              <Link href={blog.url} target="_blank">
+              <Link href={blog.url} target="_blank" id="check">
                 {/* Image Container */}
                 <div className="relative h-48 w-full">
                   <Image
