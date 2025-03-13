@@ -28,10 +28,12 @@ import LanguageChanger from "./LanguageChanger";
 import { useLocaleStore } from "@/stores/useLocaleStore";
 import DesktopNavBarItems from "./DesktopNavbarItems";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export function Navbar({ dictionary, transparent }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { locale } = useLocaleStore();
+  const router = useRouter();
 
   return (
     <header
@@ -74,7 +76,8 @@ export function Navbar({ dictionary, transparent }) {
           <div className="flex items-center justify-center">
             <LanguageChanger />
             <Button
-              className={`  rounded-md bg-primary text-white hidden lg:block `}
+              onClick={() => router.push("/#contactSection")}
+              className={` cursor-pointer rounded-md bg-primary text-white hidden lg:block `}
             >
               {dictionary.contactButonText}
             </Button>

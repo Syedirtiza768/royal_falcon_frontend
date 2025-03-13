@@ -23,10 +23,11 @@ import Link from "next/link";
 import { useState } from "react";
 import LanguageChanger from "./LanguageChanger";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 function MobileNavbar({ dictionary }) {
   const [expanded, setExpanded] = useState(null);
-
+  const router = useRouter();
   const toggleMenu = (title) => {
     setExpanded(expanded === title ? null : title);
   };
@@ -99,7 +100,10 @@ function MobileNavbar({ dictionary }) {
           </nav>
 
           <div className="flex items-center justify-center">
-            <Button className="rounded-md bg-primary text-white  ">
+            <Button
+              onClick={() => router.push("/#contactSection")}
+              className="rounded-md bg-primary text-white cursor-pointer"
+            >
               {dictionary.contactButonText}
             </Button>
           </div>
