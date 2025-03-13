@@ -50,7 +50,8 @@ export default function Footer() {
               </div>
             </div>
             <Link
-              href="#"
+              href="https://maps.app.goo.gl/SA9xwjYR9MWThfre6"
+              target="_blank"
               className="inline-block border border-[#d2a97b] text-[#d2a97b] px-6 py-2 text-sm hover:bg-[#d2a97b] hover:text-white transition-colors duration-300"
             >
               Our Location
