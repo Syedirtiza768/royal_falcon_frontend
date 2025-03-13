@@ -107,3 +107,30 @@ export const solutions = [
     img: "/images/solution9.png",
   },
 ];
+
+export const partners = [
+  {
+    img: "/images/partners/partner1.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/partner2.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/partner3.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/partner4.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/partner5.png",
+    link: "#",
+  },
+  {
+    img: "/images/partners/partner6.png",
+    link: "#",
+  },
+];

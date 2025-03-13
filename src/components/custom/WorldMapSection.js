@@ -11,7 +11,7 @@ export default function WorldMapSection() {
           </div>
 
           {/* World Map */}
-          <div className="flex items-center justify-center h-[150px] w-[300px] sm:h-[200px] sm:w-[400px]">
+          <div className="flex  h-[150px] w-[300px] sm:h-[200px] sm:w-[400px]  lg:ml-[-50px]">
             <img
               src="/images/world-map.gif"
               alt="World Map"
@@ -28,7 +28,7 @@ export default function WorldMapSection() {
 
         {/* AI Scientists */}
         <div className="flex items-center justify-center mt-6 sm:mt-10">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center lg:ml-[100px]">
             <div className="text-4xl sm:text-5xl font-light">10+</div>
             <div className="text-sm mt-1">AI Scientists</div>
           </div>

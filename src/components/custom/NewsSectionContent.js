@@ -6,31 +6,29 @@ import { b_t_animation } from "@/lib/Data";
 
 const blogs = [
   {
-    image: "/images/news1.webp",
+    image: "/images/news1.avif",
     tags: [
       { label: "E-book", color: "bg-orange-50 text-orange-700" },
       { label: "Business Growthes", color: "bg-orange-50 text-orange-700" },
     ],
-    title:
-      "Falcon Aviation Participating at the launch of the Contractor Safety Partnership (CSP) by ADNOC Group.",
+    title: "UAE's oldest-running refiner Emirates Gold gets new owner",
   },
   {
-    image: "/images/news2.webp",
+    image: "/images/news2.jpeg",
     tags: [
       { label: "Case Study", color: "bg-orange-50 text-orange-700" },
       { label: "Success Story", color: "bg-orange-50 text-orange-700" },
     ],
-    title:
-      "Falcon Aviation Delegation, Led by His Highness Sheikh Khalifa Bin Sultan Bin Khalifa Al Nahyan, Visits Kuwait Oil Company",
+    title: "Shaping the Future of Aviation in Abu Dhabi",
   },
   {
-    image: "/images/news3.webp",
+    image: "/images/news3.jpg",
     tags: [
       { label: "Data Analytics", color: "bg-orange-50 text-orange-700" },
       { label: "Tips and Techniques", color: "bg-orange-50 text-orange-700" },
     ],
     title:
-      "Inside Falcon Aviation: CEO Ramandeep Oberoi on Innovation & Sustainability",
+      "Upwards Executive Management Hosts Former Prime Minister of Armenia",
   },
 ];
 

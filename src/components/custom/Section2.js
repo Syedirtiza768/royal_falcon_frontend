@@ -10,7 +10,7 @@ export default function Section2({ dictionary }) {
   const { locale } = useLocaleStore();
 
   return (
-    <section className="relative w-full h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
+    <section className="relative w-full bg-black h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         {/* <img src="/images/img1.png" alt=""  /> */}
