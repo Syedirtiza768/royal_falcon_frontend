@@ -17,6 +17,7 @@ import WhoWeAreSection from "@/components/custom/WhoWeAreSection";
 import SectionHeading from "@/components/custom/SectionHeading";
 import ServicesSection2 from "@/components/custom/ServicesSection2";
 import WorldMapSection from "@/components/custom/WorldMapSection";
+import OurValuesSection from "@/components/custom/OurValuesSection";
 
 async function HomePage({ params }) {
   const { lang } = await params;
@@ -54,6 +55,9 @@ async function HomePage({ params }) {
 
       {/* Solutions */}
       <ServicesSection2 />
+
+      {/* Our Values */}
+      <OurValuesSection />
 
       {/* News */}
       <div className="lg:px-[100px]" id="newsSection">

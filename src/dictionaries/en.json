@@ -13,7 +13,8 @@
       "dropdownItems": [
         { "name": "Vision & Mission", "href": "/vision-and-mission" },
         { "name": "Chairman Message", "href": "/chairman-message" },
-        { "name": "CEO Message", "href": "/ceo-message" }
+        { "name": "CEO Message", "href": "/ceo-message" },
+        { "name": "Who We Are", "href": "/who-we-are" }
       ]
     },
     {

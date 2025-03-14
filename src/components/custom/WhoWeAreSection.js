@@ -17,7 +17,7 @@ function WhoWeAreSection({ dictionary }) {
         className="mt-[40px] flex flex-col items-center justify-center"
       >
         <div className="lg:w-[60%] mx-auto text-center">
-          <h2 className="font-bold text-primary">Vision</h2>
+          {/* <h2 className="font-bold text-primary">Vision</h2>
           <p className="text-[16px] whitespace-pre-line text-center  ">
             Drive the agentic revolution.
           </p>
@@ -32,6 +32,25 @@ function WhoWeAreSection({ dictionary }) {
           <p className="text-[16px] whitespace-pre-line text-center  ">
             Integration of AI-driven capabilities, optimize business operations
             and empower new decision-making abilities
+          </p> */}
+
+          <p>
+            Upwards is a UAE national initiative and a leading technology
+            company based in Abu Dhabi, dedicated to driving digital
+            transformation for governments and enterprises. Backed by local
+            entities and agencies, we leverage our team of experienced experts
+            to deliver cutting-edge solutions.
+            <br />
+            <br />
+            As an innovation-driven company, we provide end-to-end support for
+            your digital transformation journey through advanced AI agents,
+            robotics technology, IoT, software development, AI infrastructure,
+            and a flexible business model tailored to your needs.
+            <br />
+            <br />
+            With over 20 years of experience in both local and international
+            markets, our team is well-equipped to tackle complex challenges and
+            deliver impactful solutions.
           </p>
         </div>
 

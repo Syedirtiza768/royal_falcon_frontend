@@ -198,3 +198,31 @@ Upwards remains committed to leveraging its advanced technological capabilities 
     url: "https://upwards.ae/article/upwards-executive-management-hosts-former-prime-minister-of-armenia/",
   },
 ];
+
+export const values = [
+  {
+    title: "Excellence",
+    description:
+      "Practice makes perfect. With our extensive experience that was built across the years we managed to leave our mark and exceed customers expectations with smart and creative solutions to elevate customer services to a level beyond imagination.",
+  },
+  {
+    title: "Integrity",
+    description:
+      "The ethics and morals our management have spread across the culture of Tahaluf promotes commitment to deliver customer needs on time while considering cost-effective solutions, perfect delivery with high quality services.",
+  },
+  {
+    title: "Professionalism",
+    description:
+      "Dedication and focus are our keywords while engaging with our partners and customers as we commit to work with determination and motivation to deliver services to our customers in line with internationally recognized standards.",
+  },
+  {
+    title: "Collaboration",
+    description:
+      "One-team spirit is spread from our consistent and pertinent positive engagement internally. The culture we build with our employees reflects back to our customers for a positive and healthy relationship.",
+  },
+  {
+    title: "Passion",
+    description:
+      "Whatever we do, we do IT with passion, starting from delivery and support towards building a strong customer relationship that translates into a brand loyalty.",
+  },
+];
