@@ -199,6 +199,33 @@ Upwards remains committed to leveraging its advanced technological capabilities 
   },
 ];
 
+export const services = [
+  {
+    title: "CONSULTING",
+    description:
+      "We offer comprehensive consulting services to guide your entity through an end-to-end digital transformation journey.",
+    imageSrc: "/images/services/service1.jpg",
+  },
+  {
+    title: "CUSTOMIZATION",
+    description:
+      "We are well verse in latest advance technologies to design bespoke hardware solutions and bespoke agents for our customers.",
+    imageSrc: "/images/services/service2.jpg",
+  },
+  {
+    title: "PROGRAM MANAGEMENT",
+    description:
+      "Our expert team have delivered national and city-scale programs and are your best candidates to support your implementation.",
+    imageSrc: "/images/services/service3.jpg",
+  },
+  {
+    title: "IMPLEMENTATION",
+    description:
+      "Through our vast partner networks we have successfully delivered multiple national projects and will continue to deliver for your projects.",
+    imageSrc: "/images/services/service4.jpg",
+  },
+];
+
 export const values = [
   {
     title: "Excellence",

@@ -1,12 +1,26 @@
 "use client";
+import { useState, useEffect } from "react";
 import { b_t_animation } from "@/lib/Data";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
 export default function ServicesSectionItemCard({
   title,
   description,
   imageSrc,
 }) {
+  const [isMobile, setIsMobile] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <motion.div
       initial="hide"
@@ -14,6 +28,7 @@ export default function ServicesSectionItemCard({
       variants={b_t_animation}
       viewport={{ once: true }}
       className="group relative h-[300px] overflow-hidden"
+      onClick={() => isMobile && setIsActive(!isActive)}
     >
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
@@ -34,8 +49,14 @@ export default function ServicesSectionItemCard({
           <span className="absolute bottom-[-6px] left-0 w-1/3 h-[2px] bg-primary transition-all duration-300 group-hover:w-full group-hover:h-[3px]"></span>
         </h3>
 
-        {/* Description appears and moves up on hover */}
-        <p className="opacity-0 transform translate-y-4 transition-all duration-700 ease-in-out group-hover:opacity-100 group-hover:translate-y-1 mt-2 text-center">
+        {/* Description appears and moves up on hover / tap */}
+        <p
+          className={`mt-2 text-center transition-all duration-700 ease-in-out ${
+            isMobile && isActive
+              ? "opacity-100 translate-y-1"
+              : "opacity-0 translate-y-4"
+          } group-hover:opacity-100 group-hover:translate-y-1`}
+        >
           {description}
         </p>
       </div>

@@ -11,10 +11,10 @@
       "href": "#solutions",
       "hasDropdown": true,
       "dropdownItems": [
+        { "name": "Who We Are", "href": "/who-we-are" },
         { "name": "Vision & Mission", "href": "/vision-and-mission" },
         { "name": "Chairman Message", "href": "/chairman-message" },
-        { "name": "CEO Message", "href": "/ceo-message" },
-        { "name": "Who We Are", "href": "/who-we-are" }
+        { "name": "CEO Message", "href": "/ceo-message" }
       ]
     },
     {
