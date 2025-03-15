@@ -26,22 +26,28 @@ function WhoWeAreForPage() {
         >
           <div className="space-y-6 lg:pr-12 order-2 md:order-1">
             <p>
-              Upwards is a UAE national initiative and a leading technology
-              company based in Abu Dhabi, dedicated to driving digital
-              transformation for governments and enterprises. Backed by local
-              entities and agencies, we leverage our team of experienced experts
-              to deliver cutting-edge solutions.
+              Upwards is a UAE national initiative and a technology company
+              dedicated to developing cutting-edge solutions that address global
+              challenges and drive sustainability. Our commitment to technology
+              extends beyond mere innovation—we focus on creating impactful,
+              future-ready solutions that make a real difference.
               <br />
               <br />
-              As an innovation-driven company, we provide end-to-end support for
-              your digital transformation journey through advanced AI agents,
-              robotics technology, IoT, software development, AI infrastructure,
-              and a flexible business model tailored to your needs.
+              Through its operating companies, Upwards delivers pioneering,
+              competitive, and highly dependable products and systems to both
+              public and private sector clients, generating substantial
+              commercial and societal value.
               <br />
               <br />
-              With over 20 years of experience in both local and international
-              markets, our team is well-equipped to tackle complex challenges
-              and deliver impactful solutions.
+              At Upwards, we embody the spirit of the falcon—rising with
+              precision, focus, and resilience. Falcons do not just fly; they
+              ascend with intent, just as we empower businesses to enhance their
+              capabilities through advanced IT solutions. We believe that when
+              technology is harnessed with purpose, it fuels progress, unlocks
+              potential, and drives transformation. Aligned with this vision,
+              Upwards actively supports the UAE&apos;s strategic agenda to
+              embrace technology and artificial intelligence, positioning the
+              nation as a global leader in innovation and excellence.
             </p>
           </div>
 
