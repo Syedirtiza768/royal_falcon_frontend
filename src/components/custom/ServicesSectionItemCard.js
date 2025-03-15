@@ -46,7 +46,7 @@ export default function ServicesSectionItemCard({
         {/* Title with spacing and animated border */}
         <h3 className="text-xl md:text-2xl font-semibold relative inline-block pb-2 transition-all duration-500 transform translate-y-1/2 group-hover:translate-y-0">
           {title}
-          <span className="absolute bottom-[-6px] left-0 w-1/3 h-[2px] bg-primary transition-all duration-300 group-hover:w-full group-hover:h-[3px]"></span>
+          <span className="max-sm:hidden absolute bottom-[-6px] left-0 w-1/3 h-[2px] bg-primary transition-all duration-300 group-hover:w-full group-hover:h-[3px]"></span>
         </h3>
 
         {/* Description appears and moves up on hover / tap */}
