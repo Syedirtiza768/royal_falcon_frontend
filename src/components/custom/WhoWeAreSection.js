@@ -40,14 +40,6 @@ function WhoWeAreSection({ dictionary }) {
             challenges and drive sustainability. Our commitment to technology
             extends beyond mere innovation—we focus on creating impactful,
             future-ready solutions that make a real difference.
-            <br />
-            <br />
-            Through its operating companies, Upwards delivers pioneering,
-            competitive, and highly dependable products and systems to both
-            public and private sector clients, generating substantial commercial
-            and societal value
-            <br />
-            <br />
           </p>
         </div>
 
