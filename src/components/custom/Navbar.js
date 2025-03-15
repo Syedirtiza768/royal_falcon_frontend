@@ -65,6 +65,13 @@ export function Navbar({ dictionary, transparent }) {
                 className="hidden lg:block"
               />
             )}
+            <Image
+              src={"/images/logo.png"}
+              height={130}
+              width={130}
+              alt="Logo"
+              className="lg:hidden"
+            />
           </Link>
         </div>
 
