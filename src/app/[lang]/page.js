@@ -18,6 +18,7 @@ import SectionHeading from "@/components/custom/SectionHeading";
 import ServicesSection2 from "@/components/custom/ServicesSection2";
 import WorldMapSection from "@/components/custom/WorldMapSection";
 import OurValuesSection from "@/components/custom/OurValuesSection";
+import PartnersMarquee from "@/components/custom/PartnersSlider";
 
 async function HomePage({ params }) {
   const { lang } = await params;
@@ -67,6 +68,15 @@ async function HomePage({ params }) {
           border={"170px"}
         />
         <NewsSectionContent />
+      </div>
+
+      {/* Partners  */}
+      <div
+        className="py-5 mb-[50px] mx-[20px] lg:mx-[130px]"
+        id="partnersSection"
+      >
+        <SectionHeading title={"Partners"} description={""} border={"170px"} />
+        <PartnersMarquee />
       </div>
 
       {/* <ChairmanMessage /> */}

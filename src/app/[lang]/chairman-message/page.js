@@ -16,7 +16,7 @@ export default async function ChairmanMessage({ params }) {
           <div className="grid gap-8 md:grid-cols-2 md:gap-12 lg:gap-16">
             {/* Image Column */}
             <div className="relative mx-auto w-full md:mx-0">
-              <div className="relative h-[350px] md:h-[400px] w-full overflow-hidden rounded-lg bg-gray-900">
+              <div className="relative h-[350px] md:h-[400px] lg:h-[550px] w-full overflow-hidden rounded-lg bg-gray-900">
                 <Image
                   src="/images/chairman.png"
                   alt="Chairman"
@@ -78,7 +78,7 @@ export default async function ChairmanMessage({ params }) {
 
               <div className="pt-4">
                 <p className="text-[#c19367] font-bold">CHAIRMAN</p>
-                <h4 className="text-[15px] font-bold text-black">
+                <h4 className="text-[18px] font-bold text-black">
                   His Highness Sheikh Mohammed bin Sultan bin Khalifa Al Nahyan
                 </h4>
               </div>

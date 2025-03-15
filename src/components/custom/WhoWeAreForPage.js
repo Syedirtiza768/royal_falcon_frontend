@@ -53,7 +53,7 @@ function WhoWeAreForPage() {
 
           <div className="relative h-[400px] rounded-2xl overflow-hidden order-1 md:order-2">
             <Image
-              src="/images/about.jpg"
+              src="/images/about.webp"
               alt="Mission illustration"
               fill
               className="object-cover"

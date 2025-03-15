@@ -142,7 +142,7 @@ export const partners = [
     link: "#",
   },
   {
-    img: "/images/partners/terminus.webp",
+    img: "/images/partners/yango.png",
     link: "#",
   },
   {
