@@ -51,32 +51,33 @@ export default async function CEOMessage({ params }) {
 
               <div className="space-y-4 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  Contributing to the UAE&apos;s dynamic economy and national
-                  development, we deliver cutting-edge technology solutions that
-                  drive digital transformation. Based in Abu Dhabi, our
-                  expertise spans AI infrastructure, AI agents and software, IoT
-                  solutions, and system integration services—empowering both
-                  large corporations and SMEs to thrive in an increasingly
-                  digital world.
+                  Driving the UAE&apos;s economic growth and national
+                  development, we provide cutting-edge technology solutions that
+                  accelerate digital transformation. Headquartered in Abu Dhabi,
+                  our expertise spans AI infrastructure, AI agents, software,
+                  Robotics, IoT solutions, and system integration
+                  services—empowering industries in an increasingly digital
+                  world. Our mission is to tackle global challenges, drive
+                  sustainability, and enhance human well-being.
                   <br />
                   <br />
-                  Collaboration is at the heart of our approach. By working
-                  closely with public and private sector partners, we support
-                  innovative projects that fuel the UAE&apos;s growth. Our focus
-                  is on providing tailored, scalable technology solutions that
-                  enable businesses to integrate the latest advancements in AI
-                  and IoT, enhancing efficiency, productivity, and long-term
-                  resilience.
+                  Collaboration is central to our approach. By partnering with
+                  both public and private sector entities, we contribute to
+                  pioneering projects that advance the UAE&apos;s strategic
+                  goals. We specialize in delivering tailored, scalable
+                  technology solutions that seamlessly integrate AI and IoT,
+                  enhancing efficiency, productivity, and long-term resilience.
                   <br />
                   <br />
                   Beyond technology, we are committed to fostering the
-                  UAE&apos;s entrepreneurial ecosystem. Through AI-powered
-                  solutions and system integration expertise, we help businesses
-                  unlock new opportunities while advancing technical
-                  capabilities through educational programs and mentorship
-                  initiatives. Our dedication extends to supporting key
-                  government projects that shape the nation&apos;s future and
-                  solidify its leadership in the digital era.
+                  UAE&apos;s entrepreneurial ecosystem. Through AI-driven
+                  solutions and system integration expertise, we empower
+                  businesses to unlock new opportunities while strengthening
+                  technical capabilities through education and mentorship
+                  programs. Our dedication extends to supporting key government
+                  initiatives, shaping the nation&apos;s digital future, and
+                  reinforcing its global leadership in technology and
+                  innovation.
                 </p>
               </div>
 
