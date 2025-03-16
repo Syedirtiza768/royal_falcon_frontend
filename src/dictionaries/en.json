@@ -47,14 +47,39 @@
   "section2Heading1": "Reshaping the Future",
   "section2Heading2": " with AI and Innovation",
   "section2Content2": "Our technology solutions encompass a wide range of cutting-edge AI applications, from AI robotics to bespoke agentic software platforms. We harness the power of AI to develop smart, efficient systems that redefine technological possibilities and empower businesses to thrive in this Agentic Evolution.",
-  "whoWeAre1": "Our technology solutions span a diverse range of advanced AI applications, including AI robotics and tailored agentic software platforms. By leveraging the latest advancements in artificial intelligence, we create intelligent and efficient systems designed to push the boundaries of innovation.",
-  "whoWeAre2": "With a focus on redefining technological possibilities, our solutions empower businesses to adapt and excel in this Agentic Evolution. By integrating AI-driven capabilities, we help organizations optimize operations, enhance decision-making, and unlock new growth opportunities in an increasingly automated and intelligent world.",
-  "vision": "Our Vision",
-  "visionContent": " is to be the leading force in innovative technology solutions, renowned for our integrity, excellence, and transformative impact on businesses locally and globally.",
-  "mission": "Our Mission",
-  "missionContent": " At Upwards, we are a catalyst for progress in the UAE and beyond, collaborating with nations, enterprises, and innovators to drive humanity forward. From AI-powered digital transformation to groundbreaking advancements across industries, we are on a mission to shape a smarter, more connected future.",
-  "story": "Our Story",
-  "storyContent": "Founded with a passion for innovation, Upwards was born from a vision to redefine technology's role in shaping the future. From humble beginnings to becoming a trusted partner for enterprises and nations, our journey has been driven by a relentless pursuit of excellence. With a strong foundation in AI, digital transformation, and emerging technologies, we empower businesses to embrace the future with confidence. Every milestone we achieve reflects our commitment to progress, integrity, and impact—fueling a smarter, more connected world.",
-  "section2Button1Text": "Learn More",
-  "section2Button2Text": "Request a demo"
+  "whoWeAreHeadingHomePage": "Who We Are",
+  "whoWeAreHomePage": "Upwards is a UAE national initiative and a technology company dedicated to developing cutting-edge solutions that address global challenges and drive sustainability. Our commitment to technology extends beyond mere innovation—we focus on creating impactful, future-ready solutions that make a real difference.",
+  "whoWeAreButtonTextHomePage": "VIEW MORE",
+  "servicesContentHomePage": [
+    {
+      "title": "CONSULTING",
+      "description": "We offer comprehensive consulting services to guide your entity through an end-to-end digital transformation journey.",
+      "imageSrc": "/images/services/service1.jpg"
+    },
+    {
+      "title": "CUSTOMIZATION",
+      "description": "We are well verse in latest advance technologies to design bespoke hardware solutions and bespoke agents for our customers.",
+      "imageSrc": "/images/services/service2.jpg"
+    },
+    {
+      "title": "PROGRAM MANAGEMENT",
+      "description": "Our expert team have delivered national and city-scale programs and are your best candidates to support your implementation.",
+      "imageSrc": "/images/services/service3.jpg"
+    },
+    {
+      "title": "IMPLEMENTATION",
+      "description": "Through our vast partner networks we have successfully delivered multiple national projects and will continue to deliver for your projects.",
+      "imageSrc": "/images/services/service4.jpg"
+    }
+  ],
+
+  "worldMapHeadingHomePage": "Our Scale",
+  "worldMapHeading1": "Experience",
+  "worldMapData1": "20+ years",
+  "worldMapHeading2": "Partnerships",
+  "worldMapData2": "35+",
+  "worldMapHeading3": "AI Scientists",
+  "worldMapData3": "10+",
+  "worldMapHeading4": "Use Cases",
+  "worldMapData4": "200+"
 }

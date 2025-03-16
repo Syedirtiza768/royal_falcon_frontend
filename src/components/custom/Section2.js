@@ -26,7 +26,7 @@ export default function Section2({ dictionary }) {
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-[20px] md:px-[50px] py-16 md:py-24 flex flex-col justify-center h-full">
-        <div className="" dir={locale === "ar" ? "rtl" : "ltr"}>
+        <div className="">
           <div className="md:w-[50%]">
             <AnimatedHeading>
               <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">

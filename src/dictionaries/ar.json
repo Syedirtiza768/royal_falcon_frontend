@@ -3,34 +3,82 @@
   "navItems": [
     {
       "name": "الرئيسية",
-      "href": "#home",
+      "href": "/",
       "hasDropdown": false
     },
     {
-      "name": "الحلول",
+      "name": "من نحن",
       "href": "#solutions",
       "hasDropdown": true,
       "dropdownItems": [
-        { "name": "الحل 1", "href": "#" },
-        { "name": "الحل 2", "href": "#" },
-        { "name": "الحل 3", "href": "#" }
+        { "name": "من نحن", "href": "/who-we-are" },
+        { "name": "الرؤية والرسالة", "href": "/vision-and-mission" },
+        { "name": "رسالة رئيس مجلس الإدارة", "href": "/chairman-message" },
+        { "name": "رسالة الرئيس التنفيذي", "href": "/ceo-message" }
       ]
     },
     {
-      "name": "من نحن",
-      "href": "#about",
+      "name": "الحلول",
+      "href": "/#solution-section",
+      "hasDropdown": false
+    },
+    {
+      "name": "المنتجات",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
+      "name": "الأخبار",
+      "href": "/#newsSection",
+      "hasDropdown": false
+    },
+    {
+      "name": "الشركاء",
+      "href": "/#partnersSection",
       "hasDropdown": false
     },
     {
       "name": "اتصل بنا",
-      "href": "#contact",
+      "href": "/#contactSection",
       "hasDropdown": false
     }
   ],
   "contactButonText": "اتصل الآن",
-  "section2Heading1": "الذكاء الاصطناعي",
-  "section2Heading2": "الأنظمة المركزية",
-  "section2Content": "تأسست أوبواردز كمبادرة وطنية إماراتية، بدعم من الهيئات والوكالات المحلية. كشركة مبتكرة مقرها في أبوظبي، نحن متخصصون في رقمنة الصناعة وتكنولوجيا الوكلاء الذكيين المتقدمة. مهمتنا هي تمكين الهيئات الحكومية المحلية والشركات من خلال حلول توفر تجارب مستخدم غير مسبوقة وأمانًا استثنائيًا.",
-  "section2Button1Text": "تعرف أكثر",
-  "section2Button2Text": "اطلب عرضًا تجريبيًا"
+  "section2Heading1": "إعادة تشكيل المستقبل",
+  "section2Heading2": " بالذكاء الاصطناعي والابتكار",
+  "section2Content2": "تشمل حلولنا التكنولوجية مجموعة واسعة من تطبيقات الذكاء الاصطناعي المتطورة، من الروبوتات الذكية إلى منصات البرمجيات المصممة حسب الطلب. نحن نستفيد من قوة الذكاء الاصطناعي لتطوير أنظمة ذكية وفعالة تعيد تعريف الإمكانيات التكنولوجية وتمكن الشركات من الازدهار في هذا العصر الرقمي.",
+  "whoWeAreHeadingHomePage": "من نحن",
+  "whoWeAreHomePage": "Upwards هي مبادرة وطنية إماراتية وشركة تكنولوجية مكرسة لتطوير حلول متطورة تعالج التحديات العالمية وتعزز الاستدامة. التزامنا بالتكنولوجيا يتجاوز مجرد الابتكار، فنحن نركز على إنشاء حلول مؤثرة وجاهزة للمستقبل تُحدث فرقًا حقيقيًا.",
+  "whoWeAreButtonTextHomePage": "عرض المزيد",
+  "servicesContentHomePage": [
+    {
+      "title": "الاستشارات",
+      "description": "نحن نقدم خدمات استشارية شاملة لتوجيه مؤسستك خلال رحلة التحول الرقمي من البداية إلى النهاية.",
+      "imageSrc": "/images/services/service1.jpg"
+    },
+    {
+      "title": "التخصيص",
+      "description": "نحن خبراء في أحدث التقنيات المتقدمة لتصميم حلول الأجهزة والبرمجيات المخصصة حسب احتياجات عملائنا.",
+      "imageSrc": "/images/services/service2.jpg"
+    },
+    {
+      "title": "إدارة البرامج",
+      "description": "لقد قام فريقنا الخبير بتنفيذ برامج وطنية وعلى مستوى المدن، ونحن الخيار الأمثل لدعم تنفيذ مشاريعك.",
+      "imageSrc": "/images/services/service3.jpg"
+    },
+    {
+      "title": "التنفيذ",
+      "description": "من خلال شبكات شركائنا الواسعة، نجحنا في تنفيذ العديد من المشاريع الوطنية وسنواصل تقديم الدعم لمشاريعك.",
+      "imageSrc": "/images/services/service4.jpg"
+    }
+  ],
+  "worldMapHeadingHomePage": "نطاق عملنا",
+  "worldMapHeading1": "الخبرة",
+  "worldMapData1": "20+ سنة",
+  "worldMapHeading2": "الشراكات",
+  "worldMapData2": "35+",
+  "worldMapHeading3": "علماء الذكاء الاصطناعي",
+  "worldMapData3": "10+",
+  "worldMapHeading4": "حالات الاستخدام",
+  "worldMapData4": "200+"
 }

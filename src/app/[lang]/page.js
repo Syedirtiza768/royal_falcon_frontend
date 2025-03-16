@@ -46,12 +46,25 @@ async function HomePage({ params }) {
       <WhoWeAreSection dictionary={dictionary} />
 
       {/* Services Section */}
-      <ServicesSection />
+      <ServicesSection dictionary={dictionary} />
 
       {/* World Map Section */}
       <div className="mt-[50px]">
-        <SectionHeading title={"Our Scale"} description={""} border={"170px"} />
-        <WorldMapSection />
+        <SectionHeading
+          title={dictionary.worldMapHeadingHomePage}
+          description={""}
+          border={"170px"}
+        />
+        <WorldMapSection
+          heading1={dictionary.worldMapHeading1}
+          data1={dictionary.worldMapData1}
+          heading2={dictionary.worldMapHeading2}
+          data2={dictionary.worldMapData2}
+          heading3={dictionary.worldMapHeading3}
+          data3={dictionary.worldMapData3}
+          heading4={dictionary.worldMapHeading4}
+          data4={dictionary.worldMapData4}
+        />
       </div>
 
       {/* Solutions */}

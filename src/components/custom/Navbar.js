@@ -41,10 +41,8 @@ export function Navbar({ dictionary, transparent }) {
         transparent ? "bg-transparent" : "bg-white"
       }  absolute top-0 left-0 z-50 w-full text-white`}
     >
-      <div
-        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
-        dir={locale === "ar" ? "rtl" : "ltr"}
-      >
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        {/* dir={locale === "ar" ? "rtl" : "ltr"} */}
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
