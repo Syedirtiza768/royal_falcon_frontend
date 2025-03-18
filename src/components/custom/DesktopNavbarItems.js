@@ -11,7 +11,6 @@ import { useLocaleStore } from "@/stores/useLocaleStore";
 
 export default function DesktopNavBarItems({ dictionary, transparent }) {
   const { locale } = useLocaleStore();
-  // console.log(locale);
 
   const [activeItem, setActiveItem] = useState("MEDIA");
   const [openDropdowns, setOpenDropdowns] = useState([]);

@@ -67,16 +67,13 @@ function LoginForm() {
     setIsLoading(true);
 
     // Simulate API call
-    console.log(values);
 
     try {
       // Replace with your actual authentication logic
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
       // Handle successful login
-      console.log("Login successful");
     } catch (error) {
-      console.error("Login failed", error);
       form.setError("root", {
         message: "Invalid email or password. Please try again.",
       });

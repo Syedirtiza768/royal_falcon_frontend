@@ -3,38 +3,29 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { b_t_animation, newsData } from "@/lib/Data";
+import useSWR from "swr";
+import { baseUrl, getAllNewsAPI } from "@/EndPoints";
+import NewsSectionItem from "./NewsSectionItem";
 
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 export default function NewsSectionContent({ dictionary }) {
+  const { data, error, isLoading } = useSWR(getAllNewsAPI, fetcher);
+
+  const latestNews = data?.data
+    ? [...data.data] // Create a shallow copy to avoid mutating the original array
+        .sort(
+          (a, b) =>
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        )
+        .slice(0, 3)
+    : []; // Return an empty array if data is undefined
+
   return (
     <section className="w-full py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {dictionary.newsItems.map((blog, index) => (
-            <motion.div
-              initial="hide"
-              whileInView="show"
-              variants={b_t_animation}
-              viewport={{ once: true }}
-              key={index}
-              className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
-            >
-              <Link href={"news/" + blog.id}>
-                {/* Image Container */}
-                <div className="relative h-48 w-full">
-                  <Image
-                    src={blog.image || "/placeholder.svg"}
-                    alt={blog.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4 ">
-                    {blog.title}
-                  </h3>
-                </div>
-              </Link>
-            </motion.div>
+          {latestNews.map((news, index) => (
+            <NewsSectionItem key={index} news={news} />
           ))}
         </div>
       </div>

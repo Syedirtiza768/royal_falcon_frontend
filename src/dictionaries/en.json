@@ -29,17 +29,17 @@
     },
     {
       "name": "News",
-      "href": "/#newsSection",
+      "href": "/news",
       "hasDropdown": false
     },
     {
       "name": "Partners",
-      "href": "/#partnersSection",
+      "href": "/partners",
       "hasDropdown": false
     },
     {
       "name": "Contact Us",
-      "href": "/#contactSection",
+      "href": "/contact",
       "hasDropdown": false
     }
   ],
@@ -185,14 +185,17 @@
   ],
 
   "partnersHeading": "Partners",
-
+  "partnersPageContent1": "Through strategic partnerships with the worlds leading technology providers, we have established ourselves as one of the most recognized IT companies in the UAE. By leveraging our partners cutting-edge solutions, we deliver best-in-class technologies tailored to meet our customers evolving business needs. ",
+  "partnersPageContent2": "Our commitment to excellence drives us to continually enhance our offerings, providing clients in the UAE with the optimal mix of products from top global technology vendors. With a strong foundation in experience, technical expertise, and a dedication to quality, integrity, and lasting client relationships, Upwards is the ideal technology partner for the UAE market.",
   "contactHeading": "Contact Us",
   "contactDescription": "Lets Connect",
   "contactHeadingText1": "Bringing",
   "contactHeadingText2": "ideas and innovation",
   "contactHeadingText3": "to life through",
   "contactHeadingText4": "technology",
-  "contactHeadingText": "we welcome you to share innovative ideas and persistent challenges with us",
+  "contactHeadingPara1": "we welcome you to share innovative ideas and persistent challenges with us, Feel free to reach out to us at ",
+  "contactHeadingPara2": "info@upwardsae.com ",
+  "contactHeadingPara3": "for any inquiries, collaborations, or support. We're here to assist you!",
   "firstNameLabel": "First name",
   "lastNameLabel": "Last name",
   "emailLabel": "Email",

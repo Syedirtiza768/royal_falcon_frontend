@@ -3,15 +3,25 @@ import Image from "next/image";
 
 import Footer from "@/components/custom/Footer";
 import { getDictionary } from "../../dictionaries";
-import { newsData } from "@/lib/Data";
+import { baseUrl } from "@/EndPoints";
+
+async function getData(id) {
+  const response = await fetch(
+    `${baseUrl}/api/news-collections/${id}?populate=*`
+  );
+  const res = await response.json();
+  return res.data;
+}
 
 export default async function NewsPage({ params }) {
   params = await params;
   const { lang } = params;
   const dictionary = await getDictionary(lang);
   const newsId = params.id;
-  const news = newsData.find((news) => news.id === parseInt(newsId));
-  console.log(news);
+  // const news = dictionary.newsItems.find(
+  //   (news) => news.id === parseInt(newsId)
+  // );
+  const news = await getData(params.id);
   return (
     <>
       <Navbar dictionary={dictionary} transparent={false} />
@@ -19,7 +29,7 @@ export default async function NewsPage({ params }) {
       <section className="w-full bg-white py-16 md:py-16 mt-[50px] px-[20px] lg:px-[100px]">
         <div className="container px-4 md:px-6">
           <img
-            src={news.image}
+            src={baseUrl + news.Image[0].url}
             className="sm:h-[250px] md:h-[400px] w-full object-cover"
             alt=""
           />
@@ -30,7 +40,7 @@ export default async function NewsPage({ params }) {
         </div>
       </section>
 
-      <Footer />
+      <Footer dictionary={dictionary} />
     </>
   );
 }
