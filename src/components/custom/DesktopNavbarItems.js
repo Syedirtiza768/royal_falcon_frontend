@@ -5,10 +5,14 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Plus, Minus } from "lucide-react";
 import { navItems } from "@/lib/Data";
+import { useLocaleStore } from "@/stores/useLocaleStore";
 
 // Define the navigation items with dropdown support
 
 export default function DesktopNavBarItems({ dictionary, transparent }) {
+  const { locale } = useLocaleStore();
+  // console.log(locale);
+
   const [activeItem, setActiveItem] = useState("MEDIA");
   const [openDropdowns, setOpenDropdowns] = useState([]);
 
@@ -86,7 +90,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
                 </button>
               ) : (
                 <Link
-                  href={item.href}
+                  href={"/" + locale + item.href}
                   className={cn(
                     "group relative inline-block py-2  tracking-wide transition-colors",
                     !transparent
@@ -124,7 +128,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
                 {item.dropdownItems?.map((dropdownItem) => (
                   <Link
                     key={dropdownItem.name}
-                    href={dropdownItem.href}
+                    href={"/" + locale + dropdownItem.href}
                     className=" block px-4 py-2 text-[16px] text-white  w-[400px]  hover:text-primary"
                     onClick={() => {
                       setActiveItem(item.name);

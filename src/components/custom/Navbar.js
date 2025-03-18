@@ -2,27 +2,8 @@
 import { useState } from "react";
 
 import Link from "next/link";
-import { Menu, X, ChevronDown, Plus } from "lucide-react";
-import { cn } from "@/lib/utils";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
 
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { navLinks } from "@/lib/Data";
 import MobileNavbar from "./MobileNavbar";
 import LanguageChanger from "./LanguageChanger";
 import { useLocaleStore } from "@/stores/useLocaleStore";
@@ -31,8 +12,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export function Navbar({ dictionary, transparent }) {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { locale } = useLocaleStore();
   const router = useRouter();
 
   return (
