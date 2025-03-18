@@ -8,7 +8,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-export default function ContactSection() {
+export default function ContactSection({ dictionary }) {
   return (
     <section className="w-full py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -16,15 +16,23 @@ export default function ContactSection() {
           {/* Left Column - Text Content */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              <span className="text-[#C08B67]">Bringing </span>
-              <span className="text-[#1B3B48]">ideas and innovation</span>
+              <span className="text-[#C08B67]">
+                {" "}
+                {dictionary.contactHeadingText1}{" "}
+              </span>
+              <span className="text-[#1B3B48]">
+                {dictionary.contactHeadingText2}
+              </span>
               <br />
-              <span className="text-[#1B3B48]">to life through </span>
-              <span className="text-[#C08B67]">technology</span>
+              <span className="text-[#1B3B48]">
+                {dictionary.contactHeadingText3}{" "}
+              </span>
+              <span className="text-[#C08B67]">
+                {dictionary.contactHeadingText4}
+              </span>
             </h2>
             <p className="text-gray-600 max-w-xl">
-              we welcome you to share innovative ideas and persistent challenges
-              with us
+              {dictionary.contactHeadingText}
             </p>
           </div>
 
@@ -34,25 +42,27 @@ export default function ContactSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    First name <span className="text-red-500">*</span>
+                    {dictionary.firstNameLabel}{" "}
+                    <span className="text-red-500">*</span>
                   </label>
                   <Input
                     type="text"
                     required
                     className="w-full"
-                    placeholder="First name"
+                    placeholder={dictionary.firstNameLabel}
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    Last name <span className="text-red-500">*</span>
+                    {dictionary.lastNameLabel}{" "}
+                    <span className="text-red-500">*</span>
                   </label>
                   <Input
                     type="text"
                     required
                     className="w-full"
-                    placeholder="Last name"
+                    placeholder={dictionary.lastNameLabel}
                   />
                 </div>
               </div>
@@ -60,46 +70,36 @@ export default function ContactSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    Email <span className="text-red-500">*</span>
+                    {dictionary.emailLabel}{" "}
+                    <span className="text-red-500">*</span>
                   </label>
                   <Input
                     type="email"
                     required
                     className="w-full"
-                    placeholder="Email"
+                    placeholder={dictionary.emailLabel}
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-700">
-                    Phone number <span className="text-red-500">*</span>
+                    {dictionary.phoneLabel}{" "}
+                    <span className="text-red-500">*</span>
                   </label>
                   <Input
                     type="tel"
                     required
                     className="w-full"
-                    placeholder="Phone number"
+                    placeholder={dictionary.phoneLabel}
                   />
                 </div>
               </div>
-
-              {/* <div className="space-y-2">
-                <label className="text-sm font-medium text-gray-700">
-                  Upload File
-                </label>
-                <div className="border-2 border-dashed border-gray-200 rounded-lg p-4">
-                  <input
-                    type="file"
-                    className="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#C08B67] file:text-white hover:file:bg-[#A77555]"
-                  />
-                </div>
-              </div> */}
 
               <Button
                 type="submit"
                 className="w-full md:w-auto px-8 py-2 bg-[#C08B67] hover:bg-[#A77555] text-white font-medium rounded"
               >
-                CONTACT NOW
+                {dictionary.conactSubmitLabel}
               </Button>
             </form>
           </div>

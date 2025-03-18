@@ -19,6 +19,7 @@ import ServicesSection2 from "@/components/custom/ServicesSection2";
 import WorldMapSection from "@/components/custom/WorldMapSection";
 import OurValuesSection from "@/components/custom/OurValuesSection";
 import PartnersMarquee from "@/components/custom/PartnersSlider";
+import Link from "next/link";
 
 async function HomePage({ params }) {
   const { lang } = await params;
@@ -68,19 +69,19 @@ async function HomePage({ params }) {
       </div>
 
       {/* Solutions */}
-      <ServicesSection2 />
+      <ServicesSection2 dictionary={dictionary} />
 
       {/* Our Values */}
-      <OurValuesSection />
+      <OurValuesSection dictionary={dictionary} />
 
       {/* News */}
       <div className="lg:px-[100px]" id="newsSection">
         <SectionHeading
-          title={"News"}
-          description={"Check the valuable insights"}
+          title={dictionary.newsHeading}
+          description={dictionary.newsDescription}
           border={"170px"}
         />
-        <NewsSectionContent />
+        <NewsSectionContent dictionary={dictionary} />
       </div>
 
       {/* Partners  */}
@@ -88,24 +89,25 @@ async function HomePage({ params }) {
         className="py-5 mb-[50px] mx-[20px] lg:mx-[130px]"
         id="partnersSection"
       >
-        <SectionHeading title={"Partners"} description={""} border={"170px"} />
+        <SectionHeading
+          title={dictionary.partnersHeading}
+          description={""}
+          border={"170px"}
+        />
         <PartnersMarquee />
       </div>
-
-      {/* <ChairmanMessage /> */}
-      {/* <CeoMessage /> */}
 
       {/* Contact */}
       <div className="lg:px-[100px]" id="contactSection">
         <SectionHeading
-          title={"Contact Us"}
-          description={"Lets Connect"}
+          title={dictionary.contactHeading}
+          description={dictionary.contactDescription}
           border={"170px"}
         />
-        <ContactSection />
+        <ContactSection dictionary={dictionary} />
       </div>
 
-      <Footer />
+      <Footer dictionary={dictionary} />
       {/* <button>{dictionary.test}</button> */}
     </main>
   );

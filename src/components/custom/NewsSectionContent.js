@@ -4,12 +4,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { b_t_animation, newsData } from "@/lib/Data";
 
-export default function NewsSectionContent() {
+export default function NewsSectionContent({ dictionary }) {
   return (
     <section className="w-full py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {newsData.map((blog, index) => (
+          {dictionary.newsItems.map((blog, index) => (
             <motion.div
               initial="hide"
               whileInView="show"

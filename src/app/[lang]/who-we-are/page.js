@@ -17,8 +17,8 @@ export default async function WhoWeAre({ params }) {
   return (
     <>
       <Navbar dictionary={dictionary} transparent={false} />
-      <WhoWeAreForPage />
-      <Footer />
+      <WhoWeAreForPage dictionary={dictionary} />
+      <Footer dictionary={dictionary} />
     </>
   );
 }

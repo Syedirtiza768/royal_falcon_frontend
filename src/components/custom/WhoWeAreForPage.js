@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 import { b_t_animation } from "@/lib/Data";
 import WhoWeAreSection from "./WhoWeAreSection";
 
-function WhoWeAreForPage() {
+function WhoWeAreForPage({ dictionary }) {
   return (
     <section className="w-full py-16 md:py-24 overflow-hidden bg-background px-[20px] lg:px-[70px] mt-[20px]">
       <div className="container px-4 md:px-6">
         <SectionHeading
-          title={"Who We Are"}
+          title={dictionary.whoWeAreHeading}
           description={""}
           border={"170px"}
         />
@@ -26,28 +26,13 @@ function WhoWeAreForPage() {
         >
           <div className="space-y-6 lg:pr-12 order-2 md:order-1">
             <p>
-              Upwards is a UAE national initiative and a technology company
-              dedicated to developing cutting-edge solutions that address global
-              challenges and drive sustainability. Our commitment to technology
-              extends beyond mere innovation—we focus on creating impactful,
-              future-ready solutions that make a real difference.
+              {dictionary.whoweArePara1}
               <br />
               <br />
-              Through its operating companies, Upwards delivers pioneering,
-              competitive, and highly dependable products and systems to both
-              public and private sector clients, generating substantial
-              commercial and societal value.
+              {dictionary.whoweArePara2}
               <br />
               <br />
-              At Upwards, we embody the spirit of the falcon—rising with
-              precision, focus, and resilience. Falcons do not just fly; they
-              ascend with intent, just as we empower businesses to enhance their
-              capabilities through advanced IT solutions. We believe that when
-              technology is harnessed with purpose, it fuels progress, unlocks
-              potential, and drives transformation. Aligned with this vision,
-              Upwards actively supports the UAE&apos;s strategic agenda to
-              embrace technology and artificial intelligence, positioning the
-              nation as a global leader in innovation and excellence.
+              {dictionary.whoweArePara3}
             </p>
           </div>
 

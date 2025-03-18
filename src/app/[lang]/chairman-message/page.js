@@ -51,35 +51,22 @@ export default async function ChairmanMessage({ params }) {
 
               <div className="space-y-4 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  We are shaping the future with a clear mission: to strengthen
-                  the UAE&apos;s global leadership in the era of intelligent
-                  technology. Guided by the nation&apos;s bold vision, we
-                  pioneer solutions that redefine progress, security, and
-                  sustainability.
+                  {dictionary.chairmanMessagePara1}
                   <br />
                   <br />
-                  As a national initiative, cutting-edge AI is transformed into
-                  real-world impact, bridging visionary advancements with
-                  scalable applications. Collaboration with global innovators,
-                  the cultivation of Emirati talent, and a commitment to ethical
-                  AI principles ensure that the UAE remains a beacon of
-                  technological excellence. Every solution delivered enhances
-                  economic resilience and accelerates the transition to a
-                  knowledge-driven economy.
+                  {dictionary.chairmanMessagePara2}
                   <br />
                   <br />
-                  The future belongs to those who lead. This era of
-                  transformation is not just to be embraced but shaped.
-                  Together, limitless potential will be unlocked—where
-                  technology empowers humanity, and progress serves generations
-                  to come.
+                  {dictionary.chairmanMessagePara3}
                 </p>
               </div>
 
               <div className="pt-4">
-                <p className="text-[#c19367] font-bold">CHAIRMAN</p>
+                <p className="text-[#c19367] font-bold">
+                  {dictionary.chairmanHeading}
+                </p>
                 <h4 className="text-[18px] font-bold text-black">
-                  His Highness Sheikh Mohammed bin Sultan bin Khalifa Al Nahyan
+                  {dictionary.chairmanName}
                 </h4>
               </div>
             </div>
@@ -87,7 +74,7 @@ export default async function ChairmanMessage({ params }) {
         </div>
       </section>
 
-      <Footer />
+      <Footer dictionary={dictionary} />
     </>
   );
 }

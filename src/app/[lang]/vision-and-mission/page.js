@@ -15,8 +15,8 @@ export default async function VisionAndMissionPage({ params }) {
   return (
     <>
       <Navbar dictionary={dictionary} transparent={false} />
-      <VisionAndMissionSection />
-      <Footer />
+      <VisionAndMissionSection dictionary={dictionary} />
+      <Footer dictionary={dictionary} />
     </>
   );
 }

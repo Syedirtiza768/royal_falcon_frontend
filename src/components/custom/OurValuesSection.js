@@ -5,7 +5,7 @@ import SectionHeading from "./SectionHeading";
 import { b_t_animation } from "@/lib/Data";
 import { motion } from "framer-motion";
 
-export default function OurValuesSection() {
+export default function OurValuesSection({ dictionary }) {
   const [activeIndex, setActiveIndex] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -20,12 +20,16 @@ export default function OurValuesSection() {
 
   return (
     <section className="w-full py-5 px-5 md:px-6 lg:px-24 mt-[-20px] mb-12">
-      <SectionHeading title="Our Values" description="" border="170px" />
+      <SectionHeading
+        title={dictionary.OurValuesHeading}
+        description=""
+        border="170px"
+      />
       <div className="w-full flex justify-center">
         <section className="w-full max-w-6xl">
           <div className="container mx-auto">
             <div className="flex flex-wrap justify-center gap-6">
-              {values.map((card, index) => (
+              {dictionary.valuesItems.map((card, index) => (
                 <motion.div
                   key={index}
                   initial="hide"

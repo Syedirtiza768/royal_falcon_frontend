@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Linkedin, Youtube, Instagram, Twitter } from "lucide-react";
-import { solutions } from "@/lib/Data";
 import { CgArrowsExchange } from "react-icons/cg";
 
-export default function Footer() {
+export default function Footer({ dictionary }) {
   return (
     <footer className="bg-[#3B4650] text-white pt-12 pb-4 px-6 md:px-24">
       <div className="max-w-7xl mx-auto">
@@ -13,7 +12,7 @@ export default function Footer() {
           {/* REACH US */}
           <div>
             <h3 className="flex flex-col  text-lg font-semibold mb-6 items-start justify-start">
-              <span>REACH US</span>
+              <span>{dictionary.footerHeading1}</span>
 
               {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
               <CgArrowsExchange className="text-primary text-[40px] ml-[-10px]" />
@@ -37,15 +36,17 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <p className="font-semibold">Head Office</p>
+                <p className="font-semibold">
+                  {dictionary.footerHeading1Data1}
+                </p>
                 <p className="text-sm text-gray-300">
-                  Al Khalidiya West 0.9 Building |
+                  {dictionary.footerHeading1Data2}
                   <br />
-                  Mohammad Bin Sultan Bin Khalifa Bin Zayed |
+                  {dictionary.footerHeading1Data3}
                   <br />
-                  Abu Dhabi |
+                  {dictionary.footerHeading1Data4}
                   <br />
-                  UAE |
+                  {dictionary.footerHeading1Data5}
                 </p>
               </div>
             </div>
@@ -54,7 +55,7 @@ export default function Footer() {
               target="_blank"
               className="inline-block border border-[#d2a97b] text-[#d2a97b] px-6 py-2 text-sm hover:bg-[#d2a97b] hover:text-white transition-colors duration-300"
             >
-              Our Location
+              {dictionary.footerHeading1Data6}
             </Link>
             <div className="flex gap-3 mt-6 items-center">
               <svg
@@ -71,14 +72,14 @@ export default function Footer() {
               >
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              <span className="text-sm">(02) 404 6017</span>
+              <span className="text-sm">{dictionary.footerHeading1Data7}</span>
             </div>
           </div>
 
           {/* SITEMAP */}
           <div>
             <h3 className="flex flex-col  text-lg font-semibold mb-6 items-start justify-start">
-              <span>SITEMAP</span>
+              <span>{dictionary.footerHeading2}</span>
               <CgArrowsExchange className="text-primary text-[40px] ml-[-10px]" />
               {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
             </h3>
@@ -88,7 +89,7 @@ export default function Footer() {
                   href="/vision-and-mission"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
-                  About Us
+                  {dictionary.footerHeading2Data1}
                 </Link>
               </li>
               <li>
@@ -96,7 +97,7 @@ export default function Footer() {
                   href="/#solution-section"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
-                  Solutions
+                  {dictionary.footerHeading2Data2}
                 </Link>
               </li>
               <li>
@@ -104,7 +105,7 @@ export default function Footer() {
                   href="/#contactSection"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
-                  Contact
+                  {dictionary.footerHeading2Data3}
                 </Link>
               </li>
               <li>
@@ -112,7 +113,7 @@ export default function Footer() {
                   href="/#newsSection"
                   className="text-sm hover:text-[#d2a97b] transition-colors"
                 >
-                  News
+                  {dictionary.footerHeading2Data4}
                 </Link>
               </li>
             </ul>
@@ -121,12 +122,12 @@ export default function Footer() {
           {/* SOLUTIONS */}
           <div>
             <h3 className="flex flex-col text-lg font-semibold mb-6 items-start justify-start">
-              <span>SOLUTIONS</span>
+              <span>{dictionary.footerHeading3}</span>
               <CgArrowsExchange className="text-primary text-[40px] ml-[-10px]" />
               {/* <span className="ml-2  w-8 h-[8px] bg-[#d2a97b]"></span> */}
             </h3>
             <ul className="space-y-1">
-              {solutions.map((i) => (
+              {dictionary.solutionsItems.map((i) => (
                 <li key={i.title}>
                   <span className="text-sm cursor-pointer hover:text-[#d2a97b] transition-colors ">
                     <Link href="/#solution-section">{i.title}</Link>
@@ -151,11 +152,11 @@ export default function Footer() {
             </div>
             <div className="flex gap-4 text-sm text-gray-300">
               <Link href="#" className="hover:text-[#d2a97b] transition-colors">
-                Terms of Use
+                {dictionary.bottomFooterText1}
               </Link>
               <span>•</span>
               <Link href="#" className="hover:text-[#d2a97b] transition-colors">
-                Privacy Policy
+                {dictionary.bottomFooterText2}
               </Link>
             </div>
             <div className="flex gap-4">
@@ -187,7 +188,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center text-sm text-gray-400 mt-6">
-          © 2025 Upwards. All rights reserved
+          {dictionary.bottomFooterText3}
         </div>
       </div>
     </footer>

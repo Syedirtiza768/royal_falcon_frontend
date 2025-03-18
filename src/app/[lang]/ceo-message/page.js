@@ -51,40 +51,22 @@ export default async function CEOMessage({ params }) {
 
               <div className="space-y-4 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  Driving the UAE&apos;s economic growth and national
-                  development, we provide cutting-edge technology solutions that
-                  accelerate digital transformation. Headquartered in Abu Dhabi,
-                  our expertise spans AI infrastructure, AI agents, software,
-                  Robotics, IoT solutions, and system integration
-                  services—empowering industries in an increasingly digital
-                  world. Our mission is to tackle global challenges, drive
-                  sustainability, and enhance human well-being.
+                  {dictionary.ceoMessagePara1}
                   <br />
                   <br />
-                  Collaboration is central to our approach. By partnering with
-                  both public and private sector entities, we contribute to
-                  pioneering projects that advance the UAE&apos;s strategic
-                  goals. We specialize in delivering tailored, scalable
-                  technology solutions that seamlessly integrate AI and IoT,
-                  enhancing efficiency, productivity, and long-term resilience.
+                  {dictionary.ceoMessagePara2}
                   <br />
                   <br />
-                  Beyond technology, we are committed to fostering the
-                  UAE&apos;s entrepreneurial ecosystem. Through AI-driven
-                  solutions and system integration expertise, we empower
-                  businesses to unlock new opportunities while strengthening
-                  technical capabilities through education and mentorship
-                  programs. Our dedication extends to supporting key government
-                  initiatives, shaping the nation&apos;s digital future, and
-                  reinforcing its global leadership in technology and
-                  innovation.
+                  {dictionary.ceoMessagePara3}
                 </p>
               </div>
 
               <div className="pt-4">
-                <p className="text-[#c19367] font-bold">CEO</p>
+                <p className="text-[#c19367] font-bold">
+                  {dictionary.ceoHeading}
+                </p>
                 <h4 className="text-[18px] font-bold text-black">
-                  Abdullah Lei Shen
+                  {dictionary.ceoName}
                 </h4>
               </div>
             </div>
@@ -92,7 +74,7 @@ export default async function CEOMessage({ params }) {
         </div>
       </section>
 
-      <Footer />
+      <Footer dictionary={dictionary} />
     </>
   );
 }
