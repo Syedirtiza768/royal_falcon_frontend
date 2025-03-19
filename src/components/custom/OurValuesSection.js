@@ -36,7 +36,9 @@ export default function OurValuesSection({ dictionary }) {
                   whileInView="show"
                   variants={b_t_animation}
                   viewport={{ once: true }}
-                  className="group relative h-[300px] w-full sm:w-[48%] lg:w-[30%] flex-shrink-0 overflow-hidden"
+                  className={`group relative h-[300px] w-full sm:w-[48%] lg:w-[30%] flex-shrink-0 overflow-hidden ${
+                    isMobile ? "bg-primary text-white" : ""
+                  }`}
                   onClick={() =>
                     isMobile &&
                     setActiveIndex(activeIndex === index ? null : index)
@@ -44,24 +46,24 @@ export default function OurValuesSection({ dictionary }) {
                 >
                   {/* Content Container */}
                   <div
-                    className={`relative h-full flex flex-col justify-center items-center text-primary hover:text-white p-6 z-10 bg-gray-50 hover:bg-primary rounded-lg overflow-hidden transition-all duration-300 ${
-                      isMobile && activeIndex === index
+                    className={`relative h-full flex flex-col justify-center items-center p-6 z-10 rounded-lg overflow-hidden transition-all duration-300 ${
+                      isMobile
                         ? "bg-primary text-white"
-                        : ""
+                        : "bg-gray-50 text-primary hover:bg-primary hover:text-white"
                     }`}
                   >
                     {/* Title */}
-                    <h3 className="text-xl md:text-2xl font-semibold relative inline-block pb-2 transition-all duration-500 transform translate-y-1/2 group-hover:translate-y-0">
+                    <h3 className="text-xl md:text-2xl font-semibold relative inline-block pb-2 transition-all duration-500">
                       {card.title}
                     </h3>
 
-                    {/* Description appears on hover / tap */}
+                    {/* Description always visible on mobile */}
                     <p
                       className={`mt-2 text-center transition-all duration-700 ease-in-out ${
-                        isMobile && activeIndex === index
+                        isMobile
                           ? "opacity-100 translate-y-1"
-                          : "opacity-0 translate-y-4"
-                      } group-hover:opacity-100 group-hover:translate-y-1`}
+                          : "opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-1"
+                      }`}
                     >
                       {card.description}
                     </p>

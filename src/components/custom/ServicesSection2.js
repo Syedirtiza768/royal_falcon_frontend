@@ -16,6 +16,7 @@ export default function ServicesSection2({ dictionary }) {
         {dictionary.solutionsItems.map((item, index) => (
           <ServicesSection2Item
             key={index}
+            id={item.id}
             title={item.title}
             description={item.description}
             // Icon={item.Icon}

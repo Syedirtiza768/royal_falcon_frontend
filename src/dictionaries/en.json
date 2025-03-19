@@ -19,12 +19,12 @@
     },
     {
       "name": "Solutions",
-      "href": "/#solution-section",
+      "href": "/solutions",
       "hasDropdown": false
     },
     {
       "name": "Products",
-      "href": "#",
+      "href": "/products",
       "hasDropdown": false
     },
     {
@@ -35,6 +35,11 @@
     {
       "name": "Partners",
       "href": "/partners",
+      "hasDropdown": false
+    },
+    {
+      "name": "Careers",
+      "href": "/careers",
       "hasDropdown": false
     },
     {
@@ -87,47 +92,56 @@
   "solutionsDescription": "These are some of our main solutions that we have developed for our customers. Get in touch with us and we will share our experience and designed a suitable solution for your needs.",
   "solutionsItems": [
     {
+      "id": 1,
       "title": "AI Agents Platform",
       "description": "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
       "img": "/images/solution7.png"
     },
 
     {
+      "id": 2,
       "title": "Immersive Cooling Data Center",
       "description": "Revolutionizing efficiency with cutting-edge immersive cooling technology for next-gen data centers.",
       "img": "/images/solution1.png"
     },
     {
+      "id": 3,
       "title": "Humanoid Robot",
       "description": "Bridging the gap between humans and technology with intelligent humanoid robotics.",
       "img": "/images/solution2.png"
     },
     {
+      "id": 4,
       "title": "Immigration & Law Enforcement",
       "description": "Ensuring justice and security with expert immigration and law enforcement solutions.",
       "img": "/images/solution3.png"
     },
     {
+      "id": 5,
       "title": "Advance IOT",
       "description": "Connecting the world seamlessly with smart and innovative IoT solutions.",
       "img": "/images/solution4.png"
     },
     {
+      "id": 6,
       "title": "Medical Robotics",
       "description": "Revolutionizing healthcare with precision-driven medical robotics.",
       "img": "/images/solution5.png"
     },
     {
+      "id": 7,
       "title": "Traffic Management system",
       "description": "Optimizing mobility with smart and efficient traffic management solutions.",
       "img": "/images/solution9.png"
     },
     {
+      "id": 8,
       "title": "Future Mobility",
       "description": "Redefining the journey ahead with smart and sustainable future mobility solutions.",
       "img": "/images/solution6.png"
     },
     {
+      "id": 9,
       "title": "Robo Dog",
       "description": "Experience the future of companionship with our intelligent and agile Robo Dog.",
       "img": "/images/solution8.png"
@@ -248,5 +262,7 @@
   "ceoMessagePara2": "Collaboration is central to our approach. By partnering with both public and private sector entities, we contribute to pioneering projects that advance the UAE's strategic goals. We specialize in delivering tailored, scalable technology solutions that seamlessly integrate AI and IoT, enhancing efficiency, productivity, and long-term resilience.",
   "ceoMessagePara3": "Beyond technology, we are committed to fostering the UAE's entrepreneurial ecosystem. Through AI-driven solutions and system integration expertise, we empower businesses to unlock new opportunities while strengthening technical capabilities through education and mentorship programs. Our dedication extends to supporting key government initiatives, shaping the nation's digital future, and reinforcing its global leadership in technology and innovation.",
   "ceoHeading": "CEO",
-  "ceoName": "Abdullah Lei Shen"
+  "ceoName": "Abdullah Lei Shen",
+
+  "productsHeading": "Products"
 }

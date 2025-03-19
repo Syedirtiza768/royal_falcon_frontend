@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 
 export async function sendEmail(formData) {
   try {
-    const { firstName, lastName, email, phone, locale } = formData;
+    const { firstName, lastName, email, phone, message, locale } = formData;
 
     // Localization messages
     const messages = {
@@ -13,14 +13,9 @@ export async function sendEmail(formData) {
         success: "Email sent successfully",
         failure: "Failed to send email",
       },
-      ur: {
-        subject: "نیا رابطہ فارم جمع کرایا گیا",
-        success: "ای میل کامیابی کے ساتھ بھیج دیا گیا",
-        failure: "ای میل بھیجنے میں ناکام",
-      },
     };
 
-    const selectedMessages = messages[locale] || messages["en"];
+    const selectedMessages = messages["en"];
 
     // Create transporter (using environment variables)
     const transporter = nodemailer.createTransport({
@@ -43,6 +38,7 @@ export async function sendEmail(formData) {
         <p><strong>Name:</strong> ${firstName} ${lastName}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Message:</strong> ${message}</p>
       `,
     };
 
