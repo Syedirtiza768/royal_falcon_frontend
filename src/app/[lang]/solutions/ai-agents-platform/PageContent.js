@@ -78,7 +78,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Say goodbye to traditional, time-consuming recruitment processes. The AI Agents Platform uses advanced algorithms to identify, evaluate, and shortlist candidates based on skills, experience, and cultural fit—reducing bias and accelerating hiring decisions."
         }
-        image={"/images/solutions/ai-agents/img1.jfif"}
+        image={"/images/solutions/Intelligent-Talent-Acquisition.png"}
       />
 
       <RightSection
@@ -86,7 +86,7 @@ export default function PageContent({ dictionary }) {
         description={
           "With real-time analytics and predictive insights, the platform enables organizations to anticipate workforce needs and allocate resources efficiently. This ensures teams are always equipped to handle current and future challenges. The teams are also able to custom made the agents at their fingertips without support from suppliers and have quick workforce enhancement with lower turnaround time."
         }
-        image={"/images/solutions/ai-agents/img2.jpg"}
+        image={"/images/solutions/Dynamic-Workforce-Planning.png"}
       />
 
       <LeftSection
@@ -94,7 +94,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Employees are the backbone of any organization, and the AI Agents Platform ensures their potential is nurtured. By analyzing individual performance and learning preferences, the platform recommends tailored training programs and career development opportunities."
         }
-        image={"/images/solutions/ai-agents/img3.jpg"}
+        image={"/images/solutions/Personalized-Employee-Development.png"}
       />
 
       <div className="mt-[70px]">

@@ -77,7 +77,7 @@ export default function PageContent({ dictionary }) {
         description={
           "e-Visa Management System covers every step in the visa application procedure—from fee payment and appointment scheduling to background checks, registration of personal details, biometrics capture, and the printing of visas—everywhere in the world. \nFrom the full life cycle management module linking every step of an individual visa application, the software suite ensure a cohesive data source, enabling a secure and traceable end-to-end procedure. Empowering the authorities with a full overview of the immigrants entering the country and enhance the security checks for potential risk from this immigrants. \ne-Visa Management System forms an integral part of intelligent border control system. "
         }
-        image={"/images/solutions/robodogg/Upwards1.jpg"}
+        image={"/images/solutions/Smart-visa-system.png"}
       />
 
       <RightSection
@@ -85,7 +85,7 @@ export default function PageContent({ dictionary }) {
         description={
           "All solutions are built hardware-agnostic to ensure independence from suppliers and provide the autonomy of the authorities to deploy on any server."
         }
-        image={"/images/solutions/robodogg/Upwards2.jpg"}
+        image={"/images/solutions/Hardware-Agnostic.png"}
       />
 
       <LeftSection
@@ -93,7 +93,7 @@ export default function PageContent({ dictionary }) {
         description={
           "The suite can be deployed to suit any configuration. \nThis software covers wide ranging deployment scenarios such as the customer’s choice of centralized or decentralized operations, outsourced or internally managed enrolment, and regional or central validation of visa applications.  \nThe modular design of our solutions allows them to be run separately without necessarily deploying the full suite.  \nTheir compliance with international standards enables easy integration into an existing system."
         }
-        image={"/images/solutions/robodogg/Upwards3.jpg"}
+        image={"/images/solutions/Agility-to-meet.png"}
       />
 
       <RightSection
@@ -103,7 +103,9 @@ export default function PageContent({ dictionary }) {
         description={
           "In an age of boundless technological progress, humanoid robotics stands at the forefront of transformation—bridging the gap between human ingenuity and machine precision. Our advanced systems built with our partners, modelled after the human form, are more than mere technological marvels; they are powerful solutions poised to revolutionize industries and redefine human-machine interaction. A Multifaceted Solution for a New Era"
         }
-        image={"/images/solutions/robodogg/Upwards2.jpg"}
+        image={
+          "/images/solutions/Redefining-Possibilities-Humanoid-Robotics.png"
+        }
       />
 
       <LeftSection
@@ -111,7 +113,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Patient Care Assistance: Humanoid robots excel in performing routine tasks such as monitoring vitals, administering medications, and assisting patients with mobility—enabling healthcare professionals to focus on critical care. \nTherapeutic Applications: Through personalized interaction and adaptive support, they serve as companions for patients undergoing physical or psychological rehabilitation, fostering faster recovery and improved well-being. \nSurgical Precision: Equipped with advanced sensors and AI-driven algorithms, humanoid robots assist surgeons with complex procedures, enhancing accuracy and reducing risks. "
         }
-        image={"/images/solutions/robodogg/Upwards3.jpg"}
+        image={"/images/solutions/Healthcare-and-Rehabilitatio.png"}
       />
 
       <RightSection
@@ -119,7 +121,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Smart Assembly Lines: These robots seamlessly integrate into manufacturing environments, performing tasks such as assembling intricate components and inspecting products with precision. \nHazardous Environment Handling: In industries like mining or chemical processing, humanoid robots operate safely in dangerous conditions, minimizing risks to human workers. \nEfficiency Optimization: With real-time data processing and adaptive capabilities, they optimize workflows, reduce downtime, and boost productivity. "
         }
-        image={"/images/solutions/robodogg/Upwards2.jpg"}
+        image={"/images/solutions/Manufacturing-and-Industrial-Operations.png"}
       />
 
       <LeftSection
@@ -127,7 +129,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Hospitality and Retail: From greeting guests to providing personalized product recommendations, humanoid robots enhance customer experiences and streamline operations. \nSecurity and Surveillance: With capabilities such as facial recognition and behavioral analysis, they ensure safer public spaces by identifying potential threats in real-time. \nAdministrative Support: They handle routine tasks like data entry and document verification, allowing human employees to focus on more strategic responsibilities. "
         }
-        image={"/images/solutions/robodogg/Upwards3.jpg"}
+        image={"/images/solutions/Public-Services-and-Customer-Interaction.png"}
       />
 
       <RightSection
@@ -135,7 +137,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Humanoid robots represent the perfect blend of human-like versatility and machine resilience. Their design allows them to interact naturally with people while performing tasks with unmatched efficiency. Powered by artificial intelligence, machine learning, and advanced engineering, these robots continuously learn, adapt, and improve, ensuring they remain a cornerstone of innovation."
         }
-        image={"/images/solutions/robodogg/Upwards2.jpg"}
+        image={"/images/solutions/Why-Humanoid-Robotics-Is-Essential.png"}
       />
 
       <LeftSection
@@ -143,7 +145,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Upwards robotics is not merely a tool but a testament to what humanity can achieve through creativity and determination. By embracing these advancements, Upwards support organizations across industries to usher in a future defined by possibility, progress, and prosperity. These robots are not replacing humans but empowering them—enabling us to focus on what truly matters while they handle the rest."
         }
-        image={"/images/solutions/robodogg/Upwards3.jpg"}
+        image={"/images/solutions/The-Future-Beckons.png"}
       />
 
       {/* Call to Action */}
