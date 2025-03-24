@@ -21,6 +21,7 @@ export default function ServicesSection2({ dictionary }) {
             description={item.description}
             // Icon={item.Icon}
             img={item.img}
+            url={item.url}
           />
         ))}
       </div>

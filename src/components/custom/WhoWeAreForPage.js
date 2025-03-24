@@ -1,11 +1,9 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import AnimatedHeading from "./AnimatedHeading";
 import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import { b_t_animation } from "@/lib/Data";
-import WhoWeAreSection from "./WhoWeAreSection";
 
 function WhoWeAreForPage({ dictionary }) {
   return (
@@ -44,11 +42,6 @@ function WhoWeAreForPage({ dictionary }) {
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-            {/* <div className="absolute bottom-0 left-0 p-6 text-white">
-              <span className="text-sm font-medium uppercase tracking-wider">
-                Global Collaboration
-              </span>
-            </div> */}
           </div>
         </motion.div>
       </div>

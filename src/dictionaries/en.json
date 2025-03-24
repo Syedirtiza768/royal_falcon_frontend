@@ -95,56 +95,65 @@
       "id": 1,
       "title": "AI Agents Platform",
       "description": "Empowering businesses with intelligent, autonomous AI agents for next-gen automation.",
-      "img": "/images/solution7.png"
+      "img": "/images/solution7.png",
+      "url": "/solutions/ai-agents-platform"
     },
 
     {
       "id": 2,
       "title": "Immersive Cooling Data Center",
       "description": "Revolutionizing efficiency with cutting-edge immersive cooling technology for next-gen data centers.",
-      "img": "/images/solution1.png"
+      "img": "/images/solution1.png",
+      "url": "/solutions/immersive-cooling-system"
     },
     {
       "id": 3,
       "title": "Humanoid Robot",
       "description": "Bridging the gap between humans and technology with intelligent humanoid robotics.",
-      "img": "/images/solution2.png"
+      "img": "/images/solution2.png",
+      "url": "#"
     },
     {
       "id": 4,
       "title": "Immigration & Law Enforcement",
       "description": "Ensuring justice and security with expert immigration and law enforcement solutions.",
-      "img": "/images/solution3.png"
+      "img": "/images/solution3.png",
+      "url": "/solutions/immigration"
     },
     {
       "id": 5,
       "title": "Advance IOT",
       "description": "Connecting the world seamlessly with smart and innovative IoT solutions.",
-      "img": "/images/solution4.png"
+      "img": "/images/solution4.png",
+      "url": "#"
     },
     {
       "id": 6,
       "title": "Medical Robotics",
       "description": "Revolutionizing healthcare with precision-driven medical robotics.",
-      "img": "/images/solution5.png"
+      "img": "/images/solution5.png",
+      "url": "#"
     },
     {
       "id": 7,
       "title": "Traffic Management system",
       "description": "Optimizing mobility with smart and efficient traffic management solutions.",
-      "img": "/images/solution9.png"
+      "img": "/images/solution9.png",
+      "url": "/solutions/traffic-management-system"
     },
     {
       "id": 8,
       "title": "Future Mobility",
       "description": "Redefining the journey ahead with smart and sustainable future mobility solutions.",
-      "img": "/images/solution6.png"
+      "img": "/images/solution6.png",
+      "url": "#"
     },
     {
       "id": 9,
       "title": "Robo Dog",
       "description": "Experience the future of companionship with our intelligent and agile Robo Dog.",
-      "img": "/images/solution8.png"
+      "img": "/images/solution8.png",
+      "url": "/solutions/robo-dog"
     }
   ],
 
