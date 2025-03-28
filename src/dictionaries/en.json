@@ -273,5 +273,30 @@
   "ceoHeading": "CEO",
   "ceoName": "Abdullah Lei Shen",
 
-  "productsHeading": "Products"
+  "productsHeading": "Products",
+
+  "productItems": [
+    {
+      "id": 1,
+      "title": "HAKIM – AIPC",
+      "description": "HAKIM, حكيم  is meaning wise in Arabic world. It represents Upwards vision to provide wisdom to everyone in the world with the HAKIM AIPC.",
+      "img": "/images/solution7.png",
+      "url": "/products/hakim-aipc"
+    },
+
+    {
+      "id": 2,
+      "title": "WAKKELE – AGENTS OPS Platform",
+      "description": "The Agents Ops platform allows the enterprise to custom built their own domain based knowledge agents to work on their company specific work tasks.",
+      "img": "/images/solution1.png",
+      "url": "/products/wakkele-agents-ops-platform"
+    },
+    {
+      "id": 3,
+      "title": "LLM OPS Appliance",
+      "description": "LLMOps, Upwards’ s enterprise-level platform, manages the full lifecycle of large language models. It enables enterprises to implement these models into production and business processes.",
+      "img": "/images/solution2.png",
+      "url": "/products/llm-ops-appliance"
+    }
+  ]
 }
