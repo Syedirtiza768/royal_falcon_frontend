@@ -53,13 +53,14 @@ export default function PageContent({ dictionary }) {
               stay competitive and agile. The AI Agents Platform emerges as the
               revolutionary answer to workforce challenges, empowering companies
               to redefine their operations, enhance productivity, and elevate
-              employee experiences. <br /> <br /> At its core, the AI Agents
-              Platform is more than just a tool—it&apos;s a comprehensive
-              solution designed to transform workforce management from reactive
-              to proactive. Leveraging state-of-the-art artificial intelligence,
-              this platform provides companies with an unprecedented ability to
-              optimize their human resources, align talent with business
-              objectives, and build a future-ready workforce.
+              employee experiences. <br /> <br />
+              At its core, the AI Agents Platform is more than just a tool—its a
+              comprehensive solution designed to transform workforce management
+              from reactive to proactive. Leveraging state-of-the-art artificial
+              intelligence, this platform provides companies with an
+              unprecedented ability to optimize their human resources, align
+              talent with business objectives, and build a future-ready
+              workforce.
             </p>
           </div>
         </motion.div>
@@ -76,7 +77,7 @@ export default function PageContent({ dictionary }) {
       <LeftSection
         title={"Intelligent Talent Acquisition"}
         description={
-          "Say goodbye to traditional, time-consuming recruitment processes. The AI Agents Platform uses advanced algorithms to identify, evaluate, and shortlist candidates based on skills, experience, and cultural fit—reducing bias and accelerating hiring decisions."
+          "Say goodbye to traditional, time-consuming recruitment processes. The AI Agents Platform uses advanced algorithms to empower the employees in the organization with customized agents to help them in providing more value to their work. For example, the contract review agent can help the procurement team to do the first level review on the contract provided by supplier before finalizing a version for the legal team."
         }
         image={"/images/solutions/Intelligent-Talent-Acquisition.png"}
       />
@@ -84,7 +85,7 @@ export default function PageContent({ dictionary }) {
       <RightSection
         title={"Dynamic Workforce Planning"}
         description={
-          "With real-time analytics and predictive insights, the platform enables organizations to anticipate workforce needs and allocate resources efficiently. This ensures teams are always equipped to handle current and future challenges. The teams are also able to custom made the agents at their fingertips without support from suppliers and have quick workforce enhancement with lower turnaround time."
+          "With real-time analytics and predictive insights, the platform enables organizations to anticipate workforce needs and allocate customized agents efficiently to different teams. This ensures teams are always equipped to handle current and future challenges. The teams are also able to custom made the agents at their fingertips without support from suppliers and have quick workforce enhancement with lower turnaround time."
         }
         image={"/images/solutions/Dynamic-Workforce-Planning.png"}
       />
@@ -92,7 +93,7 @@ export default function PageContent({ dictionary }) {
       <LeftSection
         title={"Personalized Employee Development"}
         description={
-          "Employees are the backbone of any organization, and the AI Agents Platform ensures their potential is nurtured. By analyzing individual performance and learning preferences, the platform recommends tailored training programs and career development opportunities."
+          "Employees are the backbone of any organization, and the AI Agents Platform ensures their potential is nurtured. By analysing individual performance and learning preferences, the AI Agents Platform recommends tailored training programs and career development opportunities."
         }
         image={"/images/solutions/Personalized-Employee-Development.png"}
       />
@@ -131,7 +132,7 @@ export default function PageContent({ dictionary }) {
           border={"350px"}
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard
           title="Adaptable Role Management"
           description="Whether it's onboarding new hires or promoting seasoned professionals, the platform adapts to meet the unique requirements of every employee, ensuring smooth transitions and growth."
@@ -142,9 +143,9 @@ export default function PageContent({ dictionary }) {
           description="AI capabilities accommodate diverse languages and cultural contexts, ensuring inclusivity across global teams."
           variant={"second"}
         />
-      </div>
+      </div> */}
 
-      <p className="text-center w-[90%] md:w-[60%] mx-auto my-[70px]">
+      <p className="text-center w-[90%] md:w-[60%] mx-auto mb-[70px]">
         With these advanced features, the AI Agents Platform is a
         game-changer—amplifying productivity across the entire organization
         while empowering every individual employee to thrive. It is not just

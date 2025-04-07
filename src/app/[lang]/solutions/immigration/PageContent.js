@@ -97,26 +97,6 @@ export default function PageContent({ dictionary }) {
       />
 
       <RightSection
-        title={
-          "Redefining Possibilities: Humanoid Robotics as the Future of Innovation"
-        }
-        description={
-          "In an age of boundless technological progress, humanoid robotics stands at the forefront of transformation—bridging the gap between human ingenuity and machine precision. Our advanced systems built with our partners, modelled after the human form, are more than mere technological marvels; they are powerful solutions poised to revolutionize industries and redefine human-machine interaction. A Multifaceted Solution for a New Era"
-        }
-        image={
-          "/images/solutions/Redefining-Possibilities-Humanoid-Robotics.png"
-        }
-      />
-
-      <LeftSection
-        title={"Healthcare and Rehabilitation"}
-        description={
-          "Patient Care Assistance: Humanoid robots excel in performing routine tasks such as monitoring vitals, administering medications, and assisting patients with mobility—enabling healthcare professionals to focus on critical care. \nTherapeutic Applications: Through personalized interaction and adaptive support, they serve as companions for patients undergoing physical or psychological rehabilitation, fostering faster recovery and improved well-being. \nSurgical Precision: Equipped with advanced sensors and AI-driven algorithms, humanoid robots assist surgeons with complex procedures, enhancing accuracy and reducing risks. "
-        }
-        image={"/images/solutions/Healthcare-and-Rehabilitatio.png"}
-      />
-
-      <RightSection
         title={"Manufacturing and Industrial Operations"}
         description={
           "Smart Assembly Lines: These robots seamlessly integrate into manufacturing environments, performing tasks such as assembling intricate components and inspecting products with precision. \nHazardous Environment Handling: In industries like mining or chemical processing, humanoid robots operate safely in dangerous conditions, minimizing risks to human workers. \nEfficiency Optimization: With real-time data processing and adaptive capabilities, they optimize workflows, reduce downtime, and boost productivity. "

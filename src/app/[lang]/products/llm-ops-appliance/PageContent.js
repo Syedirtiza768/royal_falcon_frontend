@@ -106,7 +106,7 @@ export default function PageContent({ dictionary }) {
       </div>
       <img
         src="/images/products/test5.PNG"
-        className="h-[300px] md:h-[500px] px-[20px] md:px-[100px] mt-[50px] md:w-[80%] mx-auto mb-[50px]"
+        className="h-[300px] md:h-[500px] px-[20px] md:px-[100px] mt-[50px] md:w-[80%] mx-auto mb-[50px] object-contain"
         alt=""
       />
       {/* Call to Action */}
