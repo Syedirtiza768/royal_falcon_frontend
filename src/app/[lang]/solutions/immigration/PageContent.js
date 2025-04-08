@@ -112,14 +112,6 @@ export default function PageContent({ dictionary }) {
         image={"/images/solutions/Public-Services-and-Customer-Interaction.png"}
       />
 
-      <RightSection
-        title={"Why Humanoid Robotics Is Essential"}
-        description={
-          "Humanoid robots represent the perfect blend of human-like versatility and machine resilience. Their design allows them to interact naturally with people while performing tasks with unmatched efficiency. Powered by artificial intelligence, machine learning, and advanced engineering, these robots continuously learn, adapt, and improve, ensuring they remain a cornerstone of innovation."
-        }
-        image={"/images/solutions/Why-Humanoid-Robotics-Is-Essential.png"}
-      />
-
       <LeftSection
         title={"The Future Beckons"}
         description={
