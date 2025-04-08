@@ -18,7 +18,6 @@ async function NewsPage({ params }) {
   const dictionary = await getDictionary(lang);
 
   const news = await getData();
-
   return (
     <div>
       <Navbar dictionary={dictionary} transparent={false} />

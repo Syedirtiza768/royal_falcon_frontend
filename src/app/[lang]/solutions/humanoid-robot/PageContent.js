@@ -66,6 +66,8 @@ export default function PageContent({ dictionary }) {
         image={"/images/solutions/Why-Humanoid-Robotics-Is-Essential.png"}
       />
 
+      <div className="mb-[50px]"></div>
+
       {/* Call to Action */}
       <CallToAction />
     </div>
