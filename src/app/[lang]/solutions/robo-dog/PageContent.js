@@ -73,7 +73,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Equipped with high-definition cameras, thermal imaging, and night vision, robotic dogs can conduct surveillance in hard-to-access areas, providing real-time data to officers while minimizing human risk."
         }
-        image={"/images/solutions/robodog/Upwards1.jpg"}
+        image={"/images/solutions/others/AdvancedSurveillance.jpg"}
       />
 
       <RightSection
@@ -81,7 +81,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Robotic dogs can help monitor and manage crowds during public events, ensuring smooth operations with their non-threatening yet authoritative presence."
         }
-        image={"/images/solutions/robodog/Upwards2.jpg"}
+        image={"/images/solutions/others/CrowdControlAssistance.jpg"}
       />
 
       <LeftSection
@@ -89,7 +89,7 @@ export default function PageContent({ dictionary }) {
         description={
           "With precise sensors, they can assist in gathering forensic evidence, preserving scenes of investigation while avoiding contamination."
         }
-        image={"/images/solutions/robodog/Upwards3.jpg"}
+        image={"/images/solutions/others/EvidenceCollection.jpg"}
       />
 
       {/* Section 3 starts */}
@@ -106,7 +106,7 @@ export default function PageContent({ dictionary }) {
         description={
           "These robotic allies can navigate hostile or unpredictable terrain, scouting enemy positions and gathering critical intelligence without endangering soldiers."
         }
-        image={"/images/solutions/robodog/Upwards4.jpg"}
+        image={"/images/solutions/others/ReconnaissanceMissions.png"}
       />
 
       <RightSection
@@ -114,7 +114,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Outfitted with specialized detectors and manipulation tools, robotic dogs can identify and neutralize explosive threats efficiently and safely"
         }
-        image={"/images/solutions/robodog/Upwards5.jpg"}
+        image={"/images/solutions/others/robodog1.png"}
       />
 
       <LeftSection
@@ -122,7 +122,7 @@ export default function PageContent({ dictionary }) {
         description={
           "In combat zones or disaster-stricken areas, robotic dogs can locate and assist in evacuating injured personnel under extreme conditions"
         }
-        image={"/images/solutions/robodog/Upwards6.jpg"}
+        image={"/images/solutions/others/SearchAndRescueOperations.png"}
       />
 
       {/* Section 4 starts */}
@@ -139,7 +139,7 @@ export default function PageContent({ dictionary }) {
         description={
           "During natural disasters, robotic dogs equipped with life-detection sensors can locate trapped individuals with exceptional accuracy, even under rubble or debris."
         }
-        image={"/images/solutions/robodog/Upwards7.jpg"}
+        image={"/images/solutions/others/robodog2.png"}
       />
 
       <RightSection
@@ -147,7 +147,7 @@ export default function PageContent({ dictionary }) {
         description={
           "In scenarios involving chemical spills, radiation, or unstable structures, robotic dogs can assess danger zones and deliver critical information for informed decision-making."
         }
-        image={"/images/solutions/robodog/Upwards8.jpg"}
+        image={"/images/solutions/others/EvidenceCollection.jpg"}
       />
 
       <LeftSection
@@ -155,7 +155,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Their ability to navigate complex terrain allows them to deliver medical supplies to inaccessible locations swiftly."
         }
-        image={"/images/solutions/robodog/Upwards1.jpg"}
+        image={"/images/solutions/others/MedicalSupplyDelivery.jpg"}
       />
 
       {/* Section 5 */}

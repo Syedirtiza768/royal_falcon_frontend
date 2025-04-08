@@ -69,7 +69,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Deploy intelligent sensors for real-time data collection across transportation, energy, waste management, flood detection, air quality monitoring and public safety."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/SensorsAndDevices.png"}
       />
 
       <RightSection
@@ -77,7 +77,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Utilize 5G networks, LORA and edge computing for seamless communication and low latency."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/Connectivity.png"}
       />
 
       <div className="mt-[70px]">
@@ -93,7 +93,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Gather data from IoT devices to monitor urban operations."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/DataCollection.png"}
       />
 
       <RightSection
@@ -101,7 +101,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Employ AI and machine learning to analyze data for actionable insights."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/Analytics.png"}
       />
 
       <LeftSection
@@ -109,7 +109,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Use latest storage technologies for scalable and secure data storage."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/Storage.png"}
       />
 
       <RightSection
@@ -117,7 +117,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Use latest digital twin technologies to visualize the real world data and to provide simulation of future scenarios."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/Visualization.png"}
       />
 
       <div className="mt-[70px]">
@@ -133,7 +133,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Secure communication between devices with strong encryption technologies and blockchain."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/DataEncryption.png"}
       />
 
       <RightSection
@@ -141,7 +141,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Robust authentication mechanisms to protect sensitive information."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/AccessControl.png"}
       />
 
       <div className="mt-[70px]">
@@ -157,13 +157,13 @@ export default function PageContent({ dictionary }) {
         description={
           "Our systems integrate seamlessly with existing urban infrastructure."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/Interoperability.png"}
       />
 
       <RightSection
         title={"Scalability"}
         description={"Our system can adapt to growing urban demands."}
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/Scalability.png"}
       />
 
       <div className="mt-[70px]">

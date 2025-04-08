@@ -69,7 +69,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Develop AI-powered autonomous cars for safer and efficient road transportation."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/Self-drivingCars.png"}
       />
 
       <RightSection
@@ -77,7 +77,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Implement autonomous aerial systems for automated operations."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/AutonomousDrones.png"}
       />
 
       <LeftSection
@@ -85,7 +85,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Deploy autonomous public transport shuttles for short-distance travel."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/RoboticShuttles.png"}
       />
 
       <div className="mt-[70px]">
@@ -101,7 +101,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Accelerate EV adoption with improved battery technology and charging networks."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/ElectricVehicles(EVs).png"}
       />
 
       <RightSection
@@ -109,7 +109,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Power mobility solutions through renewable sources like solar and wind."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/RenewableEnergyIntegration.png"}
       />
 
       <div className="mt-[70px]">
@@ -125,7 +125,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Create mobile applications that combine public, private, and shared transportation options for user convenience."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/UnifiedPlatforms.png"}
       />
 
       <RightSection
@@ -133,7 +133,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Enable predictive mobility planning based on data insights."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/Real-timeAnalytics.png"}
       />
 
       <div className="mt-[70px]">
@@ -149,7 +149,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Develop electric vertical takeoff and landing (eVTOL) aircraft for intra-city travel."
         }
-        image={"/images/solutions/Intelligent-Talent-Acquisitionnnnn.png"}
+        image={"/images/solutions/others/AirTaxis.png"}
       />
 
       <RightSection
@@ -157,7 +157,7 @@ export default function PageContent({ dictionary }) {
         description={
           "Innovate drone technologies for large-scale freight delivery."
         }
-        image={"/images/solutions/Dynamic-Workforce-Planningggg.png"}
+        image={"/images/solutions/others/CargoDrones.png"}
       />
 
       <div className="mt-[70px]">
