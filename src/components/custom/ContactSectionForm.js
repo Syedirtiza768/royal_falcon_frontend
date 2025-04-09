@@ -190,7 +190,7 @@ export default function ContactSectionForm({ dictionary }) {
               </FormLabel>
               <FormControl>
                 <textarea
-                  placeholder={dictionary.messagePlaceholder || "Your message"}
+                  placeholder={dictionary.messageLabel || "Your message"}
                   className="w-full px-4 py-2 rounded-md text-[14px] border min-h-[120px]"
                   {...field}
                 />

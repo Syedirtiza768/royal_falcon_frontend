@@ -35,28 +35,22 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"Rehab Robotics"}
-          description={
-            "To elevate the patient recovery through advance robotic technologies"
-          }
+          title={dictionary.RehabRoboticsHeading}
+          description={dictionary.RehabRoboticsDescription}
           border={"150px"}
         />
       </div>
 
       <LeftSection
-        title={"Robotic Support for Rehabilitation"}
-        description={
-          "Our Robo Assist Rehab Program (RARP) is a work with our distinguished partners to develop cutting edge robotic assist technologies to support different type of rehabilitation programs. These systems provides targeted rehab programs, monitor the patients progress and recommends modifications to program to enhance the recovery in the best possible way."
-        }
+        title={dictionary.RehabRoboticsHeading2}
+        description={dictionary.RehabRoboticsHeading2Description}
         image={"/images/solutions/rehab/rehab1.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Foundation"}
-          description={
-            "Overview of the different programs to support building up a full fledge robo assist rehab program."
-          }
+          title={dictionary.RehabRoboticsHeading3}
+          description={dictionary.RehabRoboticsHeading3Description}
           border={"100px"}
         />
       </div>
@@ -68,13 +62,7 @@ export default function PageContent({ dictionary }) {
           className="w-[95%] md:w-[80%] object-cover mx-auto"
         />
         <p className="text-center w-[90%] md:w-[60%] mx-auto  mt-[50px] ">
-          All the patients rehab data will provide valuable information for the
-          doctors and physiotherapists to monitor and adapt their programs to
-          the patients progress. The programs has adapt to latest technologies
-          such as VR and Metaverse to create interactive programs for the
-          patients and also allowing them to have a immersive experience in
-          their rehab journey without going through strenuous work and finding
-          suitable outdoor locations.
+          {dictionary.RehabRoboticsHeading3Description2}
         </p>
 
         <img
@@ -86,7 +74,7 @@ export default function PageContent({ dictionary }) {
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"EXOMOTUS M4"}
+          title={dictionary.RehabRoboticsHeading4}
           description={""}
           border={"100px"}
         />
@@ -102,7 +90,7 @@ export default function PageContent({ dictionary }) {
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"CycleMotus"}
+          title={dictionary.RehabRoboticsHeading5}
           description={""}
           border={"100px"}
         />
@@ -118,7 +106,7 @@ export default function PageContent({ dictionary }) {
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"AnkleMotus"}
+          title={dictionary.RehabRoboticsHeading6}
           description={""}
           border={"100px"}
         />
@@ -134,7 +122,7 @@ export default function PageContent({ dictionary }) {
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"HandyRehab"}
+          title={dictionary.RehabRoboticsHeading7}
           description={""}
           border={"100px"}
         />
@@ -149,7 +137,7 @@ export default function PageContent({ dictionary }) {
       </div>
 
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }

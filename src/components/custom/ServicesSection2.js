@@ -22,6 +22,7 @@ export default function ServicesSection2({ dictionary }) {
             // Icon={item.Icon}
             img={item.img}
             url={item.url}
+            dictionary={dictionary}
           />
         ))}
       </div>

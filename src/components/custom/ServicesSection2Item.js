@@ -5,7 +5,14 @@ import { motion } from "framer-motion";
 import { b_t_animation } from "@/lib/Data";
 import Link from "next/link";
 
-export function ServicesSection2Item({ id, title, description, img, url }) {
+export function ServicesSection2Item({
+  id,
+  title,
+  description,
+  img,
+  url,
+  dictionary,
+}) {
   return (
     <motion.div
       initial="hide"
@@ -21,7 +28,7 @@ export function ServicesSection2Item({ id, title, description, img, url }) {
         className="text-sm text-primary mt-[-10px] hover:scale-110 transition duration-200 ease-in-out"
         href={url}
       >
-        View More
+        {dictionary.viewMore}
       </Link>
     </motion.div>
   );

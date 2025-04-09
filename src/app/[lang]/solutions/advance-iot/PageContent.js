@@ -35,7 +35,7 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"Advance IOT"}
+          title={dictionary.AdvanceIotHeading}
           description={""}
           border={"120px"}
         />
@@ -47,152 +47,133 @@ export default function PageContent({ dictionary }) {
           className="mt-[40px] flex flex-col items-center justify-center"
         >
           <div className="lg:w-[60%] mx-auto text-center mt-[-20px]">
-            <p>
-              Our Advance IOT solution a scalable, efficient, and sustainable
-              IoT system that enhances urban living by optimizing resources,
-              improving service delivery, and fostering latest technologies.
-            </p>
+            <p>{dictionary.AdvanceIotDescription}</p>
           </div>
         </motion.div>
       </div>
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"IoT Infrastructure"}
+          title={dictionary.AdvanceIotHeading2}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Sensors and Devices"}
-        description={
-          "Deploy intelligent sensors for real-time data collection across transportation, energy, waste management, flood detection, air quality monitoring and public safety."
-        }
+        title={dictionary.AdvanceIotHeading3}
+        description={dictionary.AdvanceIotHeading3Description}
         image={"/images/solutions/others/SensorsAndDevices.png"}
       />
 
       <RightSection
-        title={"Connectivity"}
-        description={
-          "Utilize 5G networks, LORA and edge computing for seamless communication and low latency."
-        }
+        title={dictionary.AdvanceIotHeading4}
+        description={dictionary.AdvanceIotHeading4Description}
         image={"/images/solutions/others/Connectivity.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Data Management"}
+          title={dictionary.AdvanceIotHeading5}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Data Collection"}
-        description={
-          "Gather data from IoT devices to monitor urban operations."
-        }
+        title={dictionary.AdvanceIotHeading6}
+        description={dictionary.AdvanceIotHeading6Description}
         image={"/images/solutions/others/DataCollection.png"}
       />
 
       <RightSection
-        title={"Analytics"}
-        description={
-          "Employ AI and machine learning to analyze data for actionable insights."
-        }
+        title={dictionary.AdvanceIotHeading7}
+        description={dictionary.AdvanceIotHeading7Description}
         image={"/images/solutions/others/Analytics.png"}
       />
 
       <LeftSection
-        title={"Storage"}
-        description={
-          "Use latest storage technologies for scalable and secure data storage."
-        }
+        title={dictionary.AdvanceIotHeading8}
+        description={dictionary.AdvanceIotHeading8Description}
         image={"/images/solutions/others/Storage.png"}
       />
 
       <RightSection
-        title={"Visualization"}
-        description={
-          "Use latest digital twin technologies to visualize the real world data and to provide simulation of future scenarios."
-        }
+        title={dictionary.AdvanceIotHeading9}
+        description={dictionary.AdvanceIotHeading9Description}
         image={"/images/solutions/others/Visualization.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Security and Privacy"}
+          title={dictionary.AdvanceIotHeading10}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Data Encryption"}
-        description={
-          "Secure communication between devices with strong encryption technologies and blockchain."
-        }
+        title={dictionary.AdvanceIotHeading11}
+        description={dictionary.AdvanceIotHeading11Description}
         image={"/images/solutions/others/DataEncryption.png"}
       />
 
       <RightSection
-        title={"Access Control"}
-        description={
-          "Robust authentication mechanisms to protect sensitive information."
-        }
+        title={dictionary.AdvanceIotHeading12}
+        description={dictionary.AdvanceIotHeading12Description}
         image={"/images/solutions/others/AccessControl.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Integration"}
+          title={dictionary.AdvanceIotHeading13}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Interoperability"}
-        description={
-          "Our systems integrate seamlessly with existing urban infrastructure."
-        }
+        title={dictionary.AdvanceIotHeading14}
+        description={dictionary.AdvanceIotHeading14Description}
         image={"/images/solutions/others/Interoperability.png"}
       />
 
       <RightSection
-        title={"Scalability"}
-        description={"Our system can adapt to growing urban demands."}
+        title={dictionary.AdvanceIotHeading15}
+        description={dictionary.AdvanceIotHeading15Description}
         image={"/images/solutions/others/Scalability.png"}
       />
 
       <div className="mt-[70px]">
-        <SectionHeading title={"Benefits"} description={""} border={"100px"} />
+        <SectionHeading
+          title={dictionary.AdvanceIotHeading16}
+          description={""}
+          border={"100px"}
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard
-          title="Efficiency"
-          description="Streamlined operations reduce resource wastage and operational costs."
+          title={dictionary.AdvanceIotHeading16SubHeading1}
+          description={dictionary.AdvanceIotHeading16SubHeading1Description}
           variant={"first"}
         />
         <SolutionsCard
-          title="Sustainability"
-          description="IoT solutions promote eco-friendly practices and reduce environmental impact."
+          title={dictionary.AdvanceIotHeading16SubHeading2}
+          description={dictionary.AdvanceIotHeading16SubHeading2Description}
           variant={"first"}
         />
         <SolutionsCard
-          title="Quality of Life"
-          description="Enhanced services improve convenience and safety for residents."
+          title={dictionary.AdvanceIotHeading16SubHeading3}
+          description={dictionary.AdvanceIotHeading16SubHeading3Description}
           variant={"first"}
         />
       </div>
 
       <p className="text-center w-[90%] md:w-[60%] mx-auto my-[50px]">
-        Our Advance IoT solution enhance latest smart city solutions and help to
-        improve the quality of life of the people.
+        {dictionary.AdvanceIotHeading16Description}
       </p>
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }

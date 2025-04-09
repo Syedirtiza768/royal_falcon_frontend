@@ -14,62 +14,36 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px] mb-[30px]">
         <SectionHeading
-          title={"Humanoid Robot"}
+          title={dictionary.HumanoidRobotHeading1}
           description={""}
           border={"150px"}
         />
-        {/* <motion.div
-          initial="hide"
-          whileInView="show"
-          variants={b_t_animation}
-          viewport={{ once: true }}
-          className="mt-[40px] flex flex-col items-center justify-center"
-        >
-          <div className="lg:w-[60%] mx-auto text-center">
-            <p>
-              Upwards e-Visa management is a essential to a modern, integrated
-              border management system. It is key to enhancing both security and
-              convenience for the visitors to the country. <br />
-              <br /> e-Visa Management System is a full suite of
-              service-oriented applications designed to securely manage visa
-              applications and issue visas, eVisas, and residential permits.
-            </p>
-          </div>
-        </motion.div> */}
       </div>
 
       <RightSection
-        title={
-          "Redefining Possibilities: Humanoid Robotics as the Future of Innovation"
-        }
-        description={
-          "In an age of boundless technological progress, humanoid robotics stands at the forefront of transformation—bridging the gap between human ingenuity and machine precision. Our advanced systems built with our partners, modelled after the human form, are more than mere technological marvels; they are powerful solutions poised to revolutionize industries and redefine human-machine interaction. A Multifaceted Solution for a New Era"
-        }
+        title={dictionary.HumanoidRobotHeading2}
+        description={dictionary.HumanoidRobotHeading2Description}
         image={
           "/images/solutions/Redefining-Possibilities-Humanoid-Robotics.png"
         }
       />
 
       <LeftSection
-        title={"Healthcare and Rehabilitation"}
-        description={
-          "Patient Care Assistance: Humanoid robots excel in performing routine tasks such as monitoring vitals, administering medications, and assisting patients with mobility—enabling healthcare professionals to focus on critical care. \nTherapeutic Applications: Through personalized interaction and adaptive support, they serve as companions for patients undergoing physical or psychological rehabilitation, fostering faster recovery and improved well-being. \nSurgical Precision: Equipped with advanced sensors and AI-driven algorithms, humanoid robots assist surgeons with complex procedures, enhancing accuracy and reducing risks. "
-        }
+        title={dictionary.HumanoidRobotHeading3}
+        description={dictionary.HumanoidRobotHeading3Description}
         image={"/images/solutions/Healthcare-and-Rehabilitatio.png"}
       />
 
       <RightSection
-        title={"Why Humanoid Robotics Is Essential"}
-        description={
-          "Humanoid robots represent the perfect blend of human-like versatility and machine resilience. Their design allows them to interact naturally with people while performing tasks with unmatched efficiency. Powered by artificial intelligence, machine learning, and advanced engineering, these robots continuously learn, adapt, and improve, ensuring they remain a cornerstone of innovation."
-        }
+        title={dictionary.HumanoidRobotHeading4}
+        description={dictionary.HumanoidRobotHeading4Description}
         image={"/images/solutions/Why-Humanoid-Robotics-Is-Essential.png"}
       />
 
       <div className="mb-[50px]"></div>
 
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }

@@ -54,7 +54,7 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"Traffic Management System"}
+          title={dictionary.TrafficManagementSystemHeading}
           description={""}
           border={"150px"}
         />
@@ -63,84 +63,82 @@ export default function PageContent({ dictionary }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard
           icon={<Car className="h-10 w-10 text-primary" />}
-          title="Traffic flow speed"
-          description="The system automatically detects the flow speed of the road in real-time. The flow speed is the average speed of all vehicles, which can indicate traffic congestion."
+          title={dictionary.TrafficManagementSystemSubHeading1}
+          description={dictionary.TrafficManagementSystemSubHeading1Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<CarFront className="h-10 w-10 text-primary" />}
-          title="Traffic flow density detection"
-          description="This feature determines the flow’s density by dividing the number of vehicles by the average speed. This helps determine the vehicle density of each lane."
+          title={dictionary.TrafficManagementSystemSubHeading2}
+          description={dictionary.TrafficManagementSystemSubHeading2Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<TrafficCone className="h-10 w-10 text-primary" />}
-          title="Traffic anomaly "
-          description="The system reports any abnormal or unusual traffic situations like odd average speed (e.g., zero), traffic and pedestrian violations, objects left on the road, or anything disrupting normal traffic flow."
+          title={dictionary.TrafficManagementSystemSubHeading3}
+          description={dictionary.TrafficManagementSystemSubHeading3Description}
           variant={"second"}
         />
 
         <SolutionsCard
           icon={<ThermometerSun className="h-10 w-10 text-primary" />}
-          title="Weather analyzer"
-          description="This feature analyzes the weather in the radar area. It constantly measures temperature, wind speed and direction, humidity, rain, and visibility (light conditions, fog, dust, etc.)."
+          title={dictionary.TrafficManagementSystemSubHeading4}
+          description={dictionary.TrafficManagementSystemSubHeading4Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<ShieldAlert className="h-10 w-10 text-primary" />}
-          title="Vandalism Detection"
-          description="The system detects and immediately reports any attempts to damage the radar so that traffic authorities can take proper action."
+          title={dictionary.TrafficManagementSystemSubHeading5}
+          description={dictionary.TrafficManagementSystemSubHeading5Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<Gauge className="h-10 w-10 text-primary" />}
-          title="Vehicle-based speed limits"
-          description="Using night mode, Traffitix can accurately analyze live and recorded video streams, even in low-light conditions."
+          title={dictionary.TrafficManagementSystemSubHeading6}
+          description={dictionary.TrafficManagementSystemSubHeading6Description}
           variant={"second"}
         />
 
         <SolutionsCard
           icon={<Moon className="h-10 w-10 text-primary" />}
-          title="Night mode"
-          description="With the night mode feature, Traffitix can accurately analyze live and recorded video streams, even when captured in poor nighttime lighting."
+          title={dictionary.TrafficManagementSystemSubHeading7}
+          description={dictionary.TrafficManagementSystemSubHeading7Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<MoveHorizontal className="h-10 w-10 text-primary" />}
-          title="Simultaneous dual-direction speed detection"
-          description="The system detects the speeds of all vehicles in the video stream for both road directions simultaneously."
+          title={dictionary.TrafficManagementSystemSubHeading8}
+          description={dictionary.TrafficManagementSystemSubHeading8Description}
           variant={"second"}
         />
         <SolutionsCard
           icon={<CarFrontIcon className="h-10 w-10 text-primary" />}
-          title="Speed detection for multiple vehicle orientations"
-          description="The system detects the speeds of all vehicles in the video stream across different orientations."
+          title={dictionary.TrafficManagementSystemSubHeading9}
+          description={dictionary.TrafficManagementSystemSubHeading9Description}
           variant={"second"}
         />
 
         <SolutionsCard
-          icon={<Moon className="h-10 w-10 text-primary" />}
-          title="Night mode"
-          description="With the night mode feature, Traffitix can accurately analyze live and recorded video streams, even when captured in poor nighttime lighting."
-          variant={"second"}
-        />
-        <SolutionsCard
           icon={<BadgeCheck className="h-10 w-10 text-primary" />}
-          title="License Plate Detection & Recognition"
-          description="The system detects and recognizes vehicle license plates, ensuring better monitoring and law enforcement."
+          title={dictionary.TrafficManagementSystemSubHeading11}
+          description={
+            dictionary.TrafficManagementSystemSubHeading11Description
+          }
           variant={"second"}
         />
         <SolutionsCard
           icon={<BusIcon className="h-10 w-10 text-primary" />}
-          title="Vehicle color, make & model detection"
-          description="The system detects the color, make, and model of vehicles in the video stream."
+          title={dictionary.TrafficManagementSystemSubHeading12}
+          description={
+            dictionary.TrafficManagementSystemSubHeading12Description
+          }
           variant={"second"}
         />
       </div>
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Business Benefits"}
+          title={dictionary.TrafficManagementSystemHeading2}
           description={""}
           border={"150px"}
         />
@@ -148,33 +146,33 @@ export default function PageContent({ dictionary }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px] mb-[50px]">
         <SolutionsCard2
           icon={<Clock3 className="h-10 w-10 text-white" />}
-          title="Faster response time for detected accidents and road blockage."
+          title={dictionary.TrafficManagementSystemHeading2Sub1}
           variant={"second"}
         />
         <SolutionsCard2
           icon={<AlertTriangle className="h-10 w-10 text-white" />}
-          title="Instant alerting of critical violations."
+          title={dictionary.TrafficManagementSystemHeading2Sub2}
           variant={"second"}
         />
         <SolutionsCard2
           icon={<BarChart className="h-10 w-10 text-white" />}
-          title="AI-Powered analytics for data-driven traffic, road planning."
+          title={dictionary.TrafficManagementSystemHeading2Sub3}
           variant={"second"}
         />
         <SolutionsCard2
           icon={<TrafficCone className="h-10 w-10 text-white" />}
-          title=" Better informed traffic and road policy-making."
+          title={dictionary.TrafficManagementSystemHeading2Sub4}
           variant={"second"}
         />
         <SolutionsCard2
           icon={<ShieldCheck className="h-10 w-10 text-white" />}
-          title="Safer roads, cities, and municipalities."
+          title={dictionary.TrafficManagementSystemHeading2Sub5}
           variant={"second"}
         />
       </div>
 
       {/* Call to Action */}
-      {/* <CallToAction /> */}
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }

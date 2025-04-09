@@ -35,7 +35,7 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"Future Mobility"}
+          title={dictionary.FutureMobilityHeading}
           description={""}
           border={"120px"}
         />
@@ -47,152 +47,132 @@ export default function PageContent({ dictionary }) {
           className="mt-[40px] flex flex-col items-center justify-center"
         >
           <div className="lg:w-[60%] mx-auto text-center mt-[-20px]">
-            <p>
-              We design and implement innovative, sustainable, and efficient
-              mobility solutions that address urbanization challenges, enhance
-              connectivity, and reduce environmental impact.
-            </p>
+            <p>{dictionary.FutureMobilityDescription}</p>
           </div>
         </motion.div>
       </div>
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Integration of Autonomous Vehicles:"}
+          title={dictionary.FutureMobilityHeading2}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Self-driving Cars"}
-        description={
-          "Develop AI-powered autonomous cars for safer and efficient road transportation."
-        }
+        title={dictionary.FutureMobilityHeading2Sub1}
+        description={dictionary.FutureMobilityHeading2Sub1Description}
         image={"/images/solutions/others/Self-drivingCars.png"}
       />
 
       <RightSection
-        title={"Autonomous Drones"}
-        description={
-          "Implement autonomous aerial systems for automated operations."
-        }
+        title={dictionary.FutureMobilityHeading2Sub2}
+        description={dictionary.FutureMobilityHeading2Sub2Description}
         image={"/images/solutions/others/AutonomousDrones.png"}
       />
 
       <LeftSection
-        title={"Robotic Shuttles"}
-        description={
-          "Deploy autonomous public transport shuttles for short-distance travel."
-        }
+        title={dictionary.FutureMobilityHeading2Sub3}
+        description={dictionary.FutureMobilityHeading2Sub3Description}
         image={"/images/solutions/others/RoboticShuttles.png"}
       />
 
-      <div className="mt-[70px]">
+      <div className="mt-[50px]">
         <SectionHeading
-          title={"Electrification of Mobility"}
+          title={dictionary.FutureMobilityHeading3}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Electric Vehicles (EVs)"}
-        description={
-          "Accelerate EV adoption with improved battery technology and charging networks."
-        }
+        title={dictionary.FutureMobilityHeading3Sub1}
+        description={dictionary.FutureMobilityHeading3Sub1Description}
         image={"/images/solutions/others/ElectricVehicles(EVs).png"}
       />
 
       <RightSection
-        title={"Renewable Energy Integration"}
-        description={
-          "Power mobility solutions through renewable sources like solar and wind."
-        }
+        title={dictionary.FutureMobilityHeading3Sub2}
+        description={dictionary.FutureMobilityHeading3Sub2Description}
         image={"/images/solutions/others/RenewableEnergyIntegration.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Mobility-as-a-Service (MaaS)"}
+          title={dictionary.FutureMobilityHeading4}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Unified Platforms"}
-        description={
-          "Create mobile applications that combine public, private, and shared transportation options for user convenience."
-        }
+        title={dictionary.FutureMobilityHeading4Sub1}
+        description={dictionary.FutureMobilityHeading4Sub1Description}
         image={"/images/solutions/others/UnifiedPlatforms.png"}
       />
 
       <RightSection
-        title={"Real-time Analytics"}
-        description={
-          "Enable predictive mobility planning based on data insights."
-        }
+        title={dictionary.FutureMobilityHeading4Sub2}
+        description={dictionary.FutureMobilityHeading4Sub2Description}
         image={"/images/solutions/others/Real-timeAnalytics.png"}
       />
 
       <div className="mt-[70px]">
         <SectionHeading
-          title={"Urban Air Mobility (UAM):"}
+          title={dictionary.FutureMobilityHeading5}
           description={""}
           border={"300px"}
         />
       </div>
 
       <LeftSection
-        title={"Air Taxis"}
-        description={
-          "Develop electric vertical takeoff and landing (eVTOL) aircraft for intra-city travel."
-        }
+        title={dictionary.FutureMobilityHeading5Sub1}
+        description={dictionary.FutureMobilityHeading5Sub1Description}
         image={"/images/solutions/others/AirTaxis.png"}
       />
 
       <RightSection
-        title={"Cargo Drones"}
-        description={
-          "Innovate drone technologies for large-scale freight delivery."
-        }
+        title={dictionary.FutureMobilityHeading5Sub2}
+        description={dictionary.FutureMobilityHeading5Sub2Description}
         image={"/images/solutions/others/CargoDrones.png"}
       />
 
       <div className="mt-[70px]">
-        <SectionHeading title={"Benefits"} description={""} border={"100px"} />
+        <SectionHeading
+          title={dictionary.FutureMobilityHeading6}
+          description={""}
+          border={"100px"}
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard
-          title="Efficiency"
-          description="Reduced travel times and streamlined transportation."
+          title={dictionary.FutureMobilityHeading6Sub1}
+          description={dictionary.FutureMobilityHeading6Sub1Description}
           variant={"first"}
         />
         <SolutionsCard
-          title="Safety"
-          description="Improved road safety through autonomous systems."
+          title={dictionary.FutureMobilityHeading6Sub2}
+          description={dictionary.FutureMobilityHeading6Sub2Description}
           variant={"first"}
         />
         <SolutionsCard
-          title="Sustainability"
-          description="Minimized ecological footprint with green mobility solutions."
+          title={dictionary.FutureMobilityHeading6Sub3}
+          description={dictionary.FutureMobilityHeading6Sub3Description}
           variant={"first"}
         />
         <SolutionsCard
-          title="Accessibility"
-          description="Better connectivity for underserved urban and rural areas."
+          title={dictionary.FutureMobilityHeading6Sub4}
+          description={dictionary.FutureMobilityHeading6Sub4Description}
           variant={"first"}
         />
       </div>
 
       <p className="text-center w-[90%] md:w-[60%] mx-auto my-[50px]">
-        Upwards aims to revolutionize how people and goods move in the future,
-        integrating cutting-edge technologies with environmental and social
-        considerations.
+        {dictionary.FutureMobilityHeading6Description}
       </p>
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }
