@@ -59,7 +59,7 @@ const formSchema = z.object({
     ),
 });
 
-export default function CareerForm() {
+export default function CareerForm({ dictionary }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const router = useRouter();
@@ -91,16 +91,14 @@ export default function CareerForm() {
 
       setIsSuccess(true);
       toast.success({
-        title: "Application submitted",
-        description:
-          "Thank you for your interest. We will review your application.",
+        title: dictionary.CareerSuccessToast,
+        description: dictionary.CareerSuccessToastDescription,
       });
     } catch (error) {
       console.error(error);
       toast.error({
-        title: "Something went wrong",
-        description:
-          "Your application couldn't be submitted. Please try again.",
+        title: dictionary.CareerErrorToast,
+        description: dictionary.CareerErrorToastDescription,
         variant: "destructive",
       });
     } finally {
@@ -112,10 +110,8 @@ export default function CareerForm() {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Application Submitted</CardTitle>
-          <CardDescription>
-            Thank you for your interest in joining our team.
-          </CardDescription>
+          <CardTitle>{dictionary.CareersHeading3}</CardTitle>
+          <CardDescription>{dictionary.CareersDescription3}</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="text-center py-6">
@@ -139,11 +135,10 @@ export default function CareerForm() {
               </div>
             </div>
             <h3 className="text-lg font-medium text-primary">
-              Application Received
+              {dictionary.CareersHeading4}
             </h3>
             <p className="text-muted-foreground mt-2">
-              We will review your application and get back to you if there are
-              any suitable openings.
+              {dictionary.CareersDescription4}
             </p>
           </div>
         </CardContent>
@@ -153,7 +148,7 @@ export default function CareerForm() {
             className="w-full cursor-pointer"
             onClick={() => router.push("/")}
           >
-            Return to Home
+            {dictionary.CareersHeading5}
           </Button>
         </CardFooter>
       </Card>
@@ -163,10 +158,9 @@ export default function CareerForm() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Career Application</CardTitle>
+        <CardTitle>{dictionary.CareersHeading1}</CardTitle>
         <CardDescription>
-          Fill out the form below to submit your application. All fields marked
-          with * are required.
+          {dictionary.CareersHeading1Description}
         </CardDescription>
       </CardHeader>
       <Form {...form}>
@@ -177,9 +171,12 @@ export default function CareerForm() {
               name="fullName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Full Name *</FormLabel>
+                  <FormLabel>{dictionary.CareersFormNameLabel} *</FormLabel>
                   <FormControl>
-                    <Input placeholder="Name" {...field} />
+                    <Input
+                      placeholder={dictionary.CareersFormNameLabel}
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -190,9 +187,13 @@ export default function CareerForm() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email *</FormLabel>
+                  <FormLabel>{dictionary.CareersFormEmailLabel} *</FormLabel>
                   <FormControl>
-                    <Input type="email" placeholder="Email" {...field} />
+                    <Input
+                      type="email"
+                      placeholder={dictionary.CareersFormEmailLabel}
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -203,9 +204,12 @@ export default function CareerForm() {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Phone Number *</FormLabel>
+                  <FormLabel>{dictionary.CareersFormPhoneLabel} *</FormLabel>
                   <FormControl>
-                    <Input placeholder="Phone Number" {...field} />
+                    <Input
+                      placeholder={dictionary.CareersFormPhoneLabel}
+                      {...field}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -216,7 +220,7 @@ export default function CareerForm() {
               name="cv"
               render={({ field: { value, onChange, ...fieldProps } }) => (
                 <FormItem>
-                  <FormLabel>Resume/CV *</FormLabel>
+                  <FormLabel>{dictionary.CareersFormResumeLabel} *</FormLabel>
                   <FormControl>
                     <div className="flex items-center gap-2">
                       <Input
@@ -244,7 +248,7 @@ export default function CareerForm() {
                     </div>
                   </FormControl>
                   <FormDescription>
-                    Upload your CV in PDF or Word format (max 5MB)
+                    {dictionary.CareersFormResumeLabel2}
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -260,10 +264,10 @@ export default function CareerForm() {
               {isSubmitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Submitting...
+                  {dictionary.CareersFormSubmitLabel1}
                 </>
               ) : (
-                "Submit Application"
+                dictionary.CareersFormSubmitLabel2
               )}
             </Button>
           </CardFooter>

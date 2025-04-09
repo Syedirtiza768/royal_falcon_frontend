@@ -65,7 +65,7 @@ export default function ContactSectionForm({ dictionary }) {
 
     try {
       const response = await sendEmail(data);
-      toast.success(response.message);
+      toast.success(dictionary.ContactSuccessToast);
 
       if (response.success) {
         form.reset({
@@ -77,7 +77,7 @@ export default function ContactSectionForm({ dictionary }) {
         });
       }
     } catch (error) {
-      toast.error("Failed to send message. Please try again.");
+      toast.error(dictionary.ContactErrorToast);
     } finally {
       setLoading(false);
     }

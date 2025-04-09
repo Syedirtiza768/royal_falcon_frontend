@@ -27,8 +27,8 @@ import AnimatedHeading from "@/components/custom/AnimatedHeading";
 import LeftSection from "../LeftSection";
 import RightSection from "../RightSection";
 import { SolutionsCard } from "../SolutionsCard";
-import CallToAction from "../CallToAction";
 import { SolutionsCard2 } from "../SolutionsCard2";
+import CallToAction from "../../solutions/CallToAction";
 
 export default function PageContent({ dictionary }) {
   return (
@@ -36,7 +36,7 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"WAKKELE – AGENTS OPS Platform"}
+          title={dictionary.WakkeleAgentsHeading}
           description={""}
           border={"320px"}
         />
@@ -48,13 +48,7 @@ export default function PageContent({ dictionary }) {
           className="mt-[40px] flex flex-col items-center justify-center"
         >
           <div className="lg:w-[60%] mx-auto text-center">
-            <p>
-              The Agents Ops platform allows the enterprise to custom built
-              their own domain based knowledge agents to work on their company
-              specific work tasks. These agents will integrate with LLM and RAG
-              to allow easier interaction between employees and the customized
-              agents.
-            </p>
+            <p>{dictionary.WakkeleAgentsDescription}</p>
           </div>
         </motion.div>
       </div>
@@ -72,12 +66,11 @@ export default function PageContent({ dictionary }) {
       />
 
       <p className="w-[95%] md:w-[60%] mx-auto text-center mb-[50px]">
-        With our powerful and versatile platform, it empowers the company to
-        drive their workforce into the next digital evolution.
+        {dictionary.WakkeleAgentsDescription2}
       </p>
 
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }

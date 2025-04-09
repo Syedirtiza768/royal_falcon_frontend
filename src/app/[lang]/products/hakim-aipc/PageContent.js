@@ -27,8 +27,8 @@ import AnimatedHeading from "@/components/custom/AnimatedHeading";
 import LeftSection from "../LeftSection";
 import RightSection from "../RightSection";
 import { SolutionsCard } from "../SolutionsCard";
-import CallToAction from "../CallToAction";
 import { SolutionsCard2 } from "../SolutionsCard2";
+import CallToAction from "../../solutions/CallToAction";
 
 export default function PageContent({ dictionary }) {
   return (
@@ -36,7 +36,7 @@ export default function PageContent({ dictionary }) {
       {/* Hero Section */}
       <div className="px-[20px]  lg:px-[90px]">
         <SectionHeading
-          title={"HAKIM – AIPC"}
+          title={dictionary.HakimAipcHeading}
           description={""}
           border={"150px"}
         />
@@ -48,45 +48,41 @@ export default function PageContent({ dictionary }) {
           className="mt-[40px] flex flex-col items-center justify-center"
         >
           <div className="lg:w-[60%] mx-auto text-center">
-            <p>
-              HAKIM, حكيم is meaning wise in Arabic world. It represents Upwards
-              vision to provide wisdom to everyone in the world with the HAKIM
-              AIPC. HAKIM is inbuilt with mult-modal AI algorithms and large
-              language model to support intuitive interactions and new user
-              experience. It runs these models locally and does not require any
-              documents to be submitted to cloud before a detailed analysis can
-              be generated.
-            </p>
+            <p>{dictionary.HakimAipcDescription}</p>
           </div>
         </motion.div>
       </div>
 
       <div className="mt-[70px]">
-        <SectionHeading title={"Features"} description={""} border={"100px"} />
+        <SectionHeading
+          title={dictionary.HakimAipcHeading2}
+          description={""}
+          border={"100px"}
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard2
-          title="Bespoke Domain-based AI agentsVisa Application Centers"
+          title={dictionary.HakimAipcHeading2Sub1}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Support Arabic Language"
+          title={dictionary.HakimAipcHeading2Sub2}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Offline LLM based Agents"
+          title={dictionary.HakimAipcHeading2Sub3}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Inbuilt Multi-modal algorithms"
+          title={dictionary.HakimAipcHeading2Sub4}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Personalized automated process"
+          title={dictionary.HakimAipcHeading2Sub5}
           description=""
           variant={"first"}
         />
@@ -99,99 +95,107 @@ export default function PageContent({ dictionary }) {
       />
 
       <div className="mt-[70px]">
-        <SectionHeading title={"Functions"} description={""} border={"100px"} />
+        <SectionHeading
+          title={dictionary.HakimAipcHeading3}
+          description={""}
+          border={"100px"}
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px]">
         <SolutionsCard2
-          title="AI-Powered Search"
+          title={dictionary.HakimAipcHeading3Sub1}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Multi-modal Document Reader / Chat"
+          title={dictionary.HakimAipcHeading3Sub2}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Smart Writing "
+          title={dictionary.HakimAipcHeading3Sub3}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Real-Time Translation"
+          title={dictionary.HakimAipcHeading3Sub4}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Business / Academic Research"
+          title={dictionary.HakimAipcHeading3Sub5}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Data Analytics"
+          title={dictionary.HakimAipcHeading3Sub6}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Code Generation"
+          title={dictionary.HakimAipcHeading3Sub7}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Information Recommendation"
+          title={dictionary.HakimAipcHeading3Sub8}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Intelligent & Sentiment Analysis"
+          title={dictionary.HakimAipcHeading3Sub9}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Customized Agents for Process Automation"
+          title={dictionary.HakimAipcHeading3Sub10}
           description=""
           variant={"second"}
         />
         <SolutionsCard2
-          title="Bespoke Domain Knowledge Graph"
+          title={dictionary.HakimAipcHeading3Sub11}
           description=""
           variant={"second"}
         />
       </div>
 
       <div className="mt-[70px]">
-        <SectionHeading title={"Benefits"} description={""} border={"100px"} />
+        <SectionHeading
+          title={dictionary.HakimAipcHeading4}
+          description={""}
+          border={"100px"}
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  mx-[20px] md:mx-[100px] mb-[50px]">
         <SolutionsCard2
-          title="Improved stability on using multi-modals AI locally"
+          title={dictionary.HakimAipcHeading4Sub1}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Enhanced data security with local AI processing for analytics and content review"
+          title={dictionary.HakimAipcHeading4Sub2}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Improved productivity with custom built AI agents and domain-specific knowledge graph"
+          title={dictionary.HakimAipcHeading4Sub3}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Continuous AI performance with or without internet"
+          title={dictionary.HakimAipcHeading4Sub4}
           description=""
           variant={"first"}
         />
         <SolutionsCard2
-          title="Custom built laptop to suite multiple user profiles and operating environment"
+          title={dictionary.HakimAipcHeading4Sub5}
           description=""
           variant={"first"}
         />
       </div>
 
       {/* Call to Action */}
-      <CallToAction />
+      <CallToAction dictionary={dictionary} />
     </div>
   );
 }
