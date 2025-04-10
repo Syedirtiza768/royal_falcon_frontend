@@ -5,9 +5,9 @@ import Footer from "@/components/custom/Footer";
 import { getDictionary } from "../../dictionaries";
 import { baseUrl } from "@/EndPoints";
 
-async function getData(id) {
+async function getData(id, lang) {
   const response = await fetch(
-    `${baseUrl}/api/news-collections/${id}?populate=*`
+    `${baseUrl}/api/news-collections/${id}?populate=*&locale=${lang}`
   );
   const res = await response.json();
   return res.data;
@@ -21,7 +21,7 @@ export default async function NewsPage({ params }) {
   // const news = dictionary.newsItems.find(
   //   (news) => news.id === parseInt(newsId)
   // );
-  const news = await getData(params.id);
+  const news = await getData(params.id, lang);
   return (
     <>
       <Navbar dictionary={dictionary} transparent={false} />

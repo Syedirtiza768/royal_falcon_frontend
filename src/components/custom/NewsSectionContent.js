@@ -8,8 +8,11 @@ import { baseUrl, getAllNewsAPI } from "@/EndPoints";
 import NewsSectionItem from "./NewsSectionItem";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
-export default function NewsSectionContent({ dictionary }) {
-  const { data, error, isLoading } = useSWR(getAllNewsAPI, fetcher);
+export default function NewsSectionContent({ dictionary, lang }) {
+  const { data, error, isLoading } = useSWR(
+    `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/news-collections?populate=*&locale=${lang}`,
+    fetcher
+  );
 
   const latestNews = data?.data
     ? [...data.data] // Create a shallow copy to avoid mutating the original array

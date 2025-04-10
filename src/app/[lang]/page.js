@@ -81,7 +81,7 @@ async function HomePage({ params }) {
           description={dictionary.newsDescription}
           border={"170px"}
         />
-        <NewsSectionContent dictionary={dictionary} />
+        <NewsSectionContent dictionary={dictionary} lang={lang} />
       </div>
 
       {/* Partners  */}

@@ -7,8 +7,10 @@ import Image from "next/image";
 import Link from "next/link";
 import NewsSectionItem from "@/components/custom/NewsSectionItem";
 
-async function getData() {
-  const response = await fetch(getAllNewsAPI);
+async function getData(lang) {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/news-collections?populate=*&locale=${lang}`
+  );
   const res = await response.json();
   return res.data;
 }
@@ -17,7 +19,7 @@ async function NewsPage({ params }) {
   const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
-  const news = await getData();
+  const news = await getData(lang);
   return (
     <div>
       <Navbar dictionary={dictionary} transparent={false} />
