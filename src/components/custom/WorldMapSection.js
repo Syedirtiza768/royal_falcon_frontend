@@ -9,7 +9,7 @@ export default function WorldMapSection({
   data4,
 }) {
   return (
-    <div className="bg-[#0a0a0a] min-h-[400px] flex flex-col items-center justify-center px-4 py-10 text-[#c7a067]">
+    <div className="bg-[#0c0c0c] min-h-[400px] flex flex-col items-center justify-center px-4 py-10 text-[#c7a067]">
       <div className="container max-w-5xl mx-auto text-center">
         {/* Stats Row */}
         <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 lg:gap-20 lg:mb-10">
