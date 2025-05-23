@@ -45,10 +45,10 @@ export const partners = [
     img: "/images/partners/Honeywell.png",
     link: "#",
   },
-  {
-    img: "/images/partners/yango.png",
-    link: "#",
-  },
+  // {
+  //   img: "/images/partners/yango.png",
+  //   link: "#",
+  // },
   {
     img: "/images/partners/dell.png",
     link: "#",
