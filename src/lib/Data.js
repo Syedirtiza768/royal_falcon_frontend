@@ -65,8 +65,8 @@ export const partners = [
     img: "/images/partners/cisco.png",
     link: "#",
   },
-  // {
-  //   img: "/images/partners/terminus.png",
-  //   link: "#",
-  // },
+  {
+    img: "/images/partners/core42.PNG",
+    link: "#",
+  },
 ];
