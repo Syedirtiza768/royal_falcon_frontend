@@ -235,7 +235,7 @@ export default function HomePage() {
                     advanced AI technologies
                   </span>
                   , providing unparalleled security and exceptional user
-                  experiences for UAE's leading organizations.
+                  experiences for UAEs leading organizations.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -414,7 +414,7 @@ export default function HomePage() {
             </h2>
             <p className="text-lg lg:text-xl text-slate-700 max-w-4xl mx-auto leading-relaxed">
               Established as a UAE national initiative and supported by local
-              entities and agencies, we are Abu Dhabi's premier technology
+              entities and agencies, we are Abu Dhabis premier technology
               company, delivering cutting-edge solutions that define the future
               of digital excellence.
             </p>
@@ -486,7 +486,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center text-slate-700 leading-relaxed">
-                  Dedicated to empowering UAE's government entities and
+                  Dedicated to empowering UAEs government entities and
                   enterprises with tailored solutions that drive innovation and
                   support national digital transformation goals.
                 </CardDescription>
@@ -747,7 +747,7 @@ export default function HomePage() {
               Client Excellence Stories
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-slate-900 leading-tight">
-              Trusted by UAE's
+              Trusted by UAEs
               <br />
               <span className="bg-gradient-to-r from-orange-500 to-amber-600 bg-clip-text text-transparent">
                 Leading Organizations
@@ -768,10 +768,10 @@ export default function HomePage() {
                 </div>
                 <Quote className="h-8 w-8 text-orange-300 mb-4" />
                 <p className="text-slate-700 leading-relaxed mb-6">
-                  "Royal Falcon Solutions transformed our entire digital
+                  Royal Falcon Solutions transformed our entire digital
                   infrastructure. Their AI-powered solutions increased our
                   operational efficiency by 300% while maintaining the highest
-                  security standards. Truly exceptional service."
+                  security standards. Truly exceptional service.
                 </p>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
@@ -801,10 +801,10 @@ export default function HomePage() {
                 </div>
                 <Quote className="h-8 w-8 text-amber-300 mb-4" />
                 <p className="text-slate-700 leading-relaxed mb-6">
-                  "The level of professionalism and technical expertise
+                  The level of professionalism and technical expertise
                   demonstrated by Royal Falcon Solutions is unmatched. They
                   delivered beyond our expectations and continue to provide
-                  exceptional ongoing support."
+                  exceptional ongoing support.
                 </p>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-xl flex items-center justify-center shadow-lg">
@@ -834,10 +834,10 @@ export default function HomePage() {
                 </div>
                 <Quote className="h-8 w-8 text-orange-300 mb-4" />
                 <p className="text-slate-700 leading-relaxed mb-6">
-                  "Working with Royal Falcon Solutions has been transformational
+                  Working with Royal Falcon Solutions has been transformational
                   for our organization. Their innovative approach to
                   digitalization has positioned us as the industry leader we are
-                  today."
+                  today.
                 </p>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
@@ -962,7 +962,7 @@ export default function HomePage() {
             </h2>
             <p className="text-lg lg:text-xl text-orange-100 max-w-4xl mx-auto leading-relaxed">
               Partner with Royal Falcon Solutions to unlock the full potential
-              of AI and digital innovation. Let's build something extraordinary
+              of AI and digital innovation. Lets build something extraordinary
               together and shape the future of your organization with
               cutting-edge technology solutions.
             </p>
@@ -998,7 +998,7 @@ export default function HomePage() {
               Connect with Our Experts
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-slate-900 leading-tight">
-              Let's Discuss Your
+              Lets Discuss Your
               <br />
               <span className="bg-gradient-to-r from-orange-500 to-amber-600 bg-clip-text text-transparent">
                 Next Big Project
