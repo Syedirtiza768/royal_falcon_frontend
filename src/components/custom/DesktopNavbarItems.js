@@ -65,7 +65,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
                         : "text-primary "
                       : activeItem === item.name
                       ? "text-primary"
-                      : "text-white hover:text-primary"
+                      : "text-secondary hover:text-primary"
                   )}
                   onClick={() => {
                     setActiveItem(item.name);
@@ -98,7 +98,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
                         : "text-primary "
                       : activeItem === item.name
                       ? "text-primary"
-                      : "text-white hover:text-primary"
+                      : "text-secondary hover:text-primary"
                   )}
                   onClick={() => setActiveItem(item.name)}
                 >
@@ -116,7 +116,7 @@ export default function DesktopNavBarItems({ dictionary, transparent }) {
               <div
                 id={`dropdown-${item.name}`}
                 className={cn(
-                  "absolute left-0 top-full py-2 bg-gray-700 z-10 mt-1 min-w-[200px]      transition-all",
+                  "absolute left-0 top-full py-2 bg-secondary z-10 mt-1 min-w-[200px]      transition-all",
                   isDropdownOpen(item.name)
                     ? "opacity-100"
                     : "pointer-events-none opacity-0"

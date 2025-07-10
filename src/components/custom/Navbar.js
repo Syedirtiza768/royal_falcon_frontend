@@ -16,20 +16,16 @@ export function Navbar({ dictionary, transparent }) {
 
   return (
     <header
-      className={` ${
-        transparent ? "bg-transparent" : "bg-white"
-      }  absolute top-0 left-0 z-50 w-full text-white`}
+      className={`bg-transparent absolute top-0 left-0 z-50 w-full text-primary`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        {/* dir={locale === "ar" ? "rtl" : "ltr"} */}
-        {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             {transparent ? (
               <Image
                 src={"/images/logo2.png"}
-                height={200}
-                width={200}
+                height={150}
+                width={150}
                 alt="Logo"
                 className="hidden lg:block"
               />
@@ -43,7 +39,7 @@ export function Navbar({ dictionary, transparent }) {
               />
             )}
             <Image
-              src={"/images/logo.png"}
+              src={"/images/logo2.png"}
               height={130}
               width={130}
               alt="Logo"
@@ -61,7 +57,7 @@ export function Navbar({ dictionary, transparent }) {
             <LanguageChanger />
             <Button
               onClick={() => router.push("/#contactSection")}
-              className={` cursor-pointer rounded-md bg-primary text-white hidden lg:block `}
+              className={` cursor-pointer rounded-none bg-primary text-white hidden lg:block `}
             >
               {dictionary.contactButonText}
             </Button>

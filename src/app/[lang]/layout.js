@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Upwards",
+  title: "Royal Falcon",
   description: "Reshaping the Future with AI and Innovation",
 };
 

@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-export default function AnimatedHeading({ children, color = "#d09b74" }) {
+export default function AnimatedHeading({ children, color = "#ff4500" }) {
   const [isVisible, setIsVisible] = useState(false);
   const headingRef = useRef(null);
 

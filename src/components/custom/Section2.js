@@ -10,52 +10,54 @@ export default function Section2({ dictionary }) {
   const { locale } = useLocaleStore();
 
   return (
-    <section className="relative w-full bg-black h-[400px] md:h-[500px] lg:h-[700px] overflow-hidden">
-      {/* Background Image */}
+    <section className="relative w-full bg-gradient-to-br from-gray-900 to-black h-[500px] md:h-[650px] lg:h-[800px] flex items-center justify-center overflow-hidden">
+      {/* Background Image - Modern and impactful */}
       <div className="absolute inset-0 z-0">
-        {/* <img src="/images/img1.png" alt=""  /> */}
-        <video
-          src="/images/video.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        ></video>
+        <Image
+          src="/images/new-hero-background.jpg" // Replace with a high-quality, relevant image
+          alt="Modern background image"
+          layout="fill"
+          objectFit="cover"
+          quality={90}
+          className="opacity-40" // Slightly dim the image to make text pop
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        {/* Overlay for better contrast */}
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-[20px] md:px-[50px] py-16 md:py-24 flex flex-col justify-center h-full">
-        <div className="">
-          <div className="md:w-[50%]">
-            <AnimatedHeading>
-              <h1 className="text-2xl md:text-5xl font-bold text-white mb-4">
-                {dictionary.section2Heading1}
-                <br />
+      <div className="relative z-10 container mx-auto px-[20px] md:px-[50px] text-center text-white flex flex-col items-center justify-center h-full">
+        <div className="max-w-3xl">
+          <AnimatedHeading>
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+              {dictionary.section2Heading1}
+              <br className="hidden md:inline" />
+              <span className="text-primary-light">
                 {dictionary.section2Heading2}
-              </h1>
-            </AnimatedHeading>
-          </div>
-          <motion.div initial="hide" animate="show" variants={b_t_animation}>
-            <p className="text-white text-base md:text-lg mb-8 max-w-xl leading-relaxed hidden md:block">
+              </span>{" "}
+              {/* Highlight a part of the heading */}
+            </h1>
+          </AnimatedHeading>
+
+          <motion.div
+            initial="hide"
+            animate="show"
+            variants={b_t_animation}
+            className="mb-10"
+          >
+            <p className="text-base md:text-xl leading-relaxed opacity-90">
               {dictionary.section2Content2}
             </p>
           </motion.div>
 
-          {/* <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="#learn-more"
-              className="bg-primary hover:bg-[#c99c6d] text-white font-medium py-3 px-8 rounded transition-colors duration-300 text-center"
+              className="bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              {dictionary.section2Button1Text}
+              Discover More
             </Link>
-            <Link
-              href="#request-demo"
-              className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-medium py-3 px-8 rounded transition-colors duration-300 text-center border border-white/30"
-            >
-              {dictionary.section2Button2Text}
-            </Link>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

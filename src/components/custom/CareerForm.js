@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { toast } from "react-toastify";
-import { submitApplication } from "@/app/[lang]/careers/actions";
+import { submitApplication } from "@/app/[lang]/careers2/actions";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
