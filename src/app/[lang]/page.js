@@ -324,7 +324,7 @@ export default function HomePage() {
 
               {/* <div className="absolute bottom-12 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-amber-100">
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-lg flex items-center justify-center shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-600 rounded-lg flex items-center justify-center shadow-lg">
                     <Shield className="h-5 w-5 text-white" />
                   </div>
                   <div>
@@ -578,7 +578,7 @@ export default function HomePage() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-200/20 to-yellow-200/20 rounded-full blur-2xl"></div>
               <CardHeader className="relative p-8">
                 <div className="flex items-center space-x-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-xl border border-amber-200">
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-xl border border-amber-200">
                     <Zap className="h-8 w-8 text-white" />
                   </div>
                   <div>
@@ -686,7 +686,7 @@ export default function HomePage() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-200/20 to-yellow-200/20 rounded-full blur-2xl"></div>
               <CardHeader className="relative p-8">
                 <div className="flex items-center space-x-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-xl border border-amber-200">
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-xl border border-amber-200">
                     <Cloud className="h-8 w-8 text-white" />
                   </div>
                   <div>
@@ -807,7 +807,7 @@ export default function HomePage() {
                   exceptional ongoing support.
                 </p>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
                     <span className="text-white font-bold">SM</span>
                   </div>
                   <div>
@@ -1039,7 +1039,7 @@ export default function HomePage() {
 
             <Card className="border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-white via-amber-50/40 to-yellow-50/40 group hover:-translate-y-2 border border-amber-100">
               <CardHeader className="text-center pb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-300 border border-amber-200">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-300 border border-amber-200">
                   <Mail className="h-8 w-8 text-white" />
                 </div>
                 <CardTitle className="text-xl text-slate-900 font-bold">
