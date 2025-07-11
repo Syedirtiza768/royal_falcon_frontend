@@ -203,11 +203,11 @@ export default function HomePage() {
             <div className="space-y-8">
               <div className="space-y-6">
                 <div className="flex items-center space-x-3">
-                  <Badge className="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-800 border border-orange-200 px-4 py-2 text-sm font-semibold shadow-sm">
+                  <Badge className="bg-[#f7c80f] text-white border border-orange-200 px-4 py-2 text-sm font-semibold shadow-sm">
                     <Crown className="w-3 h-3 mr-2" />
                     UAE National Initiative
                   </Badge>
-                  <Badge className="bg-gradient-to-r from-amber-100 to-yellow-100 text-amber-800 border border-amber-200 px-4 py-2 text-sm font-semibold shadow-sm">
+                  <Badge className="bg-[#f7c80f] text-white border border-amber-200 px-4 py-2 text-sm font-semibold shadow-sm">
                     <Sparkles className="w-3 h-3 mr-2" />
                     20+ Years Excellence
                   </Badge>
@@ -343,7 +343,7 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-gradient-to-r from-slate-900 via-orange-900/20 to-slate-900">
+      <section className="py-16 bg-gradient-to-r from-slate-900  to-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center space-y-2">
@@ -401,7 +401,7 @@ export default function HomePage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-800 border border-orange-200 px-6 py-2 font-semibold shadow-sm">
+            <Badge className="bg-[#f7c80f] text-white border border-orange-200 px-6 py-2 font-semibold shadow-sm">
               <Crown className="w-4 h-4 mr-2" />
               About Royal Falcon Solutions
             </Badge>
@@ -500,7 +500,7 @@ export default function HomePage() {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-gradient-to-r from-amber-100 to-yellow-100 text-amber-800 border border-amber-200 px-6 py-2 font-semibold shadow-sm">
+            <Badge className="bg-[#f7c80f] text-white border border-amber-200 px-6 py-2 font-semibold shadow-sm">
               <Sparkles className="w-4 h-4 mr-2" />
               Premium Services Portfolio
             </Badge>
@@ -742,7 +742,7 @@ export default function HomePage() {
       <section className="py-20 bg-gradient-to-b from-orange-50/30 via-amber-50/30 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-800 border border-orange-200 px-6 py-2 font-semibold shadow-sm">
+            <Badge className="bg-[#f7c80f] text-white border border-orange-200 px-6 py-2 font-semibold shadow-sm">
               <Crown className="w-4 h-4 mr-2" />
               Client Excellence Stories
             </Badge>
@@ -862,7 +862,7 @@ export default function HomePage() {
       <section id="experience" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-gradient-to-r from-amber-100 to-yellow-100 text-amber-800 border border-amber-200 px-6 py-2 font-semibold shadow-sm">
+            <Badge className="bg-[#f7c80f] text-white border border-amber-200 px-6 py-2 font-semibold shadow-sm">
               <Award className="w-4 h-4 mr-2" />
               Proven Excellence Record
             </Badge>
@@ -942,7 +942,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 via-orange-900/30 to-slate-900 relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-slate-900  to-slate-900 relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-80 h-80 bg-gradient-to-br from-orange-500/20 to-amber-500/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-br from-amber-500/20 to-yellow-500/20 rounded-full blur-3xl"></div>
@@ -993,7 +993,7 @@ export default function HomePage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-gradient-to-r from-orange-100 to-amber-100 text-orange-800 border border-orange-200 px-6 py-2 font-semibold shadow-sm">
+            <Badge className="bg-[#f7c80f] text-white border border-orange-200 px-6 py-2 font-semibold shadow-sm">
               <Mail className="w-4 h-4 mr-2" />
               Connect with Our Experts
             </Badge>
