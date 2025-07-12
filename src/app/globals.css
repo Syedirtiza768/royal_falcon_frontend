@@ -52,14 +52,26 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #ff4500;
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: #404b51;
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --primary: #e9a319;
+  --primary-foreground: oklch(
+    0.985 0 0
+  ); /* This light foreground works well for the dark primary */
+
+  --secondary: #a86523;
+  --secondary-foreground: oklch(
+    0.145 0 0
+  ); /* Changed to dark foreground for the bright secondary */
+
+  --muted: #fad59a;
+  --muted-foreground: oklch(
+    0.145 0 0
+  ); /* Changed to dark foreground for the light muted */
+
+  --accent: #fcefcb;
+  --accent-foreground: oklch(
+    0.145 0 0
+  ); /* Changed to dark foreground for the very light accent */
+
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
