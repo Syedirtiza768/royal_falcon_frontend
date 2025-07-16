@@ -617,10 +617,6 @@ export default function HomePage() {
                   <div className="w-16 h-16 bg-amber-400 rounded-2xl flex items-center justify-center shadow-xl border border-gray-800">
                     <Cloud className="h-8 w-8 text-black" />
                   </div>
-                  <h1 className="bg-amber-400 text-black">ali</h1>
-                  <h1 className="bg-amber-500 text-black">ali</h1>
-                  <h1 className="bg-gray-800 text-gray-400">ali</h1>
-                  <h1 className="bg-zinc-900 text-gray-400">ali</h1>
                   <div>
                     <CardTitle className="text-2xl text-gray-100 font-bold mb-2">
                       Enterprise Solutions
