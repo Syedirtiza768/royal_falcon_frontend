@@ -9,37 +9,11 @@
     {
       "name": "About Us",
       "href": "#solutions",
-      "hasDropdown": true,
-      "dropdownItems": [
-        { "name": "Who We Are", "href": "/who-we-are" },
-        { "name": "Vision & Mission", "href": "/vision-and-mission" },
-        { "name": "Chairman Message", "href": "/chairman-message" },
-        { "name": "CEO Message", "href": "/ceo-message" }
-      ]
+      "hasDropdown": false
     },
     {
       "name": "Solutions",
       "href": "/solutions",
-      "hasDropdown": false
-    },
-    {
-      "name": "Products",
-      "href": "/products",
-      "hasDropdown": false
-    },
-    {
-      "name": "News",
-      "href": "/news",
-      "hasDropdown": false
-    },
-    {
-      "name": "Partners",
-      "href": "/partners",
-      "hasDropdown": false
-    },
-    {
-      "name": "Careers",
-      "href": "/careers",
       "hasDropdown": false
     },
     {

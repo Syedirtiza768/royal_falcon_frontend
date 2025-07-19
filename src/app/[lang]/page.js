@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { getDictionary } from "./dictionaries";
 import {
   Card,
   CardContent,
@@ -30,261 +31,34 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Navbar } from "@/components/custom/Navbar";
+import HeroSection from "@/components/custom/home/HeroSection";
 
-export default function HomePage() {
+export default async function HomePage({ params }) {
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang);
+  const b_t_animation = {
+    hide: {
+      opacity: 0,
+      y: 300,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
+
   return (
     <div className="min-h-screen bg-black text-gray-400">
       {/* Navigation */}
-      <nav className="bg-black/95 backdrop-blur-xl border-b border-gray-800 sticky top-0 z-50 shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
-              <img
-                src={"/images/logo2.png"}
-                height={100}
-                width={100}
-                alt="Logo"
-                className=""
-              />
-            </div>
 
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-8">
-              <a
-                href="#about"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-medium relative group"
-              >
-                About
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full rounded-full"></span>
-              </a>
-              <a
-                href="#services"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-medium relative group"
-              >
-                Services
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full rounded-full"></span>
-              </a>
-              <a
-                href="#experience"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-medium relative group"
-              >
-                Experience
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full rounded-full"></span>
-              </a>
-              <a
-                href="#contact"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-medium relative group"
-              >
-                Contact
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full rounded-full"></span>
-              </a>
-              <Button className="bg-amber-400 hover:bg-amber-500 text-black px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </div>
-
-            {/* Mobile Navigation */}
-            <div className="lg:hidden">
-              <Sheet>
-                <SheetTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="text-gray-400 hover:text-amber-400 hover:bg-gray-800 transition-colors duration-300"
-                  >
-                    <Menu className="h-6 w-6" />
-                    <span className="sr-only">Open menu</span>
-                  </Button>
-                </SheetTrigger>
-                <SheetContent
-                  side="left"
-                  className="w-80 bg-black border-l border-gray-800 text-gray-400"
-                >
-                  <div className="flex flex-col h-full">
-                    {/* Mobile Header */}
-                    <div className="flex items-center space-x-3 pb-8 border-b border-gray-800">
-                      <img
-                        src={"/images/logo2.png"}
-                        height={100}
-                        width={100}
-                        alt="Logo"
-                        className=""
-                      />
-                    </div>
-
-                    {/* Mobile Navigation Links */}
-                    <div className="flex flex-col space-y-6 py-8 flex-1">
-                      <a
-                        href="#about"
-                        className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-gray-800 border border-transparent hover:border-gray-700"
-                      >
-                        About
-                      </a>
-                      <a
-                        href="#services"
-                        className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-gray-800 border border-transparent hover:border-gray-700"
-                      >
-                        Services
-                      </a>
-                      <a
-                        href="#experience"
-                        className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-gray-800 border border-transparent hover:border-gray-700"
-                      >
-                        Experience
-                      </a>
-                      <a
-                        href="#contact"
-                        className="text-gray-400 hover:text-amber-400 transition-colors duration-300 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-gray-800 border border-transparent hover:border-gray-700"
-                      >
-                        Contact
-                      </a>
-                    </div>
-
-                    {/* Mobile CTA Button */}
-                    <div className="pt-6 border-t border-gray-800">
-                      <Button className="w-full bg-amber-400 hover:bg-amber-500 text-black py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-semibold text-lg">
-                        Get Started
-                        <ArrowRight className="ml-2 h-5 w-5" />
-                      </Button>
-
-                      {/* Mobile Contact Info */}
-                      <div className="mt-6 space-y-3 text-center">
-                        <div className="flex items-center justify-center space-x-2 text-gray-500">
-                          <Mail className="h-4 w-4 text-amber-400" />
-                          <span className="text-sm font-medium">
-                            info@royalfalconsolutions.ae
-                          </span>
-                        </div>
-                        <div className="flex items-center justify-center space-x-2 text-gray-500">
-                          <Phone className="h-4 w-4 text-amber-400" />
-                          <span className="text-sm font-medium">
-                            +971 (0) 2 XXX XXXX
-                          </span>
-                        </div>
-                        <div className="flex items-center justify-center space-x-2 text-gray-500">
-                          <MapPin className="h-4 w-4 text-amber-400" />
-                          <span className="text-sm font-medium">
-                            Abu Dhabi, UAE
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SheetContent>
-              </Sheet>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      <Navbar dictionary={dictionary} transparent={true} />
+      <div className="mt-[50px]"></div>
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-24 overflow-hidden bg-zinc-900">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
-              <div className="space-y-6">
-                <div className="flex items-center space-x-3">
-                  <Badge className="bg-amber-400 text-black border border-gray-800 px-4 py-2 text-sm font-semibold shadow-sm">
-                    <Crown className="w-3 h-3 mr-2" />
-                    UAE National Initiative
-                  </Badge>
-                  <Badge className="bg-amber-400 text-black border border-gray-700 px-4 py-2 text-sm font-semibold shadow-sm">
-                    <Sparkles className="w-3 h-3 mr-2" />
-                    20+ Years Excellence
-                  </Badge>
-                </div>
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                  <span className="text-gray-100">Empowering</span>
-                  <br />
-                  <span className="text-amber-400">Digital Excellence</span>
-                  <br />
-                  <span className="text-gray-300 text-3xl lg:text-4xl font-semibold">
-                    Through AI Innovation
-                  </span>
-                </h1>
-                <p className="text-lg lg:text-xl text-gray-400 leading-relaxed max-w-2xl">
-                  Royal Falcon Solutions delivers
-                  <span className="font-semibold text-amber-400">
-                    {" "}
-                    world-class digitalization
-                  </span>{" "}
-                  and
-                  <span className="font-semibold text-amber-500">
-                    {" "}
-                    advanced AI technologies
-                  </span>
-                  , providing unparalleled security and exceptional user
-                  experiences for UAEs leading organizations.
-                </p>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button
-                  size="lg"
-                  className="bg-amber-400 hover:bg-amber-500 text-black px-8 py-3 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold"
-                >
-                  Discover Our Solutions
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-gray-700 hover:border-amber-400 hover:bg-zinc-800 bg-black/90 backdrop-blur-sm px-8 py-3 rounded-xl font-semibold text-amber-400 hover:text-amber-400 transition-all duration-300 shadow-lg"
-                >
-                  Watch Presentation
-                </Button>
-              </div>
-              <div className="grid grid-cols-3 gap-8 pt-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-amber-400 mb-1">
-                    20+
-                  </div>
-                  <div className="text-gray-300 font-semibold">
-                    Years Excellence
-                  </div>
-                  <div className="text-gray-500 text-xs">Proven Leadership</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-amber-400 mb-1">
-                    500+
-                  </div>
-                  <div className="text-gray-300 font-semibold">
-                    Projects Delivered
-                  </div>
-                  <div className="text-gray-500 text-xs">
-                    Successful Implementations
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-amber-400 mb-1">
-                    99.9%
-                  </div>
-                  <div className="text-gray-300 font-semibold">
-                    Client Satisfaction
-                  </div>
-                  <div className="text-gray-500 text-xs">
-                    Exceptional Service
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="relative z-10">
-                <div className="bg-zinc-900 p-8 rounded-2xl shadow-2xl border border-gray-800">
-                  <Image
-                    src="/images/home/about1.jpg"
-                    alt="Premium AI Dashboard Interface"
-                    width={500}
-                    height={500}
-                    className="rounded-xl shadow-lg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <HeroSection />
       {/* Stats Section */}
       <section className="py-16 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

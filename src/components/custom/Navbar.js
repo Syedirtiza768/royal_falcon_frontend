@@ -16,7 +16,7 @@ export function Navbar({ dictionary, transparent }) {
 
   return (
     <header
-      className={`bg-transparent absolute top-0 left-0 z-50 w-full text-primary`}
+      className={` fixed bg-zinc-900 top-0 left-0 z-50 w-full text-primary border-b border-amber-400`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
@@ -24,8 +24,8 @@ export function Navbar({ dictionary, transparent }) {
             {transparent ? (
               <Image
                 src={"/images/logo2.png"}
-                height={150}
-                width={150}
+                height={120}
+                width={120}
                 alt="Logo"
                 className="hidden lg:block"
               />
@@ -54,10 +54,10 @@ export function Navbar({ dictionary, transparent }) {
         {/* Right side buttons */}
         <div className=" flex items-center justify-center md:flex">
           <div className="flex items-center justify-center">
-            <LanguageChanger />
+            {/* <LanguageChanger /> */}
             <Button
               onClick={() => router.push("/#contactSection")}
-              className={` cursor-pointer rounded-none bg-primary text-white hidden lg:block `}
+              className={` cursor-pointer rounded-none bg-amber-400 text-white hidden lg:block `}
             >
               {dictionary.contactButonText}
             </Button>

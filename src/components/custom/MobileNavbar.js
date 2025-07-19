@@ -40,9 +40,9 @@ function MobileNavbar({ dictionary }) {
         <SheetHeader>
           <SheetTitle>
             <Image
-              src={"/images/logo.png"}
-              height={150}
-              width={150}
+              src={"/images/logo2.png"}
+              height={120}
+              width={120}
               alt="Logo"
             />
           </SheetTitle>
@@ -56,7 +56,7 @@ function MobileNavbar({ dictionary }) {
                   <div>
                     <button
                       onClick={() => toggleMenu(item.name)}
-                      className="flex items-center justify-between w-full text-left text-base font-medium text-gray-800 hover:text-[#c19367] transition-all duration-300"
+                      className="flex items-center justify-between w-full text-left text-base font-medium text-amber-400 hover:text-[#c19367] transition-all duration-300"
                     >
                       {item.name}
                       {expanded === item.name ? (
@@ -79,7 +79,7 @@ function MobileNavbar({ dictionary }) {
                           <Link
                             key={subItem.name}
                             href={subItem.href}
-                            className="block text-sm font-medium text-gray-700 hover:text-[#c19367] transition-all duration-300"
+                            className="block text-sm font-medium text-amber-400 hover:text-[#c19367] transition-all duration-300"
                           >
                             {subItem.name}
                           </Link>
@@ -90,7 +90,7 @@ function MobileNavbar({ dictionary }) {
                 ) : (
                   <Link
                     href={item.href}
-                    className="block text-base font-medium text-gray-800 hover:text-[#c19367] transition-all duration-300"
+                    className="block text-base font-medium text-amber-400 hover:text-[#c19367] transition-all duration-300"
                   >
                     {item.name}
                   </Link>
@@ -102,7 +102,7 @@ function MobileNavbar({ dictionary }) {
           <div className="flex items-center justify-center">
             <Button
               onClick={() => router.push("/#contactSection")}
-              className="rounded-md bg-primary text-white cursor-pointer"
+              className="rounded-md bg-amber-400 text-white cursor-pointer"
             >
               {dictionary.contactButonText}
             </Button>
