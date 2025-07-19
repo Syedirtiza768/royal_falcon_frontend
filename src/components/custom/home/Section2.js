@@ -62,7 +62,8 @@ export default function Section2() {
 
       {/* MAIN IMAGE */}
       <div className="relative z-10 w-[600px] h-[400px] bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-lg shadow-2xl flex items-center justify-center">
-        <div className="text-white text-2xl font-bold">600 x 400 Image</div>
+        {/* <div className="text-white text-2xl font-bold">600 x 400 Image</div> */}
+        <img src="/images/home/about1.jpg" className="h-full w-full" alt="" />
       </div>
     </section>
   );
