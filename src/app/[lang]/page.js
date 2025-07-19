@@ -33,6 +33,7 @@ import Image from "next/image";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Navbar } from "@/components/custom/Navbar";
 import HeroSection from "@/components/custom/home/HeroSection";
+import Section2 from "@/components/custom/home/Section2";
 
 export default async function HomePage({ params }) {
   const { lang } = await params;
@@ -52,15 +53,18 @@ export default async function HomePage({ params }) {
   };
 
   return (
-    <div className="min-h-screen bg-black text-gray-400">
+    <div className="min-h-screen bg-zinc-900 text-gray-400">
       {/* Navigation */}
 
       <Navbar dictionary={dictionary} transparent={true} />
       <div className="mt-[50px]"></div>
       {/* Hero Section */}
       <HeroSection />
+
+      <Section2 dictionary={dictionary} />
+
       {/* Stats Section */}
-      <section className="py-16 bg-black">
+      <section className="py-16 bg-zinc-900 mt-[100px] ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center space-y-2">
