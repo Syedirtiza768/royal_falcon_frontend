@@ -36,13 +36,15 @@ function HeroSection() {
         viewport={{ once: true }}
         className=" h-full flex-1 flex items-center justify-center flex-col "
       >
-        <h2 className="text-[50px] lg:text-[100px] bg-gradient-to-r from-amber-400 to-amber-200 text-transparent bg-clip-text">
-          CYBERSERVAL
+        <h2 className="text-[40px] lg:text-[70px] bg-gradient-to-r from-amber-400 to-amber-200 text-transparent bg-clip-text">
+          ROYAL FALCON SOLUTIONS
         </h2>
-        <h2 className="text-[50px] lg:text-[100px] bg-gradient-to-r from-amber-200 to-amber-400 text-transparent bg-clip-text">
-          SECURE YOUR DATA!
+        <h2 className="text-[40px] uppercase lg:text-[70px] bg-gradient-to-r from-amber-200 to-amber-400 text-transparent bg-clip-text">
+          Empowering Digital Security
         </h2>
-        <p className="text-[25px]">Next-generation data security solutions.</p>
+        <p className="text-[25px]">
+          Protecting what matters most in an ever-evolving digital landscape.
+        </p>
         <Link
           className={`relative py-3 px-8 rounded-md cursor-pointer bg-gradient-to-r from-amber-400 to-amber-300 text-white mt-[10px] `}
           href={"#"}
