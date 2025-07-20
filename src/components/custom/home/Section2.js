@@ -33,7 +33,7 @@ export default function Section2() {
   }, []);
 
   return (
-    <section className="relative flex items-center justify-center h-[800px] overflow-hidden bg-zinc-900 text-white  ">
+    <section className="relative hidden md:flex items-center justify-center h-[800px] overflow-hidden bg-zinc-900 text-white  ">
       {/* ICONS */}
       {icons.map(({ Icon, x, y }, i) => {
         // Calculate movement based on scroll progress

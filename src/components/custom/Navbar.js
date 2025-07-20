@@ -31,7 +31,7 @@ export function Navbar({ dictionary, transparent }) {
               />
             ) : (
               <Image
-                src={"/images/logo.png"}
+                src={"/images/logo2.png"}
                 height={200}
                 width={200}
                 alt="Logo"

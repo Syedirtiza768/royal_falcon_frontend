@@ -22,7 +22,7 @@ function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-zinc-900 flex h-[800px] items-center justify-center text-white">
+    <section className="relative overflow-hidden bg-zinc-900 flex h-[500px] max-md:px-[20px] md:h-[800px] items-center justify-center text-white">
       <img
         src="/images/home/hero.png"
         className="absolute h-[700px] left-[-350px] top-[-250px] top-0 opacity-30"
@@ -36,13 +36,13 @@ function HeroSection() {
         viewport={{ once: true }}
         className=" h-full flex-1 flex items-center justify-center flex-col "
       >
-        <h2 className="text-[40px] lg:text-[70px] bg-gradient-to-r from-amber-400 to-amber-200 text-transparent bg-clip-text">
+        <h2 className="text-[30px] lg:text-[70px] bg-gradient-to-r from-amber-400 to-amber-200 text-transparent bg-clip-text">
           ROYAL FALCON SOLUTIONS
         </h2>
-        <h2 className="text-[40px] uppercase lg:text-[70px] bg-gradient-to-r from-amber-200 to-amber-400 text-transparent bg-clip-text">
+        <h2 className="text-[30px] uppercase lg:text-[70px] bg-gradient-to-r from-amber-200 to-amber-400 text-transparent bg-clip-text">
           Empowering Digital Security
         </h2>
-        <p className="text-[25px]">
+        <p className="text-[15px] md:text-[25px]">
           Protecting what matters most in an ever-evolving digital landscape.
         </p>
         <Link

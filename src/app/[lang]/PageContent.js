@@ -46,7 +46,7 @@ function PageContent({ dictionary }) {
         whileInView="show"
         variants={b_t_animation}
         viewport={{ once: true }}
-        className="py-16 bg-zinc-900 mt-[100px] "
+        className="py-4 md:py-16 bg-zinc-900 lg:mt-[100px] "
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
