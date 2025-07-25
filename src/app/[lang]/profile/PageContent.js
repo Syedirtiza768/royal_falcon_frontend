@@ -156,14 +156,14 @@ const PageContent = ({ dictionary }) => {
                 <span className="text-amber-400"> Digital Excellence</span>
               </h2>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Royal Falcon Solutions stands as Abu Dhabi's premier technology
+                Royal Falcon Solutions stands as Abu Dhabis premier technology
                 company, established as a UAE national initiative and supported
                 by local entities and agencies. With over two decades of proven
                 excellence, we specialize in industry digitalization and
                 advanced AI technologies.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Our commitment extends beyond mere service delivery – we forge
+                Our commitment extends beyond mere service delivery. we forge
                 strategic partnerships that drive sustainable growth,
                 operational efficiency, and technological advancement across
                 government and enterprise sectors throughout the UAE and beyond.
