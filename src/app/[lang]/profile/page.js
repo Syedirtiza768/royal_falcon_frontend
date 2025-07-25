@@ -1,8 +1,8 @@
-import { getDictionary } from "./dictionaries";
 import PageContent from "./PageContent";
 import { Mail, Phone, MapPin, Lock } from "lucide-react";
 import { Navbar } from "@/components/custom/Navbar";
 import Footer from "@/components/custom/global/Footer";
+import { getDictionary } from "../dictionaries";
 
 export default async function HomePage({ params }) {
   const { lang } = await params;

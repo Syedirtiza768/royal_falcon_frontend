@@ -7,8 +7,8 @@
       "hasDropdown": false
     },
     {
-      "name": "About Us",
-      "href": "#solutions",
+      "name": "Company Profile",
+      "href": "/profile",
       "hasDropdown": false
     },
     {
