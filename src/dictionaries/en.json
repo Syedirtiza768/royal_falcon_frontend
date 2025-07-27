@@ -12,8 +12,13 @@
       "hasDropdown": false
     },
     {
-      "name": "Solutions",
-      "href": "/solutions",
+      "name": "Diverse Portfolio",
+      "href": "/portfolio",
+      "hasDropdown": false
+    },
+    {
+      "name": "Collaboration Partners",
+      "href": "/collaboration",
       "hasDropdown": false
     },
     {
