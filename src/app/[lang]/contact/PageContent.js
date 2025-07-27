@@ -200,7 +200,7 @@ const ContactPage = () => {
               <span style={{ color: "var(--secondary-color)" }}> Our Team</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
-              Ready to transform your business with AI? Let's discuss your
+              Ready to transform your business with AI? Let us discuss your
               project and explore how we can help you achieve your goals.
             </p>
           </div>
@@ -218,7 +218,7 @@ const ContactPage = () => {
                   Send Us a Message
                 </h2>
                 <p className="text-lg text-gray-400">
-                  Fill out the form below and we'll get back to you within 24
+                  Fill out the form below and we will get back to you within 24
                   hours.
                 </p>
               </div>
@@ -333,7 +333,7 @@ const ContactPage = () => {
                       Message Sent Successfully!
                     </h3>
                     <p className="text-gray-400">
-                      Thank you for reaching out. We'll get back to you within
+                      Thank you for reaching out. We will get back to you within
                       24 hours.
                     </p>
                   </CardContent>
@@ -348,7 +348,7 @@ const ContactPage = () => {
                   Contact Information
                 </h2>
                 <p className="text-lg text-gray-400 mb-8">
-                  Reach out to us through any of the following channels. We're
+                  Reach out to us through any of the following channels. We are
                   here to help!
                 </p>
               </div>

@@ -600,7 +600,7 @@ const SuccessCasesPage = () => {
               </span>
             </h2>
             <p className="text-lg lg:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
-              Let's discuss how our proven AI solutions can transform your
+              Let us discuss how our proven AI solutions can transform your
               organization and deliver measurable results.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-6">

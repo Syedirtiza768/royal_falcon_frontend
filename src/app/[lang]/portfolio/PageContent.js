@@ -364,13 +364,13 @@ const Portfolio = () => {
     {
       title: "Scalability Options",
       description:
-        "Offers scalable solutions to adapt to companies' expansion plans easily",
+        "Offers scalable solutions to adapt to companies expansion plans easily",
       icon: TrendingUp,
     },
     {
       title: "Accurate Data Insights",
       description:
-        "Constantly refreshed data, which means new addresses, interchanges, and roads are reflected in maps as soon as they're there in the real world.",
+        "Constantly refreshed data, which means new addresses, interchanges, and roads are reflected in maps as soon as they are there in the real world.",
       icon: MapPin,
     },
     {
